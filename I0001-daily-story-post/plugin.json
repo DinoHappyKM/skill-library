@@ -1,0 +1,27 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "daily-story-post",
+  "version": "0.2.0",
+  "description": "依真實日常素材撰寫 A／B／C 三種 FB／IG 貼文，確認後以原始照片製作 9:16 繁體中文標題封面。",
+  "author": {
+    "name": "黃嘉偉美學工作室"
+  },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "I0001｜日常故事貼文助手（3001）",
+        "shortDescription": "三種日常貼文與原圖標題封面",
+        "longDescription": "將真實生活小事寫成 A 反轉、B 感受、C 日常三種 FB／IG 貼文；使用者確認貼文並提供原始照片後，製作 9:16 繁體中文標題花字封面，兼顧 IG／FB 縮圖可見範圍。",
+        "developerName": "黃嘉偉美學工作室",
+        "category": "Creativity",
+        "capabilities": [
+          "Interactive"
+        ],
+        "defaultPrompt": [
+          "說說今天或最近的一件小事，幫我寫成 A／B／C 三種 FB／IG 貼文。",
+          "貼文已確認，請用我上傳的原始照片設計 9:16 繁體中文標題封面。"
+        ]
+      }
+    }
+  }
+}
