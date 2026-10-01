@@ -1,0 +1,5 @@
+interface:
+  display_name: "I0004｜單圖動態影片提示詞助手"
+  short_description: "依原圖與想要的感覺，產出可複製英文動態影片提示詞"
+  default_prompt: "使用 $image-to-video-prompt，依我上傳的圖片和希望的動感，寫英文影片提示詞並用繁體中文說明。"
+
