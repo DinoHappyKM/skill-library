@@ -1,0 +1,4 @@
+interface:
+  display_name: "I0001｜日常故事貼文助手（3001）"
+  short_description: "把日常小事寫成三種 FB／IG 貼文，確認後製作原圖封面"
+  default_prompt: "告訴我今天或最近發生的一件小事，不用整理成文章，我會幫你寫成 A反轉、B感受、C日常三種 FB／IG 貼文，選好後再用你的原始照片製作封面。"
