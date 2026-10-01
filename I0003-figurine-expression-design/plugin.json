@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "figurine-expression-design",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "整合 A 公仔表情動作合成、B 真人公仔化與 C 公仔純色去背背景，依參考照片與選項生成無文字的美工素材。",
   "author": { "name": "黃嘉偉美學工作室" },
   "extensions": {
