@@ -1,0 +1,27 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "image-to-video-prompt",
+  "version": "0.1.0",
+  "description": "依單張圖片與期望動感，產出可複製的英文圖片轉影片提示詞，並用繁體中文說明。",
+  "author": {
+    "name": "黃嘉偉美學工作室"
+  },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "I0004｜單圖動態影片提示詞助手",
+        "shortDescription": "原圖動態構想與英文影片提示詞",
+        "longDescription": "使用者提供一張圖片與期望的感覺，產出可貼入圖片轉影片工具的英文提示詞，以及對主體、鏡頭與背景動態的繁體中文說明。未指定工具時採通用寫法。",
+        "developerName": "黃嘉偉美學工作室",
+        "category": "Creativity",
+        "capabilities": [
+          "Interactive"
+        ],
+        "defaultPrompt": [
+          "我上傳一張圖片，想讓它自然地動起來。請給我可複製的英文提示詞和中文說明。",
+          "請依我上傳的圖片，寫一版溫柔電影感的動態影片英文提示詞。"
+        ]
+      }
+    }
+  }
+}
