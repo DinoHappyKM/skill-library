@@ -1,6 +1,6 @@
 # DinoH 黃嘉偉 KM｜技能資料庫
 
-這個公開倉庫提供課堂練習用的技能原始檔。目前收錄 **I0001｜日常故事貼文助手**、**I0002｜直播企劃與開播助手** 與 **I0003｜公仔表情設計**。GitHub 用來保存與下載檔案；把 GitHub 網址貼進 ChatGPT 對話，**不等於安裝到 Plugin**。
+這個公開倉庫提供課堂練習用的技能原始檔。目前收錄 **I0001｜日常故事貼文助手**、**I0002｜直播企劃與開播助手** 、**I0003｜公仔表情設計** 與 **I0004｜單圖動態影片提示詞助手**。GitHub 用來保存與下載檔案；把 GitHub 網址貼進 ChatGPT 對話，**不等於安裝到 Plugin**。
 
 ## 目前收錄
 
@@ -9,15 +9,16 @@
 | I0001 | I0001｜日常故事貼文助手（3001） | 真實日常 A／B／C 貼文與 9:16 原圖標題封面 | [開啟 SKILL.md](I0001-daily-story-post/skills/daily-story-post/SKILL.md) |
 | I0002 | I0002｜直播企劃與開播助手 | 簡易／完整直播規劃、YouTube 標題描述與封面、開播導流 | [開啟 SKILL.md](I0002-live-stream-planning/skills/live-stream-planning/SKILL.md) |
 | I0003 | I0003｜公仔表情設計 | A 公仔表情／動作合成；B 真人公仔化；C 公仔純色背景 | [開啟 SKILL.md](I0003-figurine-expression-design/skills/figurine-expression-design/SKILL.md) |
+| I0004 | I0004｜單圖動態影片提示詞助手 | 一張圖加動感需求，產出可複製英文提示詞與繁體中文說明 | [開啟 SKILL.md](I0004-image-to-video-prompt/skills/image-to-video-prompt/SKILL.md) |
 
-每支技能各有獨立資料夾與 Plugin 範例設定檔。I0001 依 P013 正式技能與使用者指定新版轉製；其盤點資料夾尚無額外知識庫。I0002 依盤點資料中的完整指令與知識庫轉製；其原 GPT 目前發布／草稿狀態及實際操作結果仍待核對。I0003 是從既有技能 ZIP 展開的副本，**不是原 GPT 的完整原始備份**。三者都尚未代表學員帳號已安裝或實測。
+每支技能各有獨立資料夾與 Plugin 範例設定檔。I0001 依 P013 正式技能與使用者指定新版轉製；其盤點資料夾尚無額外知識庫。I0002 依盤點資料中的完整指令與知識庫轉製；其原 GPT 目前發布／草稿狀態及實際操作結果仍待核對。I0003 是從既有技能 ZIP 展開的副本，**不是原 GPT 的完整原始備份**。I0004 是使用者新提出的技能，正式主檔位於 P015；尚未用真實圖片或學員手機實測。四者在 GitHub 有原始檔，均不代表學員帳號已安裝。
 
 ## 學員已有自己的 Plugin：如何加入單一技能
 
 以下步驟只適用於你**自己建立並有權修改**的 Plugin。若只是安裝別人的 Plugin，不能改它的技能內容。
 
 1. 在本倉庫右上角按「Code → Download ZIP」，下載後解壓縮。
-2. 選擇要加入的技能資料夾：I0001 是 `I0001-daily-story-post/skills/daily-story-post/`，I0002 是 `I0002-live-stream-planning/skills/live-stream-planning/`，I0003 是 `I0003-figurine-expression-design/skills/figurine-expression-design/`。整個技能資料夾都要保留，包含 `SKILL.md`、`agents/openai.yaml` 及其 `references/`（若有）。
+2. 選擇要加入的技能資料夾：I0001 是 `I0001-daily-story-post/skills/daily-story-post/`，I0002 是 `I0002-live-stream-planning/skills/live-stream-planning/`，I0003 是 `I0003-figurine-expression-design/skills/figurine-expression-design/`，I0004 是 `I0004-image-to-video-prompt/skills/image-to-video-prompt/`。整個技能資料夾都要保留，包含 `SKILL.md`、`agents/openai.yaml` 及其 `references/`（若有）。
 3. 打開你現有 Plugin 的原始資料夾，將這個技能資料夾複製到原有的 `skills/` 內。例如加入 I0002 後應有 `你的Plugin/skills/live-stream-planning/SKILL.md`。
 4. **保留**原 Plugin 的名稱、`plugin.json`、原有技能及素材。不要用本倉庫的範例 `plugin.json` 覆蓋你的 Plugin。若原 manifest 明列技能路徑，確認新增技能也會被包含；更新原 Plugin 的版本號。
 5. 重新壓縮**整個原 Plugin 資料夾**，上傳到原 Plugin 的更新入口。請先檢查 ZIP 結構與平台自動檢查結果；公開 Plugin 的新技能版本可能還需審查。
@@ -34,6 +35,8 @@
 - 輸入「公仔表情設計」：應先辨識 A／B／C 模式。
 - 輸入「A 公仔合成」：應要求公仔照、表情或動作參考圖、背景代號及比例代號；資料不足時不能假裝已生成圖片。
 - 輸入「C 公仔純色背景」：應要求公仔與動作參考圖及比例；不應再要求背景代號。
+- I0004：上傳一張圖片並說「想要溫柔電影感、鏡頭慢慢靠近」；應給獨立可複製的英文提示詞程式碼區塊與繁體中文說明，不假裝已生成影片。
+- I0004：若沒有圖片，應先請使用者上傳，不捏造畫面內容。
 
 實際生成圖片還取決於帳號可用的圖片工具與額度。本文只是安裝教學，**尚未代表學生帳號已通過實測**。
 
