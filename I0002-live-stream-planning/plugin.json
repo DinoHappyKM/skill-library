@@ -1,0 +1,27 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "live-stream-planning",
+  "version": "0.1.0",
+  "description": "以簡易或完整流程規劃直播，準備 YouTube 標題、描述、封面、直播提示與開播導流。",
+  "author": {
+    "name": "黃嘉偉美學工作室"
+  },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "I0002｜直播企劃與開播助手",
+        "shortDescription": "直播企劃、封面與開播導流",
+        "longDescription": "提供簡易與完整兩種直播規劃流程，協助製作 YouTube 標題、描述、16:9 封面、直播課綱、開播前確認、公開連結導流貼文與直播後復盤。",
+        "developerName": "黃嘉偉美學工作室",
+        "category": "Productivity",
+        "capabilities": [
+          "Interactive"
+        ],
+        "defaultPrompt": [
+          "幫我用簡易做法規劃一場直播。",
+          "幫我用完整做法，從選題到直播後復盤逐步規劃。"
+        ]
+      }
+    }
+  }
+}
