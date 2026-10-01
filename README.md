@@ -1,21 +1,21 @@
 # DinoH 黃嘉偉 KM｜技能資料庫
 
-這個公開倉庫提供課堂練習用的技能原始檔。目前先收錄 **I0003 公仔表情設計**。GitHub 用來保存與下載檔案；把 GitHub 網址貼進 ChatGPT 對話，**不等於安裝到 Plugin**。
+這個公開倉庫提供課堂練習用的技能原始檔。目前先收錄 **I0003｜公仔表情設計**。GitHub 用來保存與下載檔案；把 GitHub 網址貼進 ChatGPT 對話，**不等於安裝到 Plugin**。
 
 ## 目前收錄
 
 | 編號 | 技能 | 用途 | 原始檔 |
 | --- | --- | --- | --- |
-| I0003 | 公仔表情設計 | A 公仔表情／動作合成；B 真人公仔化；C 公仔純色背景 | [開啟 SKILL.md](figurine-expression-design/skills/figurine-expression-design/SKILL.md) |
+| I0003 | I0003｜公仔表情設計 | A 公仔表情／動作合成；B 真人公仔化；C 公仔純色背景 | [開啟 SKILL.md](I0003-figurine-expression-design/skills/figurine-expression-design/SKILL.md) |
 
-本資料夾另有 [I0003 獨立 Plugin 範例 manifest](figurine-expression-design/plugin.json) 與技能選單顯示檔。這是從既有技能 ZIP 展開的副本，**不是原 GPT 的完整原始備份**；原 GPT 的設定、知識檔及真實測試結果仍待核對。
+本資料夾另有 [I0003 獨立 Plugin 範例 manifest](I0003-figurine-expression-design/plugin.json) 與技能選單顯示檔。這是從既有技能 ZIP 展開的副本，**不是原 GPT 的完整原始備份**；原 GPT 的設定、知識檔及真實測試結果仍待核對。
 
 ## 學員已有自己的 Plugin：如何加入 I0003
 
 以下步驟只適用於你**自己建立並有權修改**的 Plugin。若只是安裝別人的 Plugin，不能改它的技能內容。
 
 1. 在本倉庫右上角按「Code → Download ZIP」，下載後解壓縮。
-2. 找到 `figurine-expression-design/skills/figurine-expression-design/`，整個技能資料夾都要保留，包含 `SKILL.md` 和 `agents/openai.yaml`。
+2. 找到 `I0003-figurine-expression-design/skills/figurine-expression-design/`，整個技能資料夾都要保留，包含 `SKILL.md` 和 `agents/openai.yaml`。
 3. 打開你現有 Plugin 的原始資料夾，將這個技能資料夾複製到原有的 `skills/` 內。完成後應有 `你的Plugin/skills/figurine-expression-design/SKILL.md`。
 4. **保留**原 Plugin 的名稱、`plugin.json`、原有技能及素材。不要用 I0003 範例的 `plugin.json` 覆蓋你的 Plugin。若原 manifest 明列技能路徑，確認新增技能也會被包含；更新原 Plugin 的版本號。
 5. 重新壓縮**整個原 Plugin 資料夾**，上傳到原 Plugin 的更新入口。請先檢查 ZIP 結構與平台自動檢查結果；公開 Plugin 的新技能版本可能還需審查。
