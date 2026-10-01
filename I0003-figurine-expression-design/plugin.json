@@ -1,0 +1,24 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "figurine-expression-design",
+  "version": "1.0.0",
+  "description": "整合 A 公仔表情動作合成、B 真人公仔化與 C 公仔純色去背背景，依參考照片與選項生成無文字的美工素材。",
+  "author": { "name": "黃嘉偉美學工作室" },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "I0003｜公仔表情設計",
+        "shortDescription": "公仔表情合成、真人公仔化與純色背景素材",
+        "longDescription": "A 保留公仔造型並學習表情動作；B 以真人照片搭配公仔畫風參考生成個人公仔；C 採用 A 的合成品質並自動選擇未出現在角色上的純色背景，供後續色度去背。支援背景代號 21／22／23／24 與比例代號 91／92／93，確認後生成無文字圖片。",
+        "developerName": "黃嘉偉美學工作室",
+        "category": "Productivity",
+        "capabilities": ["Interactive"],
+        "defaultPrompt": [
+          "A 公仔合成：我要上傳公仔照與表情／動作／場景參考圖，請引導我選擇背景與比例。",
+          "B 真人公仔化：我要上傳真人正面照片與公仔畫風參考圖，請引導我選擇背景與比例。",
+          "C 公仔純色背景：依公仔合成流程進行，自動選擇角色未使用的純色供色度去背，不要詢問背景代號。"
+        ]
+      }
+    }
+  }
+}
