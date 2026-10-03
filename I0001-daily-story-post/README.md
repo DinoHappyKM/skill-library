@@ -1,25 +1,30 @@
 # I0001｜日常故事貼文助手（KM 3001）
 
-這支技能協助把真實日常小事寫成 A 反轉、B 感受、C 日常三種 FB／IG 貼文。使用者選定貼文並提供有權使用的原始照片後，再製作 9:16 繁體中文標題花字封面；重要文字需留在 IG／FB 縮圖可見範圍。
+內容版本：**0.2.3**。將真實日常寫成 A／B／C 三種 FB／IG 貼文，每篇獨立複製；選篇／主標與原圖齊全後，製作 9:16 原圖標題封面。預設只加主標，最多一句已確認次標。
 
-## 技能檔案
+## 用 GitHub 加入自己的外掛
 
-- [技能主檔](skills/daily-story-post/SKILL.md)
-- [詳細執行指令](skills/daily-story-post/references/current-instructions.md)
-- [中文顯示名稱](skills/daily-story-post/agents/openai.yaml)
-- [獨立 Plugin 範例設定](plugin.json)
+到自己外掛的「編輯外掛程式」，貼上 [完整學生安裝提示詞](INSTALL-PROMPT.md)。
 
-要加入**自己可編輯的現有 Plugin**，請複製整個 `skills/daily-story-post/` 資料夾到原 Plugin 的 `skills/`；保留原有技能、素材與 `plugin.json`，更新原 Plugin 版本後重新封裝與測試。不要用這裡的範例 `plugin.json` 覆蓋原 Plugin。
+新版結構與 I0003、I0004 相同：
+- [SKILL.md：完整工作流程](skills/daily-story-post/SKILL.md)，包含完整二十節及共通規則，不再要求讀取 references。
+- [agents/openai.yaml：中文顯示設定](skills/daily-story-post/agents/openai.yaml)。
 
-## 來源與驗證狀態
+主檔開頭須為「完整技能內容版本：0.2.3」，文末須有「技能本文結束｜daily-story-post｜0.2.3」。確認全文取得，不能只靠首尾標記判定完整。若讀到舊版或 Cache miss，保留原外掛並回報；不要自行補寫。
 
-此 GitHub 副本取自 P013 的正式 Skill 主檔及其 2026-09-29 使用者指定新版參考指令。I0001 盤點資料夾的「03_知識庫與附件」目前是空的，未另加不存在的知識檔。原 GPT 的線上已發布版本、Actions 與實際照片封面效果仍待核對；GitHub 上傳不代表技能已安裝到學生帳號。
+另提供 [完整匯入頁](IMPORT.md)，一次收錄兩個檔案全文。匯入識別碼：I0001-0.2.3-3a34f8e15318。
 
-## GitHub 單頁匯入測試（2026-10-03）
+## 已有 I0001 的學生
 
-- [三個技能檔案的完整匯入頁](IMPORT.md)：內容版本 0.2.2，識別碼 I0001-0.2.2-20b66fbba4a4。
-- [完整學生測試提示詞](INSTALL-PROMPT.md)：到自己外掛的「編輯外掛程式」貼上。
+更新同一項 daily-story-post；保留外掛名稱、ID、其他技能與有效設定。不要用本倉庫範例 plugin.json 覆蓋原設定。舊 references/current-instructions.md 即使仍存在，也不再被新版主技能引用。儲存後另開新對話測試。
 
-單頁由 P013 正式來源自動產生；原三檔全文都保留，安裝後仍還原三檔，相對引用不變。修改正式來源後須重新產生單頁與 ZIP。此頁是匯入來源，不是直接掛上 GitHub 就持續同步；已安裝技能需要另行更新。
+## 老師維護方式
 
-本次核對：三檔內容與目前 GitHub、ZIP 在統一換行後一致。網頁工具可讀一般檔案頁，但 I0001 兩個 main 頁面回傳舊規則；Raw、固定提交網址及新匯入頁出現 Cache miss。**單頁只能降低跨檔漏讀，不能保證網頁工具可取得來源；學生免費手機匯入／儲存／新對話待測。**
+唯一正式來源為 P013 的 50_Skill/daily-story-post；PROMPT.md 維持 GPT 主檔。修改後重新產生 GitHub、副本與學生 ZIP；已安裝技能須另行更新，不會隨 GitHub 自動同步。
+
+## 本次比較與驗證
+
+- I0001 舊結構需要主技能、必要參考檔和顯示檔；I0003／I0004 無額外參考檔。舊結構符合 Skill 格式，但多一道網頁讀取依賴。
+- 本次 Web 可讀部分一般 GitHub 頁面，卻取得 I0001 舊規則；測試的 I0001／I0003／I0004 Raw 皆回報 Cache miss。由此不能證明免費帳號額度、檔案大小或格式是根因。
+- 0.2.3 完整保留原二十節、三篇複製與封面修正，取消主技能的外部參考依賴。來源、ZIP 與 GitHub 回讀分開驗證。
+- **免費手機 GitHub 匯入、儲存、新對話與新版原圖封面仍待實測。** 使用者回報 I0003／I0004 連結安裝成功，I0001 舊版連結失敗；這不是新版完成驗收。
