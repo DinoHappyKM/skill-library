@@ -45,3 +45,7 @@
 製作者：DinoH 黃嘉偉 KM。課堂使用前，請確認倉庫最新內容與老師展示的版本一致。若要將這份技能納入正式公開 Plugin，須依該 Plugin 的完整套件與審查流程更新。
 
 參考：[OpenAI Plugin 封裝說明](https://developers.openai.com/plugins/build/plugins)｜[Plugin 更新與送審](https://developers.openai.com/plugins/deploy/submission)｜[在 ChatGPT 編輯自己的 Plugin](https://learn.chatgpt.com/docs/build-plugins)
+
+## I0001｜日常故事貼文助手 0.2.3
+
+I0001 完整流程已併入 SKILL.md，安裝只需主技能與 agents/openai.yaml，與 I0003／I0004 相同。請使用 [完整 GitHub 學生提示詞](I0001-daily-story-post/INSTALL-PROMPT.md)，或 [同內容匯入頁](I0001-daily-story-post/IMPORT.md)。舊 references 網址保留導向；新版不依賴它。GitHub 讀取／儲存與免費手機實際運行仍待使用者驗證。
