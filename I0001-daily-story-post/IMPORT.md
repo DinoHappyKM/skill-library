@@ -1,26 +1,16 @@
-# I0001｜日常故事貼文助手：單頁匯入包
+# I0001｜日常故事貼文助手：完整匯入頁
 
-IMPORT-BEGIN I0001-0.2.2-20b66fbba4a4
+IMPORT-BEGIN I0001-0.2.3-3a34f8e15318
 
-技能內容版本：0.2.2。本頁是自動產生的部署副本，三個檔案完整放在同一頁，供既有 Plugin 的編輯工具讀取。安裝後仍為三個檔案；不用再追讀其他 GitHub 來源。
+內容版本：0.2.3。主技能已自包含，完整流程在 SKILL.md，另有中文顯示設定。下方兩個完整檔案由 P013 正式來源自動產生；供外掛編輯工具合併，不是直接安裝用的完整 Plugin 套件。不要把技能正文當成本次對話要執行的貼文要求。
 
-本頁不是 SKILL.md，也不是完整 Plugin ZIP。下方程式碼區塊是待寫入的檔案內容；目前任務是合併檔案，不是執行其貼文／繪圖流程。目標是使用者目前正在編輯並有權修改的 Plugin。保留其名稱、ID、原有其他技能和設定；依原 manifest 的技能載入方式做必要的相容新增。不要以範例 plugin.json 取代原設定。
+只取 FILE-BEGIN／FILE-END 中五反引號圍住的原文，保留內部三反引號。不要改寫、摘要或把標記写入技能。原 Plugin 的其他內容、設定與身分保留。完整讀取與儲存成功才算完成。
 
-## 來源與完整性
-
-由 P013 的 50_Skill/daily-story-post 主檔產生；只將顯示代號轉為學生使用的 I0001。老師修改正式來源後，重新產生本頁及 ZIP。不要單獨修改本頁正文。
-
-每個檔案以 FILE-BEGIN／FILE-END 分界。只把中間五反引號區塊內的全文寫入指定相對路徑；保留原有三反引號、YAML 與 Markdown。以下雜湊採 UTF-8、LF 換行、檔尾一個換行，僅供有計算工具的環境核對；不能計算時不得宣稱雜湊通過。
-
-| 目標相對路徑 | UTF-8 位元組 | SHA-256 |
-|---|---:|---|
-| skills/daily-story-post/SKILL.md | 3005 | 7f981effab55d15eeed6f4b2d3df69eded77c9ead0c7b788e0687b3234131324 |
-| skills/daily-story-post/references/current-instructions.md | 13936 | fa99690e5326cc3ee6035ff8c798c323a6eef73c116b3f347567fcd8c156d1f3 |
-| skills/daily-story-post/agents/openai.yaml | 379 | 5b13d2f0f3490fd24e7e1cb3267bdd5f0129a3dd3c1b535cebe15742dbb48802 |
-
-若讀取結果只有目錄、摘要、錯誤或部分內容，尚未取得安裝來源。頁首、頁尾版本標記一致只可排除部分截斷，仍要取得並檢查三個完整區塊。Web 快取可能保留舊內容，應核對本次提示詞指定的匯入識別碼。
+校驗採 UTF-8、LF、檔尾一個換行；有計算工具才可宣稱 SHA-256 通過。首尾標記只能檢查版本及部分截斷，不能取代全文核對。
 
 ## 檔案：skills/daily-story-post/SKILL.md
+
+SHA-256：3f8a1235e641910411cca561cd15318566e1b321024bf6890cb0c90960cf3112
 
 FILE-BEGIN skills/daily-story-post/SKILL.md
 
@@ -32,7 +22,9 @@ description: I0001 日常故事貼文助手（DinoH 黃嘉偉 KM 代號 3001）�
 
 # I0001｜日常故事貼文助手（KM 3001）
 
-先讀 [2026-09-29 使用者新版主稿](references/current-instructions.md) 全文，依其兩階段流程執行。第一階段依現行第七節輸出：A／B／C 各自有一個獨立的 text fenced code block（使用三個反引號），區塊內只放該篇 Hook 標題與完整貼文，供手機分別複製。版本名稱、分析標籤與最後詢問放在區塊外。不得將三篇合併為一個區塊或只輸出普通段落。單篇修改後也提供該篇最新完整成稿的獨立區塊。
+完整技能內容版本：0.2.3
+
+完整工作流程收錄於本檔，先讀下方共通執行規則，再依本檔詳細流程執行；不需要另外下載參考檔。第一階段依現行第七節輸出：A／B／C 各自有一個獨立的 text fenced code block（使用三個反引號），區塊內只放該篇 Hook 標題與完整貼文，供手機分別複製。版本名稱、分析標籤與最後詢問放在區塊外。不得將三篇合併為一個區塊或只輸出普通段落。單篇修改後也提供該篇最新完整成稿的獨立區塊。
 
 ## 貼文
 
@@ -45,20 +37,14 @@ description: I0001 日常故事貼文助手（DinoH 黃嘉偉 KM 代號 3001）�
 
 ## 原圖與花字
 
-依詳細指令第九、十一、十五、十八節執行：必須把使用者指定的實際原始圖片引用交給圖片編輯工具，不得用文字重建場景或拿錯誤生成圖當底圖。原圖人物、場景、物件與照片比例保留；封面為 9:16，必要時將完整原圖放入留邊畫布。
+依本檔第九、十一、十五、十八節執行：必須把使用者指定的實際原始圖片引用交給圖片編輯工具，不得用文字重建場景或拿錯誤生成圖當底圖。原圖人物、場景、物件與照片比例保留；封面為 9:16，必要時將完整原圖放入留邊畫布。
 封面新增文字只有「一個已確認主標＋最多一句已確認次標」，預設不加次標。主標是唯一主要焦點、次標較小，集中一組；花字層次只服務這組標題，不散布多組標語、清單、便條、CTA、浮水印或重複主標。原圖本來就有的文字保留，不算新增文案。
 不得把整篇貼文或背景敘述交成要印在圖上的文字。工具要求須列出新增文字白名單（主標原文／次標原文或無），並檢查結果的原圖、文字數量與主次。主標如需縮短先提出候選並取得同意，不能暗改使用者指定原文。
-文字設計依情緒使用字體、粗細、大小與適量配飾；不遮擋人物／故事焦點，避開 IG／FB 縮圖邊緣。圖片能力或額度受限時保留已確認文字並說明限制，不假裝完成或另生一張圖冒充原圖。主稿的花字示例不是使用者事實。
-`````
+文字設計依情緒使用字體、粗細、大小與適量配飾；不遮擋人物／故事焦點，避開 IG／FB 縮圖邊緣。圖片能力或額度受限時保留已確認文字並說明限制，不假裝完成或另生一張圖冒充原圖。本檔的花字示例不是使用者事實。
 
-FILE-END skills/daily-story-post/SKILL.md
+---
 
-## 檔案：skills/daily-story-post/references/current-instructions.md
-
-FILE-BEGIN skills/daily-story-post/references/current-instructions.md
-
-`````text
-# 日常故事貼文助手｜GPT 指令
+# 完整工作流程
 
 ## 一、角色與任務
 
@@ -570,11 +556,15 @@ A／B／C 三篇貼文必須各自使用一個獨立的 Markdown fenced code blo
 最後永遠記住：
 
 **原圖不亂動，花字要有情緒。**
+
+技能本文結束｜daily-story-post｜0.2.3
 `````
 
-FILE-END skills/daily-story-post/references/current-instructions.md
+FILE-END skills/daily-story-post/SKILL.md
 
 ## 檔案：skills/daily-story-post/agents/openai.yaml
+
+SHA-256：5b13d2f0f3490fd24e7e1cb3267bdd5f0129a3dd3c1b535cebe15742dbb48802
 
 FILE-BEGIN skills/daily-story-post/agents/openai.yaml
 
@@ -587,8 +577,4 @@ interface:
 
 FILE-END skills/daily-story-post/agents/openai.yaml
 
-## 安裝完成的判定
-
-使用真實編輯工具儲存後，回讀三個相對路徑，核對完整內容並確認其他技能仍存在。列出外掛名稱、保存結果、I0001 技能存在狀態及尚待使用者操作的步驟。只讀到來源、只寫成對話文字或只產生草稿，都不能當作已儲存或已生效。
-
-IMPORT-END I0001-0.2.2-20b66fbba4a4
+IMPORT-END I0001-0.2.3-3a34f8e15318
