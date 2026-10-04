@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "live-stream-planning",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "以簡易或完整流程規劃直播，準備 YouTube 標題、描述、封面、直播提示與開播導流。",
   "author": {
     "name": "黃嘉偉美學工作室"

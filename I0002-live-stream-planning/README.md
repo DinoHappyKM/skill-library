@@ -1,16 +1,17 @@
 # I0002｜直播企劃與開播助手
 
-代號對照：I0002 是盤點編號；P009 是正式指令專案編號。這支技能由 I0002 的「01_GPT指令與畫面」完整指令及「03_知識庫與附件」K01 轉製；兩份內容與本地 P009 正式主檔一致。技能提供簡易與完整直播規劃、YouTube 標題／描述／16:9 封面、直播提示、開播導流及直播後復盤。
+Skill 內容版本：0.1.1；正式專案 P009，盤點與交付代號 I0002。
 
-## 單獨分享
+完整簡易流程、七階段完整做法、手機複製格式、16:9 封面、開播導流、驗收與專案接續已全部合併到 SKILL.md，不再依賴 references 知識檔。
 
-- [技能主檔](skills/live-stream-planning/SKILL.md)
-- [詳細流程與輸出規範](skills/live-stream-planning/references/K01_直播工作流程與輸出規範.md)
-- [技能選單顯示設定](skills/live-stream-planning/agents/openai.yaml)
-- [獨立 Plugin 範例設定](plugin.json)
+## 加入自己的私人外掛
 
-要把這支技能加入**自己可編輯的現有 Plugin**，請複製整個 `skills/live-stream-planning/` 資料夾到原 Plugin 的 `skills/`，保留原 Plugin 設定及其他技能，更新版本後重新封裝與上傳。不要用這份範例 `plugin.json` 覆蓋原 Plugin。
+請用 [完整學生提示詞](INSTALL-PROMPT.md)。安裝時只讀 [SKILL.md](skills/live-stream-planning/SKILL.md) 與 [中文顯示及啟動設定](skills/live-stream-planning/agents/openai.yaml)，不追加第三個 GitHub 頁面。
+
+合併同一技能到原外掛，保留名稱、ID、設定、其他技能與附件。已存在時更新同一筆；請勿用本資料夾的獨立 Plugin 範例設定覆蓋自己原外掛。
+
+原 K01 已保存在 99_Archive/0.1.0，供歷史追溯，新版執行與學生匯入不讀它。GPT 原始 Instructions／Knowledge 的內容仍保存在 P009，Skill 正式母檔在 50_Skill/live-stream-planning。
 
 ## 驗證狀態
 
-已完成原始指令與 K01 的靜態比對，以及 GitHub 檔案上傳。原 GPT 的發布／草稿狀態、Plugin 安裝後的實際觸發、手機複製、封面圖片生成及 YouTube 後台操作仍待實測。圖片生成是否可用，依學員帳號與當次環境的工具而定。
+完整來源納入與雙檔結構、ZIP 的本機驗證結果另有紀錄；GitHub 上傳回讀以部署紀錄為準。來源同步不代表學生外掛已儲存；免費手機、新對話、實際封面及 YouTube 後台仍待測。

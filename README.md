@@ -12,7 +12,7 @@
 | I0004 | I0004｜單圖動態影片提示詞助手 | 一張圖加動感需求，產出可複製英文提示詞與繁體中文說明 | [開啟 SKILL.md](I0004-image-to-video-prompt/skills/image-to-video-prompt/SKILL.md) |
 | I0005 | I0005｜標題花字產生器 | 先分析參考圖風格，確認後以新文字製作繁體花字與透明 PNG | [開啟 SKILL.md](I0005-title-lettering-generator/skills/title-lettering-generator/SKILL.md) |
 
-每支技能各有獨立資料夾；如有 Plugin 範例設定檔，請保留自己原外掛的設定。I0001 依 P013 正式技能與使用者指定新版轉製；其盤點資料夾尚無額外知識庫。I0002 依盤點資料中的完整指令與知識庫轉製；其原 GPT 目前發布／草稿狀態及實際操作結果仍待核對。I0003 是從既有技能 ZIP 展開的副本，**不是原 GPT 的完整原始備份**。I0004 是使用者新提出的技能，正式主檔位於 P015；尚未用真實圖片或學員手機實測。I0005 是依 P016 正式來源產生的完整技能，沒有固定知識附件。這五支技能在 GitHub 有原始檔，均不代表學員帳號已安裝。
+每支技能各有獨立資料夾；如有 Plugin 範例設定檔，請保留自己原外掛的設定。I0001 依 P013 正式技能與使用者指定新版轉製；其盤點資料夾尚無額外知識庫。I0002 0.1.1 已將完整直播流程與原 K01 規範合併到 SKILL.md，學生匯入只讀主檔與 agents/openai.yaml；其原 GPT 目前發布／草稿狀態及實際操作結果仍待核對。I0003 是從既有技能 ZIP 展開的副本，**不是原 GPT 的完整原始備份**。I0004 是使用者新提出的技能，正式主檔位於 P015；尚未用真實圖片或學員手機實測。I0005 是依 P016 正式來源產生的完整技能，沒有固定知識附件。這五支技能在 GitHub 有原始檔，均不代表學員帳號已安裝。
 
 ## 學員已有自己的 Plugin：如何加入單一技能
 
@@ -56,3 +56,9 @@ I0001 完整流程已併入 SKILL.md，安裝只需主技能與 agents/openai.ya
 優先使用 [完整 GitHub 學生提示詞](I0005-title-lettering-generator/INSTALL-PROMPT.md)，在自己私人外掛的「編輯外掛程式」加入技能。必要來源只有 [完整 SKILL.md](I0005-title-lettering-generator/skills/title-lettering-generator/SKILL.md) 與 [中文顯示及啟動設定](I0005-title-lettering-generator/skills/title-lettering-generator/agents/openai.yaml)。安裝時只讀這兩檔，不另讀第三個匯入頁、README 或雜湊檔。
 
 流程為索取參考圖 → 分析並確認 → 提供新文字 → 生成 → 字形與透明 PNG 檢查。儲存後開新對話測試；學生免費手機、外掛實際儲存與真實字圖效果仍待驗證。
+
+## I0002｜直播企劃與開播助手 0.1.1
+
+請使用 [完整 GitHub 學生提示詞](I0002-live-stream-planning/INSTALL-PROMPT.md)，只讀 [完整 SKILL.md](I0002-live-stream-planning/skills/live-stream-planning/SKILL.md) 與 [中文顯示及啟動設定](I0002-live-stream-planning/skills/live-stream-planning/agents/openai.yaml)。簡易流程、七階段完整做法、16:9 封面、手機複製、開播導流、驗收與接續規範都已內建，不再另讀第三個 K01、匯入頁或雜湊檔。原 K01 保存歷史快照，新版技能不使用它。
+
+更新自己的同一私人外掛，保留既有技能與設定；儲存後再以新對話測簡易及完整模式。檔案同步與格式驗證不等於學生已安裝；手機、圖片生成與 YouTube 後台操作待測。
