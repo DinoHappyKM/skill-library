@@ -53,6 +53,6 @@ I0001 完整流程已併入 SKILL.md，安裝只需主技能與 agents/openai.ya
 
 ## I0005｜標題花字產生器 0.1.0
 
-優先使用 [完整 GitHub 學生提示詞](I0005-title-lettering-generator/INSTALL-PROMPT.md)，在自己私人外掛的「編輯外掛程式」加入技能。必要來源只有 [完整 SKILL.md](I0005-title-lettering-generator/skills/title-lettering-generator/SKILL.md) 與 [中文顯示及啟動設定](I0005-title-lettering-generator/skills/title-lettering-generator/agents/openai.yaml)；也有 [兩檔全文匯入頁](I0005-title-lettering-generator/IMPORT.md)。
+優先使用 [完整 GitHub 學生提示詞](I0005-title-lettering-generator/INSTALL-PROMPT.md)，在自己私人外掛的「編輯外掛程式」加入技能。必要來源只有 [完整 SKILL.md](I0005-title-lettering-generator/skills/title-lettering-generator/SKILL.md) 與 [中文顯示及啟動設定](I0005-title-lettering-generator/skills/title-lettering-generator/agents/openai.yaml)。安裝時只讀這兩檔，不另讀第三個匯入頁、README 或雜湊檔。
 
 流程為索取參考圖 → 分析並確認 → 提供新文字 → 生成 → 字形與透明 PNG 檢查。儲存後開新對話測試；學生免費手機、外掛實際儲存與真實字圖效果仍待驗證。

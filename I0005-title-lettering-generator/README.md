@@ -6,7 +6,7 @@
 
 ## 加入自己的私人外掛
 
-可使用 [完整 GitHub 學生提示詞](INSTALL-PROMPT.md) 或 [完整匯入頁](IMPORT.md)。必要來源只有 [SKILL.md](skills/title-lettering-generator/SKILL.md) 與 [中文顯示及啟動設定](skills/title-lettering-generator/agents/openai.yaml)，沒有額外固定知識檔。
+請使用 [完整 GitHub 學生提示詞](INSTALL-PROMPT.md)，安裝時只讀以下兩個來源，不另讀第三個匯入頁或雜湊檔。必要來源只有 [SKILL.md](skills/title-lettering-generator/SKILL.md) 與 [中文顯示及啟動設定](skills/title-lettering-generator/agents/openai.yaml)，沒有額外固定知識檔。
 
 只合併 skills/title-lettering-generator/ 到原外掛，保留原名稱、身分、設定與其他技能。這不是完整外掛包，不使用它直接取代原外掛。儲存結果與新對話測試分開確認。
 
