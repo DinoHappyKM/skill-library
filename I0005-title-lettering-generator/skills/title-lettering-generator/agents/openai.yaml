@@ -1,0 +1,4 @@
+interface:
+  display_name: "I0005｜標題花字產生器"
+  short_description: "先分析參考圖花字風格，再依新文字製作透明背景繁體中文標題"
+  default_prompt: "使用 $title-lettering-generator，請先向我索取字體風格參考圖片與必要資訊，完成分析並讓我確認，再等我提供新文字；此階段先不要生成圖片。"

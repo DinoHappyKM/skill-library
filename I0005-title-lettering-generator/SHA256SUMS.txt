@@ -1,0 +1,2 @@
+4c4138f5466ed3140a6c4f3f4d0228f597ba73e4ddfc7ec376e81cd14388ac99  skills/title-lettering-generator/SKILL.md
+b85242d80392b3f47e918e7191a393edf6ad515cf122775096794e7e6e594621  skills/title-lettering-generator/agents/openai.yaml
