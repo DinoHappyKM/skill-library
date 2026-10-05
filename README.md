@@ -49,7 +49,7 @@
 
 ## I0001｜日常故事貼文助手 0.2.3
 
-I0001 完整流程已併入 SKILL.md，安裝只需主技能與 agents/openai.yaml，與 I0003／I0004 相同。請使用 [完整 GitHub 學生提示詞](I0001-daily-story-post/INSTALL-PROMPT.md)，或 [同內容匯入頁](I0001-daily-story-post/IMPORT.md)。舊 references 網址保留導向；新版不依賴它。GitHub 讀取／儲存與免費手機實際運行仍待使用者驗證。
+I0001 完整流程已併入 SKILL.md，安裝只需主技能與 agents/openai.yaml，與 I0003／I0004 相同。請使用 [完整 GitHub 學生提示詞](I0001-daily-story-post/INSTALL-PROMPT.md)。舊 references 網址保留導向；新版不依賴它。舊 IMPORT 保留歷史用途，新版學生提示詞只讀 SKILL.md 與 openai.yaml。GitHub 讀取／儲存與免費手機實際運行仍待使用者驗證。
 
 ## I0005｜標題花字產生器 0.1.0
 
@@ -62,3 +62,26 @@ I0001 完整流程已併入 SKILL.md，安裝只需主技能與 agents/openai.ya
 請使用 [完整 GitHub 學生提示詞](I0002-live-stream-planning/INSTALL-PROMPT.md)，只讀 [完整 SKILL.md](I0002-live-stream-planning/skills/live-stream-planning/SKILL.md) 與 [中文顯示及啟動設定](I0002-live-stream-planning/skills/live-stream-planning/agents/openai.yaml)。簡易流程、七階段完整做法、16:9 封面、手機複製、開播導流、驗收與接續規範都已內建，不再另讀第三個 K01、匯入頁或雜湊檔。原 K01 保存歷史快照，新版技能不使用它。
 
 更新自己的同一私人外掛，保留既有技能與設定；儲存後再以新對話測簡易及完整模式。檔案同步與格式驗證不等於學生已安裝；手機、圖片生成與 YouTube 後台操作待測。
+
+
+## 0｜私人KM主選單與分類
+
+[開啟主選單與安裝入口](0000-km-menu/README.md)。主選單版本 0.3.0；它是導航入口，不占一般工作技能 I 料號。新學生先建立 XXX私人KM；已有外掛則更新同一主選單並保留原技能。
+
+| 主要分類 | 本庫對應 |
+| --- | --- |
+| C02 文案 | I0001 日常故事貼文助手 |
+| C04 圖像 | I0003 公仔表情設計、I0005 標題花字產生器 |
+| C05 影音 | I0002 直播企劃與開播助手、I0004 單圖動態影片提示詞助手 |
+
+在 ChatGPT 新對話選用自己的外掛後，輸入 0 → 分類 → 圖像 → I0003（分次輸入）。自己的目錄只列已核對收錄項目，不把老師五支當作已安裝。可以直接用 I 代號或一句需求；工作技能自己的 A／B／C 和數字選項仍依原流程。
+
+- [00 建立 XXX私人KM](0000-km-menu/00_建立XXX私人KM外掛.txt)
+- [00 更新既有私人KM主選單](0000-km-menu/00_更新既有私人KM主選單.txt)
+- [01 加入 I0001](I0001-daily-story-post/INSTALL-PROMPT.md)
+- [02 加入 I0002](I0002-live-stream-planning/INSTALL-PROMPT.md)
+- [03 加入 I0003](I0003-figurine-expression-design/INSTALL-PROMPT.md)
+- [04 加入 I0004](I0004-image-to-video-prompt/INSTALL-PROMPT.md)
+- [05 加入 I0005](I0005-title-lettering-generator/INSTALL-PROMPT.md)
+
+每份提示詞只讀該技能 SKILL.md 與 agents/openai.yaml；分類登錄由編輯時更新本外掛的 km-menu，不增加第三個 GitHub 來源。第一階段是文字目錄；MCP 點按介面留第二階段。更新 GitHub 後，學生仍需更新並儲存自己的外掛，新對話與手機操作另行驗證。
