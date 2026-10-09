@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "library_version": "0.3.2",
   "plugin_display_name": "黃嘉偉KM",
-  "source_ref": "upgrade/huang-jia-wei-km-installer",
+  "source_ref": "main",
   "release_status": "testing-branch",
   "hash_algorithm": "SHA256",
   "skills": [
@@ -63,7 +63,7 @@
       "hashes": {
         "skills/km-install-prompt-generator/SKILL.md": "56fcb8e122b128d722530d70d6efae8b929264e4baf783e6b6d0bfc1d2d9d642",
         "skills/km-install-prompt-generator/agents/openai.yaml": "47dbe79c195dbfb59f273de668900d4907235d5378643ed6b1e9bf38a44302d4",
-        "skills/km-install-prompt-generator/assets/source-config.json": "b605b2ffcbbb21f0a49466df72235f2e397700f1b8182ea4a31733219a9eb8ab",
+        "skills/km-install-prompt-generator/assets/source-config.json": "3d868fbb9f7a45742adf8778e98565a41b7517eec23f2a9ac298a8c933950b39",
         "skills/km-install-prompt-generator/assets/student-install-prompt.txt": "b097d20460b901cb0b99773db501489c8b2457c88a87fdd0815374ecd11c1f71",
         "skills/km-install-prompt-generator/scripts/generate_install_prompt.py": "5eda81cd77afeb577a3297d67168b30bbdbfec9819e9e2a72dedca181b07fc29",
         "skills/km-install-prompt-generator/scripts/install_logic.py": "8a6210b0250aecc7ee5856def2a9ff58406713cb2ba25d52d1fb53cec3c90d9b"
@@ -93,9 +93,9 @@
         {
           "path": "I0000-install-prompt-generator/skills/km-install-prompt-generator/assets/source-config.json",
           "target_path": "skills/km-install-prompt-generator/assets/source-config.json",
-          "sha256": "b605b2ffcbbb21f0a49466df72235f2e397700f1b8182ea4a31733219a9eb8ab",
-          "normalized_text_sha256": "b605b2ffcbbb21f0a49466df72235f2e397700f1b8182ea4a31733219a9eb8ab",
-          "bytes": 291
+          "sha256": "3d868fbb9f7a45742adf8778e98565a41b7517eec23f2a9ac298a8c933950b39",
+          "normalized_text_sha256": "3d868fbb9f7a45742adf8778e98565a41b7517eec23f2a9ac298a8c933950b39",
+          "bytes": 271
         },
         {
           "path": "I0000-install-prompt-generator/skills/km-install-prompt-generator/assets/student-install-prompt.txt",
