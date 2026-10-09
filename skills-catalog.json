@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "library_version": "0.3.0",
+  "library_version": "0.3.1",
   "plugin_display_name": "黃嘉偉KM",
   "source_ref": "upgrade/huang-jia-wei-km-installer",
   "release_status": "testing-branch",
@@ -52,7 +52,7 @@
       "name": "安裝提示詞產生器",
       "slug": "km-install-prompt-generator",
       "role": "teacher_tool",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "version_status": "declared",
       "version_source": {
         "path": "I0000-install-prompt-generator/skills/km-install-prompt-generator/SKILL.md",
@@ -61,12 +61,12 @@
       "skill_path": "I0000-install-prompt-generator/skills/km-install-prompt-generator/SKILL.md",
       "agent_path": "I0000-install-prompt-generator/skills/km-install-prompt-generator/agents/openai.yaml",
       "hashes": {
-        "skills/km-install-prompt-generator/SKILL.md": "a3f5c101c9f146da2d2470edf35f3a591937db589aa0cdb0f8482a4d10c9bea7",
+        "skills/km-install-prompt-generator/SKILL.md": "52e129ebc004d9d8f8aa41fcb9e54fa39c82ff7b9b95378aff0c37ce1aba7afe",
         "skills/km-install-prompt-generator/agents/openai.yaml": "47dbe79c195dbfb59f273de668900d4907235d5378643ed6b1e9bf38a44302d4",
         "skills/km-install-prompt-generator/assets/source-config.json": "7f3f498ff273c947379afef78a4fea32026b0e71743ff3330820ef3afaee5f8d",
-        "skills/km-install-prompt-generator/assets/student-install-prompt.txt": "b83df2f0492aadef8b8ff1dabc9fba0c9d35ad78e1dc84a5d1d19d78a5606c97",
-        "skills/km-install-prompt-generator/scripts/generate_install_prompt.py": "b4318c04527d3e0af09317752e4067aa1e6b7693645c34a635d95dd933b84a3b",
-        "skills/km-install-prompt-generator/scripts/install_logic.py": "cd07e38d1c8acc2fd59729aea3ad6aa89f2595b8f48078067526959c32f653f2"
+        "skills/km-install-prompt-generator/assets/student-install-prompt.txt": "b097d20460b901cb0b99773db501489c8b2457c88a87fdd0815374ecd11c1f71",
+        "skills/km-install-prompt-generator/scripts/generate_install_prompt.py": "5eda81cd77afeb577a3297d67168b30bbdbfec9819e9e2a72dedca181b07fc29",
+        "skills/km-install-prompt-generator/scripts/install_logic.py": "8a6210b0250aecc7ee5856def2a9ff58406713cb2ba25d52d1fb53cec3c90d9b"
       },
       "category": {
         "id": "C08",
@@ -79,8 +79,8 @@
         {
           "path": "I0000-install-prompt-generator/skills/km-install-prompt-generator/SKILL.md",
           "target_path": "skills/km-install-prompt-generator/SKILL.md",
-          "sha256": "a3f5c101c9f146da2d2470edf35f3a591937db589aa0cdb0f8482a4d10c9bea7",
-          "normalized_text_sha256": "a3f5c101c9f146da2d2470edf35f3a591937db589aa0cdb0f8482a4d10c9bea7",
+          "sha256": "52e129ebc004d9d8f8aa41fcb9e54fa39c82ff7b9b95378aff0c37ce1aba7afe",
+          "normalized_text_sha256": "52e129ebc004d9d8f8aa41fcb9e54fa39c82ff7b9b95378aff0c37ce1aba7afe",
           "bytes": 4517
         },
         {
@@ -100,23 +100,23 @@
         {
           "path": "I0000-install-prompt-generator/skills/km-install-prompt-generator/assets/student-install-prompt.txt",
           "target_path": "skills/km-install-prompt-generator/assets/student-install-prompt.txt",
-          "sha256": "b83df2f0492aadef8b8ff1dabc9fba0c9d35ad78e1dc84a5d1d19d78a5606c97",
-          "normalized_text_sha256": "b83df2f0492aadef8b8ff1dabc9fba0c9d35ad78e1dc84a5d1d19d78a5606c97",
-          "bytes": 6063
+          "sha256": "b097d20460b901cb0b99773db501489c8b2457c88a87fdd0815374ecd11c1f71",
+          "normalized_text_sha256": "b097d20460b901cb0b99773db501489c8b2457c88a87fdd0815374ecd11c1f71",
+          "bytes": 6320
         },
         {
           "path": "I0000-install-prompt-generator/skills/km-install-prompt-generator/scripts/generate_install_prompt.py",
           "target_path": "skills/km-install-prompt-generator/scripts/generate_install_prompt.py",
-          "sha256": "b4318c04527d3e0af09317752e4067aa1e6b7693645c34a635d95dd933b84a3b",
-          "normalized_text_sha256": "b4318c04527d3e0af09317752e4067aa1e6b7693645c34a635d95dd933b84a3b",
-          "bytes": 10971
+          "sha256": "5eda81cd77afeb577a3297d67168b30bbdbfec9819e9e2a72dedca181b07fc29",
+          "normalized_text_sha256": "5eda81cd77afeb577a3297d67168b30bbdbfec9819e9e2a72dedca181b07fc29",
+          "bytes": 11290
         },
         {
           "path": "I0000-install-prompt-generator/skills/km-install-prompt-generator/scripts/install_logic.py",
           "target_path": "skills/km-install-prompt-generator/scripts/install_logic.py",
-          "sha256": "cd07e38d1c8acc2fd59729aea3ad6aa89f2595b8f48078067526959c32f653f2",
-          "normalized_text_sha256": "cd07e38d1c8acc2fd59729aea3ad6aa89f2595b8f48078067526959c32f653f2",
-          "bytes": 6971
+          "sha256": "8a6210b0250aecc7ee5856def2a9ff58406713cb2ba25d52d1fb53cec3c90d9b",
+          "normalized_text_sha256": "8a6210b0250aecc7ee5856def2a9ff58406713cb2ba25d52d1fb53cec3c90d9b",
+          "bytes": 7225
         }
       ]
     },
@@ -215,8 +215,8 @@
       "name": "公仔表情設計",
       "slug": "figurine-expression-design",
       "role": "student_skill",
-      "version": null,
-      "version_status": "unversioned",
+      "version": "0.1.0",
+      "version_status": "declared",
       "version_source": {
         "path": "I0003-figurine-expression-design/skills/figurine-expression-design/SKILL.md",
         "method": "原文metadata／內容版本／結尾標記；不得借用Plugin版本"
@@ -224,7 +224,7 @@
       "skill_path": "I0003-figurine-expression-design/skills/figurine-expression-design/SKILL.md",
       "agent_path": "I0003-figurine-expression-design/skills/figurine-expression-design/agents/openai.yaml",
       "hashes": {
-        "skills/figurine-expression-design/SKILL.md": "610e96c8a200d69ac0ba432524fa428daa77ec6036c0baeddc9fb0037188b574",
+        "skills/figurine-expression-design/SKILL.md": "9c2af9f8902a2535b6b97e677d0614096b518fd4e740ab6bc6552f1c2b7b3f85",
         "skills/figurine-expression-design/agents/openai.yaml": "ad67836f81f95e8a834466923c94993ab86ab6fba458d08c851aed3d985c7090"
       },
       "category": {
@@ -242,9 +242,9 @@
         {
           "path": "I0003-figurine-expression-design/skills/figurine-expression-design/SKILL.md",
           "target_path": "skills/figurine-expression-design/SKILL.md",
-          "sha256": "610e96c8a200d69ac0ba432524fa428daa77ec6036c0baeddc9fb0037188b574",
-          "normalized_text_sha256": "610e96c8a200d69ac0ba432524fa428daa77ec6036c0baeddc9fb0037188b574",
-          "bytes": 8858
+          "sha256": "9c2af9f8902a2535b6b97e677d0614096b518fd4e740ab6bc6552f1c2b7b3f85",
+          "normalized_text_sha256": "9c2af9f8902a2535b6b97e677d0614096b518fd4e740ab6bc6552f1c2b7b3f85",
+          "bytes": 8887
         },
         {
           "path": "I0003-figurine-expression-design/skills/figurine-expression-design/agents/openai.yaml",
@@ -253,6 +253,16 @@
           "normalized_text_sha256": "ad67836f81f95e8a834466923c94993ab86ab6fba458d08c851aed3d985c7090",
           "bytes": 292
         }
+      ],
+      "official_predecessors": [
+        {
+          "version": null,
+          "source_commit": "9bbebe97857635d7875d2c524d853485aa1a05a6",
+          "hashes": {
+            "skills/figurine-expression-design/SKILL.md": "610e96c8a200d69ac0ba432524fa428daa77ec6036c0baeddc9fb0037188b574",
+            "skills/figurine-expression-design/agents/openai.yaml": "ad67836f81f95e8a834466923c94993ab86ab6fba458d08c851aed3d985c7090"
+          }
+        }
       ]
     },
     {
@@ -260,8 +270,8 @@
       "name": "單圖動態影片提示詞助手",
       "slug": "image-to-video-prompt",
       "role": "student_skill",
-      "version": null,
-      "version_status": "unversioned",
+      "version": "0.1.0",
+      "version_status": "declared",
       "version_source": {
         "path": "I0004-image-to-video-prompt/skills/image-to-video-prompt/SKILL.md",
         "method": "原文metadata／內容版本／結尾標記；不得借用Plugin版本"
@@ -269,7 +279,7 @@
       "skill_path": "I0004-image-to-video-prompt/skills/image-to-video-prompt/SKILL.md",
       "agent_path": "I0004-image-to-video-prompt/skills/image-to-video-prompt/agents/openai.yaml",
       "hashes": {
-        "skills/image-to-video-prompt/SKILL.md": "1cc4ef7caa2a5836bd0ba2769ce2466a258c5575c7dca063a771ba9ad51f082e",
+        "skills/image-to-video-prompt/SKILL.md": "b370a0a0556f3ad9bcb67c70706ed399b14a8b8ded21414e39c775d7a26ef787",
         "skills/image-to-video-prompt/agents/openai.yaml": "26d57fcddef641c44ada2fa0a6c4006e42ef88905cd769b6a63e4806d2679e81"
       },
       "category": {
@@ -287,9 +297,9 @@
         {
           "path": "I0004-image-to-video-prompt/skills/image-to-video-prompt/SKILL.md",
           "target_path": "skills/image-to-video-prompt/SKILL.md",
-          "sha256": "1cc4ef7caa2a5836bd0ba2769ce2466a258c5575c7dca063a771ba9ad51f082e",
-          "normalized_text_sha256": "d8cafcec82b8b71364aef235ca348f9adbc73a6329951cc35b02ca159ed2a72d",
-          "bytes": 3351
+          "sha256": "b370a0a0556f3ad9bcb67c70706ed399b14a8b8ded21414e39c775d7a26ef787",
+          "normalized_text_sha256": "50a0f4702b10e82dc0efceb7a7b394a876e66484c9cb8a07d0e54c96e2fdb628",
+          "bytes": 3380
         },
         {
           "path": "I0004-image-to-video-prompt/skills/image-to-video-prompt/agents/openai.yaml",
@@ -297,6 +307,16 @@
           "sha256": "26d57fcddef641c44ada2fa0a6c4006e42ef88905cd769b6a63e4806d2679e81",
           "normalized_text_sha256": "bf887bc39ff9bed841677260c8c0c9fbeb58206415f47a65af6aff2157413d85",
           "bytes": 316
+        }
+      ],
+      "official_predecessors": [
+        {
+          "version": null,
+          "source_commit": "9bbebe97857635d7875d2c524d853485aa1a05a6",
+          "hashes": {
+            "skills/image-to-video-prompt/SKILL.md": "1cc4ef7caa2a5836bd0ba2769ce2466a258c5575c7dca063a771ba9ad51f082e",
+            "skills/image-to-video-prompt/agents/openai.yaml": "26d57fcddef641c44ada2fa0a6c4006e42ef88905cd769b6a63e4806d2679e81"
+          }
         }
       ]
     },

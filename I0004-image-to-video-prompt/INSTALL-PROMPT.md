@@ -1,6 +1,6 @@
 # I0004｜單圖動態影片提示詞助手：黃嘉偉KM學生安裝
 
-2026-10-09｜測試分支。帳號須有Plugin Creator權限；手機實測待驗證。複製下方完整區塊。
+2026-10-10｜測試分支。帳號須有Plugin Creator權限；手機實測待驗證。複製下方完整區塊。
 
 ~~~~~~~~text
 此為測試分支安裝入口，main尚未合併。先解析下方source_ref的目前commit，將全部來源網址固定到同一commit再讀取；若校驗不一致須請老師重新產生，不能直接換版本。
@@ -24,6 +24,7 @@ GitHub 檔案頁全文讀得到即可；Raw 失敗可用已授權 GitHub 工具�
 不存在：新增到 JSON 的 target_path。
 內容相同且版本一致或原文未宣告：保留同一技能，不新增副本。
 版本較舊且能確認仍是老師原版：更新同一 slug。確認方式是實際檔案符合 km-installed-skills.json 的原版安裝校驗值，或已完整核對相應歷史官方版本；單看舊版本號不足以確認未客製。
+對首次補版本的技能，若已安裝檔案的完整兩檔 SHA256 與本次 official_predecessors 中同一筆舊官方版完全相同，即可視為可核對舊版更新；任一檔不同或無法完整讀取，先確認，不以外掛版本推定。
 版本相同但內容不同、比老師更新、版本未知且內容不同、缺少可信原版基準、同代號／slug 衝突、個人修改：列差異先確認，不覆蓋。比較使用語意版本，0.1.10 高於 0.1.9。
 先讀實際檔案，安裝紀錄不能代替回讀。不得把規則、正式原文或 YAML 簡化成摘要。保留原本所有其他技能、附件、資產、整合、外掛 ID、scope、分享、作者及啟動設定。沿用現有 manifest，不用老師整份範例覆蓋；若舊 manifest 需遷移，先保留有效設定並核對，不能用空白新 manifest 遮蔽原有設定。不要改動自己私人 KM。
 
@@ -53,6 +54,7 @@ GitHub 檔案頁全文讀得到即可；Raw 失敗可用已授權 GitHub 工具�
     "slug": "km-menu",
     "role": "menu",
     "version": "0.4.0",
+    "official_predecessors": [],
     "category": {
       "id": null,
       "name": null,
@@ -85,7 +87,17 @@ GitHub 檔案頁全文讀得到即可；Raw 失敗可用已授權 GitHub 工具�
       "name": "單圖動態影片提示詞助手",
       "slug": "image-to-video-prompt",
       "role": "student_skill",
-      "version": null,
+      "version": "0.1.0",
+      "official_predecessors": [
+        {
+          "version": null,
+          "source_commit": "9bbebe97857635d7875d2c524d853485aa1a05a6",
+          "hashes": {
+            "skills/image-to-video-prompt/SKILL.md": "1cc4ef7caa2a5836bd0ba2769ce2466a258c5575c7dca063a771ba9ad51f082e",
+            "skills/image-to-video-prompt/agents/openai.yaml": "26d57fcddef641c44ada2fa0a6c4006e42ef88905cd769b6a63e4806d2679e81"
+          }
+        }
+      ],
       "category": {
         "id": "C05",
         "name": "影音",
@@ -101,9 +113,9 @@ GitHub 檔案頁全文讀得到即可；Raw 失敗可用已授權 GitHub 工具�
         {
           "source_url": "https://github.com/DinoHappyKM/skill-library/blob/upgrade/huang-jia-wei-km-installer/I0004-image-to-video-prompt/skills/image-to-video-prompt/SKILL.md",
           "target_path": "skills/image-to-video-prompt/SKILL.md",
-          "sha256": "1cc4ef7caa2a5836bd0ba2769ce2466a258c5575c7dca063a771ba9ad51f082e",
-          "bytes": 3351,
-          "normalized_text_sha256": "d8cafcec82b8b71364aef235ca348f9adbc73a6329951cc35b02ca159ed2a72d"
+          "sha256": "b370a0a0556f3ad9bcb67c70706ed399b14a8b8ded21414e39c775d7a26ef787",
+          "bytes": 3380,
+          "normalized_text_sha256": "50a0f4702b10e82dc0efceb7a7b394a876e66484c9cb8a07d0e54c96e2fdb628"
         },
         {
           "source_url": "https://github.com/DinoHappyKM/skill-library/blob/upgrade/huang-jia-wei-km-installer/I0004-image-to-video-prompt/skills/image-to-video-prompt/agents/openai.yaml",

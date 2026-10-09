@@ -2,7 +2,7 @@
 name: km-install-prompt-generator
 description: 老師輸入I0001至I0005代號或中文技能名稱，要求產生黃嘉偉KM學生安裝提示詞、批次加入技能或比較既有安裝時使用；I0000是教師工具，學生主選單0不觸發本技能。
 metadata:
-  version: "0.1.0"
+  version: "0.1.1"
 ---
 
 # I0000｜安裝提示詞產生器

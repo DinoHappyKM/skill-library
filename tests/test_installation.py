@@ -67,7 +67,14 @@ class Scenarios(unittest.TestCase):
         self.assertEqual(decide(t,a,None),"confirm")
     def test_unversioned_mismatch(self):
         t=target(2);a=installed(t,hashes={"unknown":"different"})
-        self.assertIsNone(t["version"]);self.assertEqual(decide(t,a,a),"confirm")
+        self.assertEqual(t["version"],"0.1.0");self.assertEqual(decide(t,a,a),"confirm")
+    def test_versioned_official_predecessor_upgrade(self):
+        for i in (2,3):
+            t=target(i);old=t["official_predecessors"][0]
+            actual={"version":None,"hashes":old["hashes"]}
+            self.assertEqual(decide(t,actual,None),"update")
+            altered=copy.deepcopy(actual);altered["hashes"]["skills/"+t["slug"]+"/SKILL.md"]="changed"
+            self.assertEqual(decide(t,altered,None),"confirm")
     def test_duplicate_target(self):
         self.assertEqual(plan([plugin(),plugin()],[target()],CAP)["status"],"confirm")
     def test_incomplete_inventory(self):
@@ -112,7 +119,7 @@ class Artifacts(unittest.TestCase):
                 self.assertEqual(sha(data),f["sha256"]);self.assertEqual(normalized_sha(data),f["normalized_text_sha256"]);self.assertEqual(len(data),f["bytes"])
         self.assertEqual(len(WORK),5);self.assertTrue(all(len(e["required_files"])==2 for e in WORK))
     def test_versions_from_original_not_manifest(self):
-        self.assertEqual([e["version"] for e in WORK],["0.2.3","0.1.1",None,None,"0.1.0"])
+        self.assertEqual([e["version"] for e in WORK],["0.2.3","0.1.1","0.1.0","0.1.0","0.1.0"])
         self.assertEqual(MENU["version"],"0.4.0")
     def test_aliases_chinese_no_teacher(self):
         self.assertEqual([x["id"] for x in select(CAT,"I1,I003,標題花字產生器")],["I0001","I0003","I0005"])

@@ -30,6 +30,9 @@ def decide(target,actual,receipt=None):
     if same:
         if actual.get("version") not in (None,target.get("version")): return "confirm"
         return "keep"
+    # 公開記錄的官方無版號舊檔，可用完整兩檔SHA核對後安全升級。
+    if any(actual.get("version")==p.get("version") and actual["hashes"]==p.get("hashes") for p in target.get("official_predecessors",[])):
+        return "update"
     if not receipt or actual["hashes"]!=receipt.get("installed_hashes",receipt.get("hashes")) or actual.get("version")!=receipt.get("version"):
         return "confirm"
     old,new=actual.get("version"),target.get("version")
