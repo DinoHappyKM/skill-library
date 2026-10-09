@@ -12,7 +12,7 @@ metadata:
 ## 正式來源與入口
 
 唯一正式來源：https://github.com/DinoHappyKM/skill-library
-來源分支依 assets/source-config.json；目前是 upgrade/huang-jia-wei-km-installer 測試分支，不能說已合併main。每次請求重新查詢來源 HEAD，再固定至該 commit 讀 skills-catalog.json 和必要檔案。可接受 I0001、I003、i5 或完整中文名稱，多選用逗號／頓號分開；裸0屬主選單，I0000是教師工具，不能當作學生工作技能。
+來源分支依 assets/source-config.json；以 GitHub 目前分支和 PR 狀態判斷是否已合併 main，不靠本文的舊快照。每次請求重新查詢來源 HEAD，再固定至該 commit 讀 skills-catalog.json 和必要檔案。可接受 I0001、I003、i5 或完整中文名稱，多選用逗號／頓號分開；裸0屬主選單，I0000是教師工具，不能當作學生工作技能。
 
 版本只採原文可驗證宣告；未宣告就是 null。外掛版本不能代替技能版本。機器目錄與原文不一致時停止並報告，不自行猜測或補齊。
 

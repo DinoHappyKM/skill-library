@@ -2,7 +2,7 @@
 
 ## 現行安裝（2026-10-10）
 
-外掛固定「黃嘉偉KM」；自己的私人KM獨立保留。[完整學生提示詞](INSTALL-PROMPT.md)使用測試分支，main未合併。缺少新增，可核對未客製舊版才更新，相同保留；個人修改先確認。
+老師發給學生的外掛固定命名「黃嘉偉KM」。請使用[完整學生安裝提示詞](INSTALL-PROMPT.md)；提示詞會核對來源版本及既有外掛。缺少技能時新增；可核對的舊版才更新；個人修改先確認。學生自己的私人 KM 保持獨立。
 
 技能正文未修改；SKILL.md前言首次宣告技能版本0.1.0，舊無版號兩檔SHA256留作保守更新；不以範例Plugin版本代替。手機／帳號待測，GitHub更新不自動同步。
 
@@ -22,8 +22,8 @@
 - [繁體中文顯示設定](skills/image-to-video-prompt/agents/openai.yaml)
 - [獨立 Plugin 範例設定](plugin.json)
 
-## 加入自己可編輯的現有 Plugin
+## 加入黃嘉偉KM
 
-把整個 `skills/image-to-video-prompt/` 資料夾放入原 Plugin 的 `skills/`，保留原有技能及原 Plugin 的 `plugin.json`。本資料夾的 `plugin.json` 只是獨立範例，**不要覆蓋**已存在的外掛設定。若使用 ChatGPT 的 Edit Plugin，需確認編輯器確實讀到技能主檔與顯示設定，完成後在新對話測試。
+請先使用[完整學生安裝提示詞](INSTALL-PROMPT.md)。若採手動 ZIP 備援，把 `skills/image-to-video-prompt/` 放入「黃嘉偉KM」的 `skills/`，保留原有技能及原 Plugin 的 `plugin.json`。本資料夾的 `plugin.json` 只是獨立範例，**不要覆蓋**已存在的外掛設定。完成後在新對話測試。
 
 GitHub 上有檔案不等於學員已安裝技能。外掛安裝、手機複製按鈕，以及 Google Flow／Midjourney 等工具實際生成結果，仍需在相應帳號測試。
