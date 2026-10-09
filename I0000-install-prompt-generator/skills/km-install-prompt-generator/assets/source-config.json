@@ -1,0 +1,6 @@
+{
+  "repository": "DinoHappyKM/skill-library",
+  "default_ref": "upgrade/huang-jia-wei-km-installer",
+  "release_status": "測試分支；main未合併。合併須另經使用者確認，之後再切換default_ref。",
+  "plugin_display_name": "黃嘉偉KM"
+}

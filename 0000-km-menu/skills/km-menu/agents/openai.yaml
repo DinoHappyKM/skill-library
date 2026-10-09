@@ -1,4 +1,4 @@
 interface:
-  display_name: "0｜私人KM主選單"
-  short_description: "依固定技能代號、分類或一句需求，找到私人KM已收錄的工作技能並接續流程"
-  default_prompt: "使用 $km-menu，顯示 0 主選單。"
+  display_name: "0｜主選單"
+  short_description: "依代號、分類或需求找到黃嘉偉KM已收錄技能"
+  default_prompt: "使用 $km-menu，顯示黃嘉偉KM已核對的技能與分類。"

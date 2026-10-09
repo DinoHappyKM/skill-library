@@ -9,7 +9,7 @@
   "extensions": {
     "com.openai": {
       "interface": {
-        "displayName": "I0002｜直播企劃與開播助手",
+        "displayName": "黃嘉偉KM",
         "shortDescription": "直播企劃、封面與開播導流",
         "longDescription": "提供簡易與完整兩種直播規劃流程，協助製作 YouTube 標題、描述、16:9 封面、直播課綱、開播前確認、公開連結導流貼文與直播後復盤。",
         "developerName": "黃嘉偉美學工作室",
