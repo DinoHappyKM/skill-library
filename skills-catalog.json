@@ -61,9 +61,9 @@
       "skill_path": "I0000-install-prompt-generator/skills/km-install-prompt-generator/SKILL.md",
       "agent_path": "I0000-install-prompt-generator/skills/km-install-prompt-generator/agents/openai.yaml",
       "hashes": {
-        "skills/km-install-prompt-generator/SKILL.md": "52e129ebc004d9d8f8aa41fcb9e54fa39c82ff7b9b95378aff0c37ce1aba7afe",
+        "skills/km-install-prompt-generator/SKILL.md": "56fcb8e122b128d722530d70d6efae8b929264e4baf783e6b6d0bfc1d2d9d642",
         "skills/km-install-prompt-generator/agents/openai.yaml": "47dbe79c195dbfb59f273de668900d4907235d5378643ed6b1e9bf38a44302d4",
-        "skills/km-install-prompt-generator/assets/source-config.json": "7f3f498ff273c947379afef78a4fea32026b0e71743ff3330820ef3afaee5f8d",
+        "skills/km-install-prompt-generator/assets/source-config.json": "b605b2ffcbbb21f0a49466df72235f2e397700f1b8182ea4a31733219a9eb8ab",
         "skills/km-install-prompt-generator/assets/student-install-prompt.txt": "b097d20460b901cb0b99773db501489c8b2457c88a87fdd0815374ecd11c1f71",
         "skills/km-install-prompt-generator/scripts/generate_install_prompt.py": "5eda81cd77afeb577a3297d67168b30bbdbfec9819e9e2a72dedca181b07fc29",
         "skills/km-install-prompt-generator/scripts/install_logic.py": "8a6210b0250aecc7ee5856def2a9ff58406713cb2ba25d52d1fb53cec3c90d9b"
@@ -79,9 +79,9 @@
         {
           "path": "I0000-install-prompt-generator/skills/km-install-prompt-generator/SKILL.md",
           "target_path": "skills/km-install-prompt-generator/SKILL.md",
-          "sha256": "52e129ebc004d9d8f8aa41fcb9e54fa39c82ff7b9b95378aff0c37ce1aba7afe",
-          "normalized_text_sha256": "52e129ebc004d9d8f8aa41fcb9e54fa39c82ff7b9b95378aff0c37ce1aba7afe",
-          "bytes": 4517
+          "sha256": "56fcb8e122b128d722530d70d6efae8b929264e4baf783e6b6d0bfc1d2d9d642",
+          "normalized_text_sha256": "56fcb8e122b128d722530d70d6efae8b929264e4baf783e6b6d0bfc1d2d9d642",
+          "bytes": 4524
         },
         {
           "path": "I0000-install-prompt-generator/skills/km-install-prompt-generator/agents/openai.yaml",
@@ -93,9 +93,9 @@
         {
           "path": "I0000-install-prompt-generator/skills/km-install-prompt-generator/assets/source-config.json",
           "target_path": "skills/km-install-prompt-generator/assets/source-config.json",
-          "sha256": "7f3f498ff273c947379afef78a4fea32026b0e71743ff3330820ef3afaee5f8d",
-          "normalized_text_sha256": "7f3f498ff273c947379afef78a4fea32026b0e71743ff3330820ef3afaee5f8d",
-          "bytes": 260
+          "sha256": "b605b2ffcbbb21f0a49466df72235f2e397700f1b8182ea4a31733219a9eb8ab",
+          "normalized_text_sha256": "b605b2ffcbbb21f0a49466df72235f2e397700f1b8182ea4a31733219a9eb8ab",
+          "bytes": 291
         },
         {
           "path": "I0000-install-prompt-generator/skills/km-install-prompt-generator/assets/student-install-prompt.txt",
