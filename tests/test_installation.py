@@ -108,7 +108,12 @@ class Artifacts(unittest.TestCase):
     def test_all_original_paths_retained(self):
         fixture=json.loads((R/"tests/fixtures/original-skill-hashes.json").read_text(encoding="utf-8"))
         self.assertEqual(len(fixture["retained_paths"]),36)
-        for f in fixture["retained_paths"]:self.assertTrue((R/f).is_file(),f)
+        for f in fixture["retained_paths"]:
+            actual=fixture.get("archived_legacy",{}).get(f,f)
+            self.assertTrue((R/actual).is_file(),f)
+        for old,archive in fixture.get("archived_legacy",{}).items():
+            self.assertFalse((R/old).exists(),old)
+            self.assertEqual(sha((R/archive).read_bytes()),fixture["archived_hashes"][archive])
     def test_catalog_all_content_hashes(self):
         ids=set();slugs=set()
         for e in CAT["skills"]:

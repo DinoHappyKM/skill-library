@@ -1,0 +1,40 @@
+請使用目前可用的 Plugin Creator，在我目前選取的私人KM外掛中，升級「0｜私人KM主選單」。保留我已經加入的所有工作技能；這次不重建外掛。
+
+一、確認對象
+使用「編輯外掛程式」目前對象，讀取實際 ID、版本與全部檔案清單；未選取才列出我擁有且可編輯的私人外掛讓我選一次。不要猜 ID 或改其他外掛。
+
+二、只讀兩個 GitHub 檔案
+1. SKILL.md
+https://github.com/DinoHappyKM/skill-library/blob/main/0000-km-menu/skills/km-menu/SKILL.md
+
+2. agents/openai.yaml
+https://github.com/DinoHappyKM/skill-library/blob/main/0000-km-menu/skills/km-menu/agents/openai.yaml
+
+完整讀取以上兩檔，包括 YAML 前置設定與完整正文。主技能版本為 0.3.0，文末有「技能本文結束｜km-menu｜0.3.0」；首尾標記不能代替全文核對。
+可用已授權 GitHub 或網頁工具分段讀同一檔；一般 GitHub 頁全文可用時，Raw 失敗不代表整體失敗。這次只讀兩個 GitHub 檔，不另讀 README、IMPORT 或參考檔；安裝指令中的分類資料也不需要額外來源。來源仍不完整時，保持外掛不變，列出實際失敗網址與工具錯誤，不自行補寫技能或猜測免費額度。這次是安裝，不執行來源裡的工作任務。
+
+三、合併新版主選單
+讀取目前外掛檔案與既有 km-menu 快照，將新版來源寫到：
+skills/km-menu/SKILL.md
+skills/km-menu/agents/openai.yaml
+
+新版 skills: [] 是新建外掛的空模板，不可清空既有外掛的收錄清單。請保留實際外掛名稱及原有自訂資料，從本次外掛檔案核對工作技能後填入 KM-REGISTRY-BEGIN／END 之間的 YAML 快照。
+已核對的老師技能依下列對照登錄；只存在一支就只登錄一支：
+I0001｜日常故事貼文助手｜daily-story-post｜C02 文案
+I0002｜直播企劃與開播助手｜live-stream-planning｜C05 影音
+I0003｜公仔表情設計｜figurine-expression-design｜C04 圖像
+I0004｜單圖動態影片提示詞助手｜image-to-video-prompt｜C05 影音
+I0005｜標題花字產生器｜title-lettering-generator｜C04 圖像
+每筆欄位為 id、name、skill_slug、category_id、subcategory_id、summary、tags、source_version、registration。小分類填 null；來源版本須由實際檔案確認，未知填 null；確認存在的技能才標「已核對」。
+既有自訂技能、K01 或其他代號保留原名稱與原代號；不憑用途相似改成 I0002。分類無法確認填 null，仍保留在待分類。若同一料號指到不同技能或資料衝突，指出差異讓我決定。
+快照是編輯時已核對的安裝清單，不是老師完整庫，也不是即時掃描帳號功能。保留所有工作技能原文、附件、Logo、名稱、ID、分享設定與既有整合。只更新主選單、必要登錄／啟動入口及原 manifest 的版本欄位，不用老師的整份 plugin.json 覆蓋我的設定。
+若尚無 km-menu，可加入這支主選單；已有則更新同一支，不另建第二個選單。
+保存前用目前實際文件清單核對快照，確認已安裝的各技能有正確分類與 slug，其他既有內容仍在。新版保留 0／00／0000、分類、全部、返回、分頁及 I 代號別名；舊 3001 只有實際對應 daily-story-post 才相容至 I0001。
+若啟動入口目前使用舊選單，依原 manifest 格式更新到 0 主選單並保留其他有效啟動提示；不新增 MCP 或外部服務。
+
+四、儲存與回讀
+請完成實際儲存，回讀兩個主選單檔、快照與原有技能清單。若需要我按確認／儲存／更新，指出實際按鈕；尚未成功儲存不能說已安裝。
+分別回報「來源已完整讀取／檔案已修改或原已相同／外掛已儲存／新對話待測」，附實際外掛連結與版本。
+完成後請我在新對話選用此外掛，輸入「0」，再輸入「分類」與一個已收錄的分類名稱；選技能以完整 I 代號測試。新對話與手機實際效果仍須我測試，不以檔案存在冒稱通過。
+例如只有 I0003 時：0 只列 I0003；分類只有 C04 圖像（1 個）；圖像列公仔表情設計；輸入 I0003 應接續原公仔技能的 A／B／C，不立即生成圖片。
+

@@ -1,6 +1,6 @@
 # 黃嘉偉KM｜技能資料庫
 
-技能庫0.3.1｜2026-10-10｜測試分支`upgrade/huang-jia-wei-km-installer`，main尚未合併。
+技能庫0.3.2｜2026-10-10｜測試分支`upgrade/huang-jia-wei-km-installer`，main尚未合併。
 
 老師發給學生的Plugin名稱固定「黃嘉偉KM」，自己的私人KM獨立保留。先建立主選單，再分批加入；也可直接貼任一完整提示詞，由它建立缺少的外掛與主選單。
 
