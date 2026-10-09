@@ -1,0 +1,4 @@
+interface:
+  display_name: "I0000｜安裝提示詞產生器"
+  short_description: "老師依技能代號或中文名稱，產生黃嘉偉KM完整學生安裝提示詞"
+  default_prompt: "使用 $km-install-prompt-generator，產生 I0001、I0003、I0005 的黃嘉偉KM學生安裝提示詞。"

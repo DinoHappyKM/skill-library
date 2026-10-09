@@ -9,7 +9,7 @@
   "extensions": {
     "com.openai": {
       "interface": {
-        "displayName": "I0004｜單圖動態影片提示詞助手",
+        "displayName": "黃嘉偉KM",
         "shortDescription": "原圖動態構想與英文影片提示詞",
         "longDescription": "使用者提供一張圖片與期望的感覺，產出可貼入圖片轉影片工具的英文提示詞，以及對主體、鏡頭與背景動態的繁體中文說明。未指定工具時採通用寫法。",
         "developerName": "黃嘉偉美學工作室",

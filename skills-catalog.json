@@ -1,0 +1,369 @@
+{
+  "schema_version": "1.0.0",
+  "library_version": "0.3.2",
+  "plugin_display_name": "黃嘉偉KM",
+  "source_ref": "main",
+  "release_status": "testing-branch",
+  "hash_algorithm": "SHA256",
+  "skills": [
+    {
+      "id": "0000",
+      "name": "主選單",
+      "slug": "km-menu",
+      "role": "menu",
+      "version": "0.4.0",
+      "version_status": "declared",
+      "version_source": {
+        "path": "0000-km-menu/skills/km-menu/SKILL.md",
+        "method": "原文metadata／內容版本／結尾標記；不得借用Plugin版本"
+      },
+      "skill_path": "0000-km-menu/skills/km-menu/SKILL.md",
+      "agent_path": "0000-km-menu/skills/km-menu/agents/openai.yaml",
+      "hashes": {
+        "skills/km-menu/SKILL.md": "17424e4ad875ff124de32373c197db7394dc2f2bf28826a7757d8f97a98c6781",
+        "skills/km-menu/agents/openai.yaml": "ae7f10241660711b29b57520dce360063920f0d56e641f47a9bdf447820e7083"
+      },
+      "category": {
+        "id": null,
+        "name": null,
+        "subcategory": null
+      },
+      "summary": "依代號與分類找到已收錄技能",
+      "tags": [],
+      "required_files": [
+        {
+          "path": "0000-km-menu/skills/km-menu/SKILL.md",
+          "target_path": "skills/km-menu/SKILL.md",
+          "sha256": "17424e4ad875ff124de32373c197db7394dc2f2bf28826a7757d8f97a98c6781",
+          "normalized_text_sha256": "17424e4ad875ff124de32373c197db7394dc2f2bf28826a7757d8f97a98c6781",
+          "bytes": 8083
+        },
+        {
+          "path": "0000-km-menu/skills/km-menu/agents/openai.yaml",
+          "target_path": "skills/km-menu/agents/openai.yaml",
+          "sha256": "ae7f10241660711b29b57520dce360063920f0d56e641f47a9bdf447820e7083",
+          "normalized_text_sha256": "ae7f10241660711b29b57520dce360063920f0d56e641f47a9bdf447820e7083",
+          "bytes": 212
+        }
+      ]
+    },
+    {
+      "id": "I0000",
+      "name": "安裝提示詞產生器",
+      "slug": "km-install-prompt-generator",
+      "role": "teacher_tool",
+      "version": "0.1.1",
+      "version_status": "declared",
+      "version_source": {
+        "path": "I0000-install-prompt-generator/skills/km-install-prompt-generator/SKILL.md",
+        "method": "原文metadata／內容版本／結尾標記；不得借用Plugin版本"
+      },
+      "skill_path": "I0000-install-prompt-generator/skills/km-install-prompt-generator/SKILL.md",
+      "agent_path": "I0000-install-prompt-generator/skills/km-install-prompt-generator/agents/openai.yaml",
+      "hashes": {
+        "skills/km-install-prompt-generator/SKILL.md": "56fcb8e122b128d722530d70d6efae8b929264e4baf783e6b6d0bfc1d2d9d642",
+        "skills/km-install-prompt-generator/agents/openai.yaml": "47dbe79c195dbfb59f273de668900d4907235d5378643ed6b1e9bf38a44302d4",
+        "skills/km-install-prompt-generator/assets/source-config.json": "3d868fbb9f7a45742adf8778e98565a41b7517eec23f2a9ac298a8c933950b39",
+        "skills/km-install-prompt-generator/assets/student-install-prompt.txt": "b097d20460b901cb0b99773db501489c8b2457c88a87fdd0815374ecd11c1f71",
+        "skills/km-install-prompt-generator/scripts/generate_install_prompt.py": "5eda81cd77afeb577a3297d67168b30bbdbfec9819e9e2a72dedca181b07fc29",
+        "skills/km-install-prompt-generator/scripts/install_logic.py": "8a6210b0250aecc7ee5856def2a9ff58406713cb2ba25d52d1fb53cec3c90d9b"
+      },
+      "category": {
+        "id": "C08",
+        "name": "GPT與AI工具",
+        "subcategory": null
+      },
+      "summary": "老師產生完整學生安裝提示詞",
+      "tags": [],
+      "required_files": [
+        {
+          "path": "I0000-install-prompt-generator/skills/km-install-prompt-generator/SKILL.md",
+          "target_path": "skills/km-install-prompt-generator/SKILL.md",
+          "sha256": "56fcb8e122b128d722530d70d6efae8b929264e4baf783e6b6d0bfc1d2d9d642",
+          "normalized_text_sha256": "56fcb8e122b128d722530d70d6efae8b929264e4baf783e6b6d0bfc1d2d9d642",
+          "bytes": 4524
+        },
+        {
+          "path": "I0000-install-prompt-generator/skills/km-install-prompt-generator/agents/openai.yaml",
+          "target_path": "skills/km-install-prompt-generator/agents/openai.yaml",
+          "sha256": "47dbe79c195dbfb59f273de668900d4907235d5378643ed6b1e9bf38a44302d4",
+          "normalized_text_sha256": "47dbe79c195dbfb59f273de668900d4907235d5378643ed6b1e9bf38a44302d4",
+          "bytes": 295
+        },
+        {
+          "path": "I0000-install-prompt-generator/skills/km-install-prompt-generator/assets/source-config.json",
+          "target_path": "skills/km-install-prompt-generator/assets/source-config.json",
+          "sha256": "3d868fbb9f7a45742adf8778e98565a41b7517eec23f2a9ac298a8c933950b39",
+          "normalized_text_sha256": "3d868fbb9f7a45742adf8778e98565a41b7517eec23f2a9ac298a8c933950b39",
+          "bytes": 271
+        },
+        {
+          "path": "I0000-install-prompt-generator/skills/km-install-prompt-generator/assets/student-install-prompt.txt",
+          "target_path": "skills/km-install-prompt-generator/assets/student-install-prompt.txt",
+          "sha256": "b097d20460b901cb0b99773db501489c8b2457c88a87fdd0815374ecd11c1f71",
+          "normalized_text_sha256": "b097d20460b901cb0b99773db501489c8b2457c88a87fdd0815374ecd11c1f71",
+          "bytes": 6320
+        },
+        {
+          "path": "I0000-install-prompt-generator/skills/km-install-prompt-generator/scripts/generate_install_prompt.py",
+          "target_path": "skills/km-install-prompt-generator/scripts/generate_install_prompt.py",
+          "sha256": "5eda81cd77afeb577a3297d67168b30bbdbfec9819e9e2a72dedca181b07fc29",
+          "normalized_text_sha256": "5eda81cd77afeb577a3297d67168b30bbdbfec9819e9e2a72dedca181b07fc29",
+          "bytes": 11290
+        },
+        {
+          "path": "I0000-install-prompt-generator/skills/km-install-prompt-generator/scripts/install_logic.py",
+          "target_path": "skills/km-install-prompt-generator/scripts/install_logic.py",
+          "sha256": "8a6210b0250aecc7ee5856def2a9ff58406713cb2ba25d52d1fb53cec3c90d9b",
+          "normalized_text_sha256": "8a6210b0250aecc7ee5856def2a9ff58406713cb2ba25d52d1fb53cec3c90d9b",
+          "bytes": 7225
+        }
+      ]
+    },
+    {
+      "id": "I0001",
+      "name": "日常故事貼文助手",
+      "slug": "daily-story-post",
+      "role": "student_skill",
+      "version": "0.2.3",
+      "version_status": "declared",
+      "version_source": {
+        "path": "I0001-daily-story-post/skills/daily-story-post/SKILL.md",
+        "method": "原文metadata／內容版本／結尾標記；不得借用Plugin版本"
+      },
+      "skill_path": "I0001-daily-story-post/skills/daily-story-post/SKILL.md",
+      "agent_path": "I0001-daily-story-post/skills/daily-story-post/agents/openai.yaml",
+      "hashes": {
+        "skills/daily-story-post/SKILL.md": "3f8a1235e641910411cca561cd15318566e1b321024bf6890cb0c90960cf3112",
+        "skills/daily-story-post/agents/openai.yaml": "f9833323363bc24099151da17578d52b071b84000196d1cd7d058ca779afbc08"
+      },
+      "category": {
+        "id": "C02",
+        "name": "文案",
+        "subcategory": null
+      },
+      "summary": "三種貼文、原圖標題",
+      "tags": [
+        "日常",
+        "故事",
+        "貼文"
+      ],
+      "required_files": [
+        {
+          "path": "I0001-daily-story-post/skills/daily-story-post/SKILL.md",
+          "target_path": "skills/daily-story-post/SKILL.md",
+          "sha256": "3f8a1235e641910411cca561cd15318566e1b321024bf6890cb0c90960cf3112",
+          "normalized_text_sha256": "3f8a1235e641910411cca561cd15318566e1b321024bf6890cb0c90960cf3112",
+          "bytes": 17021
+        },
+        {
+          "path": "I0001-daily-story-post/skills/daily-story-post/agents/openai.yaml",
+          "target_path": "skills/daily-story-post/agents/openai.yaml",
+          "sha256": "f9833323363bc24099151da17578d52b071b84000196d1cd7d058ca779afbc08",
+          "normalized_text_sha256": "5b13d2f0f3490fd24e7e1cb3267bdd5f0129a3dd3c1b535cebe15742dbb48802",
+          "bytes": 380
+        }
+      ]
+    },
+    {
+      "id": "I0002",
+      "name": "直播企劃與開播助手",
+      "slug": "live-stream-planning",
+      "role": "student_skill",
+      "version": "0.1.1",
+      "version_status": "declared",
+      "version_source": {
+        "path": "I0002-live-stream-planning/skills/live-stream-planning/SKILL.md",
+        "method": "原文metadata／內容版本／結尾標記；不得借用Plugin版本"
+      },
+      "skill_path": "I0002-live-stream-planning/skills/live-stream-planning/SKILL.md",
+      "agent_path": "I0002-live-stream-planning/skills/live-stream-planning/agents/openai.yaml",
+      "hashes": {
+        "skills/live-stream-planning/SKILL.md": "496ef341b16c4efe5a7e33ba2bb8bb0bf201b6ec6550d67b4252506b08b2efb0",
+        "skills/live-stream-planning/agents/openai.yaml": "7a1d477f16a327ff4cbc83304c225389cb556789a354068ddda84692bdeb95e0"
+      },
+      "category": {
+        "id": "C05",
+        "name": "影音",
+        "subcategory": null
+      },
+      "summary": "直播企劃、開播準備",
+      "tags": [
+        "直播",
+        "企劃",
+        "開播"
+      ],
+      "required_files": [
+        {
+          "path": "I0002-live-stream-planning/skills/live-stream-planning/SKILL.md",
+          "target_path": "skills/live-stream-planning/SKILL.md",
+          "sha256": "496ef341b16c4efe5a7e33ba2bb8bb0bf201b6ec6550d67b4252506b08b2efb0",
+          "normalized_text_sha256": "496ef341b16c4efe5a7e33ba2bb8bb0bf201b6ec6550d67b4252506b08b2efb0",
+          "bytes": 25580
+        },
+        {
+          "path": "I0002-live-stream-planning/skills/live-stream-planning/agents/openai.yaml",
+          "target_path": "skills/live-stream-planning/agents/openai.yaml",
+          "sha256": "7a1d477f16a327ff4cbc83304c225389cb556789a354068ddda84692bdeb95e0",
+          "normalized_text_sha256": "7a1d477f16a327ff4cbc83304c225389cb556789a354068ddda84692bdeb95e0",
+          "bytes": 285
+        }
+      ]
+    },
+    {
+      "id": "I0003",
+      "name": "公仔表情設計",
+      "slug": "figurine-expression-design",
+      "role": "student_skill",
+      "version": "0.1.0",
+      "version_status": "declared",
+      "version_source": {
+        "path": "I0003-figurine-expression-design/skills/figurine-expression-design/SKILL.md",
+        "method": "原文metadata／內容版本／結尾標記；不得借用Plugin版本"
+      },
+      "skill_path": "I0003-figurine-expression-design/skills/figurine-expression-design/SKILL.md",
+      "agent_path": "I0003-figurine-expression-design/skills/figurine-expression-design/agents/openai.yaml",
+      "hashes": {
+        "skills/figurine-expression-design/SKILL.md": "9c2af9f8902a2535b6b97e677d0614096b518fd4e740ab6bc6552f1c2b7b3f85",
+        "skills/figurine-expression-design/agents/openai.yaml": "ad67836f81f95e8a834466923c94993ab86ab6fba458d08c851aed3d985c7090"
+      },
+      "category": {
+        "id": "C04",
+        "name": "圖像",
+        "subcategory": null
+      },
+      "summary": "公仔表情、動作與純色素材",
+      "tags": [
+        "公仔",
+        "表情",
+        "動作"
+      ],
+      "required_files": [
+        {
+          "path": "I0003-figurine-expression-design/skills/figurine-expression-design/SKILL.md",
+          "target_path": "skills/figurine-expression-design/SKILL.md",
+          "sha256": "9c2af9f8902a2535b6b97e677d0614096b518fd4e740ab6bc6552f1c2b7b3f85",
+          "normalized_text_sha256": "9c2af9f8902a2535b6b97e677d0614096b518fd4e740ab6bc6552f1c2b7b3f85",
+          "bytes": 8887
+        },
+        {
+          "path": "I0003-figurine-expression-design/skills/figurine-expression-design/agents/openai.yaml",
+          "target_path": "skills/figurine-expression-design/agents/openai.yaml",
+          "sha256": "ad67836f81f95e8a834466923c94993ab86ab6fba458d08c851aed3d985c7090",
+          "normalized_text_sha256": "ad67836f81f95e8a834466923c94993ab86ab6fba458d08c851aed3d985c7090",
+          "bytes": 292
+        }
+      ],
+      "official_predecessors": [
+        {
+          "version": null,
+          "source_commit": "9bbebe97857635d7875d2c524d853485aa1a05a6",
+          "hashes": {
+            "skills/figurine-expression-design/SKILL.md": "610e96c8a200d69ac0ba432524fa428daa77ec6036c0baeddc9fb0037188b574",
+            "skills/figurine-expression-design/agents/openai.yaml": "ad67836f81f95e8a834466923c94993ab86ab6fba458d08c851aed3d985c7090"
+          }
+        }
+      ]
+    },
+    {
+      "id": "I0004",
+      "name": "單圖動態影片提示詞助手",
+      "slug": "image-to-video-prompt",
+      "role": "student_skill",
+      "version": "0.1.0",
+      "version_status": "declared",
+      "version_source": {
+        "path": "I0004-image-to-video-prompt/skills/image-to-video-prompt/SKILL.md",
+        "method": "原文metadata／內容版本／結尾標記；不得借用Plugin版本"
+      },
+      "skill_path": "I0004-image-to-video-prompt/skills/image-to-video-prompt/SKILL.md",
+      "agent_path": "I0004-image-to-video-prompt/skills/image-to-video-prompt/agents/openai.yaml",
+      "hashes": {
+        "skills/image-to-video-prompt/SKILL.md": "b370a0a0556f3ad9bcb67c70706ed399b14a8b8ded21414e39c775d7a26ef787",
+        "skills/image-to-video-prompt/agents/openai.yaml": "26d57fcddef641c44ada2fa0a6c4006e42ef88905cd769b6a63e4806d2679e81"
+      },
+      "category": {
+        "id": "C05",
+        "name": "影音",
+        "subcategory": null
+      },
+      "summary": "圖片動畫英文提示詞",
+      "tags": [
+        "圖片",
+        "動畫",
+        "影片提示詞"
+      ],
+      "required_files": [
+        {
+          "path": "I0004-image-to-video-prompt/skills/image-to-video-prompt/SKILL.md",
+          "target_path": "skills/image-to-video-prompt/SKILL.md",
+          "sha256": "b370a0a0556f3ad9bcb67c70706ed399b14a8b8ded21414e39c775d7a26ef787",
+          "normalized_text_sha256": "50a0f4702b10e82dc0efceb7a7b394a876e66484c9cb8a07d0e54c96e2fdb628",
+          "bytes": 3380
+        },
+        {
+          "path": "I0004-image-to-video-prompt/skills/image-to-video-prompt/agents/openai.yaml",
+          "target_path": "skills/image-to-video-prompt/agents/openai.yaml",
+          "sha256": "26d57fcddef641c44ada2fa0a6c4006e42ef88905cd769b6a63e4806d2679e81",
+          "normalized_text_sha256": "bf887bc39ff9bed841677260c8c0c9fbeb58206415f47a65af6aff2157413d85",
+          "bytes": 316
+        }
+      ],
+      "official_predecessors": [
+        {
+          "version": null,
+          "source_commit": "9bbebe97857635d7875d2c524d853485aa1a05a6",
+          "hashes": {
+            "skills/image-to-video-prompt/SKILL.md": "1cc4ef7caa2a5836bd0ba2769ce2466a258c5575c7dca063a771ba9ad51f082e",
+            "skills/image-to-video-prompt/agents/openai.yaml": "26d57fcddef641c44ada2fa0a6c4006e42ef88905cd769b6a63e4806d2679e81"
+          }
+        }
+      ]
+    },
+    {
+      "id": "I0005",
+      "name": "標題花字產生器",
+      "slug": "title-lettering-generator",
+      "role": "student_skill",
+      "version": "0.1.0",
+      "version_status": "declared",
+      "version_source": {
+        "path": "I0005-title-lettering-generator/skills/title-lettering-generator/SKILL.md",
+        "method": "原文metadata／內容版本／結尾標記；不得借用Plugin版本"
+      },
+      "skill_path": "I0005-title-lettering-generator/skills/title-lettering-generator/SKILL.md",
+      "agent_path": "I0005-title-lettering-generator/skills/title-lettering-generator/agents/openai.yaml",
+      "hashes": {
+        "skills/title-lettering-generator/SKILL.md": "4c4138f5466ed3140a6c4f3f4d0228f597ba73e4ddfc7ec376e81cd14388ac99",
+        "skills/title-lettering-generator/agents/openai.yaml": "b85242d80392b3f47e918e7191a393edf6ad515cf122775096794e7e6e594621"
+      },
+      "category": {
+        "id": "C04",
+        "name": "圖像",
+        "subcategory": null
+      },
+      "summary": "繁體標題、花字與透明素材",
+      "tags": [
+        "標題",
+        "花字",
+        "透明PNG"
+      ],
+      "required_files": [
+        {
+          "path": "I0005-title-lettering-generator/skills/title-lettering-generator/SKILL.md",
+          "target_path": "skills/title-lettering-generator/SKILL.md",
+          "sha256": "4c4138f5466ed3140a6c4f3f4d0228f597ba73e4ddfc7ec376e81cd14388ac99",
+          "normalized_text_sha256": "4c4138f5466ed3140a6c4f3f4d0228f597ba73e4ddfc7ec376e81cd14388ac99",
+          "bytes": 6960
+        },
+        {
+          "path": "I0005-title-lettering-generator/skills/title-lettering-generator/agents/openai.yaml",
+          "target_path": "skills/title-lettering-generator/agents/openai.yaml",
+          "sha256": "b85242d80392b3f47e918e7191a393edf6ad515cf122775096794e7e6e594621",
+          "normalized_text_sha256": "b85242d80392b3f47e918e7191a393edf6ad515cf122775096794e7e6e594621",
+          "bytes": 374
+        }
+      ]
+    }
+  ]
+}
