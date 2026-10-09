@@ -101,15 +101,15 @@ GitHub 檔案頁全文讀得到即可；Raw 失敗可用已授權 GitHub 工具�
         {
           "source_url": "https://github.com/DinoHappyKM/skill-library/blob/upgrade/huang-jia-wei-km-installer/I0005-title-lettering-generator/skills/title-lettering-generator/SKILL.md",
           "target_path": "skills/title-lettering-generator/SKILL.md",
-          "sha256": "0869aa27a5befefeae43e2c1aca56ea2f19cb287aa7c67389d108e7eda2aed5a",
-          "bytes": 7027,
+          "sha256": "4c4138f5466ed3140a6c4f3f4d0228f597ba73e4ddfc7ec376e81cd14388ac99",
+          "bytes": 6960,
           "normalized_text_sha256": "4c4138f5466ed3140a6c4f3f4d0228f597ba73e4ddfc7ec376e81cd14388ac99"
         },
         {
           "source_url": "https://github.com/DinoHappyKM/skill-library/blob/upgrade/huang-jia-wei-km-installer/I0005-title-lettering-generator/skills/title-lettering-generator/agents/openai.yaml",
           "target_path": "skills/title-lettering-generator/agents/openai.yaml",
-          "sha256": "5a1c9e22e27f2de3b62331d8333041c4e51015af1a5b447bd5572acb1ac92252",
-          "bytes": 378,
+          "sha256": "b85242d80392b3f47e918e7191a393edf6ad515cf122775096794e7e6e594621",
+          "bytes": 374,
           "normalized_text_sha256": "b85242d80392b3f47e918e7191a393edf6ad515cf122775096794e7e6e594621"
         }
       ]

@@ -101,15 +101,15 @@ GitHub 檔案頁全文讀得到即可；Raw 失敗可用已授權 GitHub 工具�
         {
           "source_url": "https://github.com/DinoHappyKM/skill-library/blob/upgrade/huang-jia-wei-km-installer/I0002-live-stream-planning/skills/live-stream-planning/SKILL.md",
           "target_path": "skills/live-stream-planning/SKILL.md",
-          "sha256": "7088911d1b4e76b6d4231dad9d3bb4768328d2a5178a55ca047d4d971a48775d",
-          "bytes": 26233,
+          "sha256": "496ef341b16c4efe5a7e33ba2bb8bb0bf201b6ec6550d67b4252506b08b2efb0",
+          "bytes": 25580,
           "normalized_text_sha256": "496ef341b16c4efe5a7e33ba2bb8bb0bf201b6ec6550d67b4252506b08b2efb0"
         },
         {
           "source_url": "https://github.com/DinoHappyKM/skill-library/blob/upgrade/huang-jia-wei-km-installer/I0002-live-stream-planning/skills/live-stream-planning/agents/openai.yaml",
           "target_path": "skills/live-stream-planning/agents/openai.yaml",
-          "sha256": "ace7959337af6bfd3218b7fe8ebd965a77866f7d23daf16f7e4649bb95f42c45",
-          "bytes": 289,
+          "sha256": "7a1d477f16a327ff4cbc83304c225389cb556789a354068ddda84692bdeb95e0",
+          "bytes": 285,
           "normalized_text_sha256": "7a1d477f16a327ff4cbc83304c225389cb556789a354068ddda84692bdeb95e0"
         }
       ]

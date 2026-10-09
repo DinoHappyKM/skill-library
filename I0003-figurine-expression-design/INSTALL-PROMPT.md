@@ -101,15 +101,15 @@ GitHub 檔案頁全文讀得到即可；Raw 失敗可用已授權 GitHub 工具�
         {
           "source_url": "https://github.com/DinoHappyKM/skill-library/blob/upgrade/huang-jia-wei-km-installer/I0003-figurine-expression-design/skills/figurine-expression-design/SKILL.md",
           "target_path": "skills/figurine-expression-design/SKILL.md",
-          "sha256": "8b526c06c203b2a2079997bd5e71acc1e2937075cb3f427fe3ab15899c97a015",
-          "bytes": 8989,
+          "sha256": "610e96c8a200d69ac0ba432524fa428daa77ec6036c0baeddc9fb0037188b574",
+          "bytes": 8858,
           "normalized_text_sha256": "610e96c8a200d69ac0ba432524fa428daa77ec6036c0baeddc9fb0037188b574"
         },
         {
           "source_url": "https://github.com/DinoHappyKM/skill-library/blob/upgrade/huang-jia-wei-km-installer/I0003-figurine-expression-design/skills/figurine-expression-design/agents/openai.yaml",
           "target_path": "skills/figurine-expression-design/agents/openai.yaml",
-          "sha256": "ae429e65737a5cb5c72b9aa5ae9c28f6d1b0757f8342c855f4273d00f9c8adc7",
-          "bytes": 296,
+          "sha256": "ad67836f81f95e8a834466923c94993ab86ab6fba458d08c851aed3d985c7090",
+          "bytes": 292,
           "normalized_text_sha256": "ad67836f81f95e8a834466923c94993ab86ab6fba458d08c851aed3d985c7090"
         }
       ]

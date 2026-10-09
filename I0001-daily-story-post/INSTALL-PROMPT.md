@@ -101,8 +101,8 @@ GitHub 檔案頁全文讀得到即可；Raw 失敗可用已授權 GitHub 工具�
         {
           "source_url": "https://github.com/DinoHappyKM/skill-library/blob/upgrade/huang-jia-wei-km-installer/I0001-daily-story-post/skills/daily-story-post/SKILL.md",
           "target_path": "skills/daily-story-post/SKILL.md",
-          "sha256": "fb5c6922ba238dfb71d98195446440a3fdcbb4fa72aadf186bb0c82be3fa779b",
-          "bytes": 17564,
+          "sha256": "3f8a1235e641910411cca561cd15318566e1b321024bf6890cb0c90960cf3112",
+          "bytes": 17021,
           "normalized_text_sha256": "3f8a1235e641910411cca561cd15318566e1b321024bf6890cb0c90960cf3112"
         },
         {
