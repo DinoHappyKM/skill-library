@@ -1,6 +1,6 @@
 # 黃嘉偉KM｜技能資料庫
 
-技能庫0.3.3｜2026-10-12。請以目前檢視的 GitHub 分支與 PR 狀態判斷是否已發布到 main。
+技能庫0.3.4｜2026-10-12。請以目前檢視的 GitHub 分支與 PR 狀態判斷是否已發布到 main。
 
 老師發給學生的Plugin名稱固定「黃嘉偉KM」，自己的私人KM獨立保留。先建立主選單，再分批加入；也可直接貼任一完整提示詞，由它建立缺少的外掛與主選單。
 
@@ -16,7 +16,7 @@
 |I0003|公仔表情設計|0.1.0|圖像|[提示詞](I0003-figurine-expression-design/INSTALL-PROMPT.md)|
 |I0004|單圖動態影片提示詞助手|0.1.0|影音|[提示詞](I0004-image-to-video-prompt/INSTALL-PROMPT.md)|
 |I0005|標題花字產生器|0.1.0|圖像|[提示詞](I0005-title-lettering-generator/INSTALL-PROMPT.md)|
-|I0006|通用團購助手|0.1.0|文案|[提示詞](I0006-group-buying-assistant/INSTALL-PROMPT.md)|
+|I0006|通用團購助手|0.1.1|文案|[提示詞](I0006-group-buying-assistant/INSTALL-PROMPT.md)|
 
 [00建立](0000-km-menu/00_建立黃嘉偉KM外掛.txt)｜[00更新主選單](0000-km-menu/00_更新既有黃嘉偉KM主選單.txt)｜[KMT教師工具教學](I0000-install-prompt-generator/README.md)｜[I0000老師完整安裝提示詞](I0000-install-prompt-generator/INSTALL-PROMPT.txt)｜[版本目錄](skills-catalog.json)｜[測試說明](tests/README.md)
 
@@ -42,4 +42,6 @@ GitHub/G槽路徑是資料位置，不是Plugin安裝網址；更新不自動同
 
 ## I0006 通用團購助手
 
-main 已發布 I0006 0.1.0：商品、農產、服務與課程開團，三組啟動問題，依實際下單管道交付文案、原圖與收單流程。[直接複製正式安裝提示詞](I0006-group-buying-assistant/INSTALL-PROMPT.md)到Plugin Creator，實際使用結果待老師驗收。原已安裝教師工具的查目錄程式可依新目錄選取 I0006，實際帳號呼叫仍待測。
+main 已發布 I0006 0.1.1：商品、農產、服務與課程開團，三組啟動問題，依實際下單管道交付文案、原圖與收單流程。[直接複製正式安裝提示詞](I0006-group-buying-assistant/INSTALL-PROMPT.md)到Plugin Creator，實際使用結果待老師驗收。原已安裝教師工具的查目錄程式可依新目錄選取 I0006，實際帳號呼叫仍待測。
+
+I0006 0.1.1 修正：LINE團購主文預設附「接龍／1.／2.／3.」，主文與接龍同一複製區塊；明確不要接龍或只用表單／私訊時省略。
