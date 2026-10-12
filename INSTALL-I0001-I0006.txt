@@ -48,7 +48,7 @@ GitHub 檔案頁全文讀得到即可；Raw 失敗可用已授權 GitHub 工具�
 {
   "plugin_display_name": "黃嘉偉KM",
   "source_repository": "DinoHappyKM/skill-library",
-  "source_commit": "e14e655490a261a884558943217c2cb8edf1614c",
+  "source_commit": "6911e4564af2a4db90906932ac5c70390ec224f6",
   "source_ref": "main",
   "live_install_tested": false,
   "menu": {
@@ -283,8 +283,17 @@ GitHub 檔案頁全文讀得到即可；Raw 失敗可用已授權 GitHub 工具�
       "name": "通用團購助手",
       "slug": "group-buying-assistant",
       "role": "student_skill",
-      "version": "0.1.0",
-      "official_predecessors": [],
+      "version": "0.1.1",
+      "official_predecessors": [
+        {
+          "version": "0.1.0",
+          "source_commit": "e14e655490a261a884558943217c2cb8edf1614c",
+          "hashes": {
+            "skills/group-buying-assistant/SKILL.md": "aeaffb29030d46f809a31fe016d7a2568cbf3413ac2630ccefb26908392df3b9",
+            "skills/group-buying-assistant/agents/openai.yaml": "6a24d389639435397fa25ee918c5ae95a830ec71449764f5a6eec5ce7ada02bf"
+          }
+        }
+      ],
       "category": {
         "id": "C02",
         "name": "文案",
@@ -303,9 +312,9 @@ GitHub 檔案頁全文讀得到即可；Raw 失敗可用已授權 GitHub 工具�
         {
           "source_url": "https://github.com/DinoHappyKM/skill-library/blob/main/I0006-group-buying-assistant/skills/group-buying-assistant/SKILL.md",
           "target_path": "skills/group-buying-assistant/SKILL.md",
-          "sha256": "aeaffb29030d46f809a31fe016d7a2568cbf3413ac2630ccefb26908392df3b9",
-          "bytes": 11787,
-          "normalized_text_sha256": "aeaffb29030d46f809a31fe016d7a2568cbf3413ac2630ccefb26908392df3b9"
+          "sha256": "7a05c90adb83752dcbf923b88f1c815c8a5bf40de5752858536158e90935740b",
+          "bytes": 12676,
+          "normalized_text_sha256": "7a05c90adb83752dcbf923b88f1c815c8a5bf40de5752858536158e90935740b"
         },
         {
           "source_url": "https://github.com/DinoHappyKM/skill-library/blob/main/I0006-group-buying-assistant/skills/group-buying-assistant/agents/openai.yaml",
