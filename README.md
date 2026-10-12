@@ -14,7 +14,11 @@
 |I0004|單圖動態影片提示詞助手|0.1.0|影音|[提示詞](I0004-image-to-video-prompt/INSTALL-PROMPT.md)|
 |I0005|標題花字產生器|0.1.0|圖像|[提示詞](I0005-title-lettering-generator/INSTALL-PROMPT.md)|
 
-[00建立](0000-km-menu/00_建立黃嘉偉KM外掛.txt)｜[00更新主選單](0000-km-menu/00_更新既有黃嘉偉KM主選單.txt)｜[I0000老師工具](I0000-install-prompt-generator/README.md)｜[版本目錄](skills-catalog.json)｜[測試說明](tests/README.md)
+[00建立](0000-km-menu/00_建立黃嘉偉KM外掛.txt)｜[00更新主選單](0000-km-menu/00_更新既有黃嘉偉KM主選單.txt)｜[KMT教師工具教學](I0000-install-prompt-generator/README.md)｜[I0000老師完整安裝提示詞](I0000-install-prompt-generator/INSTALL-PROMPT.txt)｜[版本目錄](skills-catalog.json)｜[測試說明](tests/README.md)
+
+## 教師工具
+
+教師 Plugin 名稱為「黃嘉偉KMT教師工具」（KMT），內部安裝技能代號 I0000；學生主平台固定為「黃嘉偉KM」。先複製上方老師完整安裝提示詞，安裝並儲存教師工具，再以 I0000 產生課堂需要的學生提示詞。已有教師工具沿用原 Plugin ID，舊名稱更名先核對及確認，不建立重複外掛。
 
 ## 版本、完整性與權限
 
