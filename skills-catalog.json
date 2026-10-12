@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "library_version": "0.3.2",
+  "library_version": "0.3.3",
   "plugin_display_name": "黃嘉偉KM",
   "source_ref": "main",
   "release_status": "testing-branch",
@@ -362,6 +362,54 @@
           "sha256": "b85242d80392b3f47e918e7191a393edf6ad515cf122775096794e7e6e594621",
           "normalized_text_sha256": "b85242d80392b3f47e918e7191a393edf6ad515cf122775096794e7e6e594621",
           "bytes": 374
+        }
+      ]
+    },
+    {
+      "id": "I0006",
+      "name": "通用團購助手",
+      "slug": "group-buying-assistant",
+      "role": "student_skill",
+      "version": "0.1.0",
+      "version_status": "declared",
+      "version_source": {
+        "path": "I0006-group-buying-assistant/skills/group-buying-assistant/SKILL.md",
+        "method": "原文metadata；不得借用Plugin版本"
+      },
+      "skill_path": "I0006-group-buying-assistant/skills/group-buying-assistant/SKILL.md",
+      "agent_path": "I0006-group-buying-assistant/skills/group-buying-assistant/agents/openai.yaml",
+      "hashes": {
+        "skills/group-buying-assistant/SKILL.md": "aeaffb29030d46f809a31fe016d7a2568cbf3413ac2630ccefb26908392df3b9",
+        "skills/group-buying-assistant/agents/openai.yaml": "6a24d389639435397fa25ee918c5ae95a830ec71449764f5a6eec5ce7ada02bf"
+      },
+      "category": {
+        "id": "C02",
+        "name": "文案",
+        "subcategory": null
+      },
+      "summary": "通用開團、文案原圖與收單交付",
+      "tags": [
+        "團購",
+        "商品",
+        "農產",
+        "服務",
+        "課程",
+        "收單"
+      ],
+      "required_files": [
+        {
+          "path": "I0006-group-buying-assistant/skills/group-buying-assistant/SKILL.md",
+          "target_path": "skills/group-buying-assistant/SKILL.md",
+          "sha256": "aeaffb29030d46f809a31fe016d7a2568cbf3413ac2630ccefb26908392df3b9",
+          "normalized_text_sha256": "aeaffb29030d46f809a31fe016d7a2568cbf3413ac2630ccefb26908392df3b9",
+          "bytes": 11787
+        },
+        {
+          "path": "I0006-group-buying-assistant/skills/group-buying-assistant/agents/openai.yaml",
+          "target_path": "skills/group-buying-assistant/agents/openai.yaml",
+          "sha256": "6a24d389639435397fa25ee918c5ae95a830ec71449764f5a6eec5ce7ada02bf",
+          "normalized_text_sha256": "6a24d389639435397fa25ee918c5ae95a830ec71449764f5a6eec5ce7ada02bf",
+          "bytes": 313
         }
       ]
     }
