@@ -1,6 +1,6 @@
 # I0006｜通用團購助手正式安裝
 
-技能0.1.0已發布到main，實際帳號與手機使用待驗收。直接複製下方完整提示詞到Plugin Creator；沒有黃嘉偉KM就建立，已有就合併主選單與I0006並保留其他技能。工作技能只讀main的SKILL.md與openai.yaml兩檔。
+技能0.1.1已發布到main，實際帳號與手機使用待驗收。直接複製下方完整提示詞到Plugin Creator；沒有黃嘉偉KM就建立，已有就合併主選單與I0006並保留其他技能。工作技能只讀main的SKILL.md與openai.yaml兩檔。
 
 ````text
 請使用本帳號實際可用的 Plugin Creator，建立或更新「黃嘉偉KM」，安裝下方選取的工作技能。這次是安裝，不要執行貼文、直播或產圖。
@@ -43,6 +43,7 @@ GitHub 檔案頁全文讀得到即可；Raw 失敗可用已授權 GitHub 工具�
 重新讀取目標 current_release_id；若已改變，重新比對後再建包。呼叫 update_plugin 時傳實際 plugin_id、archive 及 expected_release_id；不要重建另一個同名外掛。新建使用 create_plugin。以成功工具結果及儲存後 get_plugin_files 回讀確認，不用對話文字冒充提交。
 若失敗，分別回報「外掛來源讀取／更新包建立／上傳提交／權限／release 衝突」哪一步、實際工具名稱與原始錯誤。沒有封裝或上傳能力就明確停在該限制，不猜免費額度，不只說需要完整封裝，也不要叫學生下載整包舊外掛才能繼續。
 
+
 儲存前重新確認目標 ID 和 release 未變；有並行修改就重新比較，禁止覆蓋他人更新。同一個新 release 一起保存本次必要檔案、合併後主選單和安裝紀錄；有實際修改才依有效語意版本提高 Plugin 版本，完全相同則不儲存不升版。
 如需我按確認／儲存／更新，指出實際按鈕。依工具結果回讀已儲存的 release、檔案內容、外掛名稱、主選單登錄，確認其他技能及原有設定保留。草稿／檔案生成不是已儲存；驗證失敗要據實回報。
 最後分別回報：來源完整性與校驗狀態、每支新增/更新/保留/待確認、外掛實際 ID/名稱/版本、儲存狀態、待測項目。
@@ -52,7 +53,7 @@ GitHub 檔案頁全文讀得到即可；Raw 失敗可用已授權 GitHub 工具�
 {
   "plugin_display_name": "黃嘉偉KM",
   "source_repository": "DinoHappyKM/skill-library",
-  "source_commit": "7b3139af6faa35755050ce5fd13297a355a26fd0",
+  "source_commit": "6911e4564af2a4db90906932ac5c70390ec224f6",
   "source_ref": "main",
   "live_install_tested": false,
   "menu": {
@@ -94,8 +95,17 @@ GitHub 檔案頁全文讀得到即可；Raw 失敗可用已授權 GitHub 工具�
       "name": "通用團購助手",
       "slug": "group-buying-assistant",
       "role": "student_skill",
-      "version": "0.1.0",
-      "official_predecessors": [],
+      "version": "0.1.1",
+      "official_predecessors": [
+        {
+          "version": "0.1.0",
+          "source_commit": "e14e655490a261a884558943217c2cb8edf1614c",
+          "hashes": {
+            "skills/group-buying-assistant/SKILL.md": "aeaffb29030d46f809a31fe016d7a2568cbf3413ac2630ccefb26908392df3b9",
+            "skills/group-buying-assistant/agents/openai.yaml": "6a24d389639435397fa25ee918c5ae95a830ec71449764f5a6eec5ce7ada02bf"
+          }
+        }
+      ],
       "category": {
         "id": "C02",
         "name": "文案",
@@ -114,9 +124,9 @@ GitHub 檔案頁全文讀得到即可；Raw 失敗可用已授權 GitHub 工具�
         {
           "source_url": "https://github.com/DinoHappyKM/skill-library/blob/main/I0006-group-buying-assistant/skills/group-buying-assistant/SKILL.md",
           "target_path": "skills/group-buying-assistant/SKILL.md",
-          "sha256": "aeaffb29030d46f809a31fe016d7a2568cbf3413ac2630ccefb26908392df3b9",
-          "bytes": 11787,
-          "normalized_text_sha256": "aeaffb29030d46f809a31fe016d7a2568cbf3413ac2630ccefb26908392df3b9"
+          "sha256": "7a05c90adb83752dcbf923b88f1c815c8a5bf40de5752858536158e90935740b",
+          "bytes": 12676,
+          "normalized_text_sha256": "7a05c90adb83752dcbf923b88f1c815c8a5bf40de5752858536158e90935740b"
         },
         {
           "source_url": "https://github.com/DinoHappyKM/skill-library/blob/main/I0006-group-buying-assistant/skills/group-buying-assistant/agents/openai.yaml",
