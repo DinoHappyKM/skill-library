@@ -1,14 +1,14 @@
 {
-  "package_version": "0.1.4",
-  "source_commit": "75de0d163c29b5f7d8293b7ca9efe5f8faccba85",
-  "zip_sha256": "36189ddaaa794e0e46fc164ed1dc8ed0a500f3da470ac75a6aab10cd698dbdb6",
-  "zip_bytes": 57287,
-  "file_count": 18,
-  "skill_count": 7,
-  "student_skill_count": 6,
-  "source_files_hash_checked": 14,
+  "package_version": "0.1.5",
+  "source_commit": "621c705e3b764791a9a47f08324f2fd0267f7b2d",
+  "zip_sha256": "20d8b0a6cd97c63c895c4569d9eeae928b61f03117acceb056b98df8e631bbba",
+  "zip_bytes": 63093,
+  "file_count": 20,
+  "skill_count": 8,
+  "student_skill_count": 7,
+  "source_files_hash_checked": 16,
   "skill_originals_preserved": true,
-  "menu_registry_count": 6,
+  "menu_registry_count": 7,
   "logo_size": [
     512,
     512
@@ -29,6 +29,7 @@
     "I0003": "0.1.0",
     "I0004": "0.1.0",
     "I0005": "0.1.0",
-    "I0006": "0.1.1"
+    "I0006": "0.1.1",
+    "I0007": "0.1.0"
   }
 }

@@ -1,0 +1,4 @@
+interface:
+  display_name: "I0007｜1Shop容器HTML產生器"
+  short_description: "把確認後的網頁內容轉為可一次複製的1Shop容器HTML、局部CSS與選用互動"
+  default_prompt: "使用 $one-shop-html-block，先幫我確認內容，再產出可一次複製貼入1Shop程式區塊的完整HTML。"

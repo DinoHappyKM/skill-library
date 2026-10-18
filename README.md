@@ -2,18 +2,14 @@
 
 ## 完整ZIP安裝｜手機優先
 
-**[下載黃嘉偉KM完整外掛 v0.1.4](https://github.com/DinoHappyKM/skill-library/raw/refs/heads/main/downloads/huang-jia-wei-km-v0.1.4.zip)** · [安裝步驟](INSTALL-ZIP.md) · [Notion手機教學](https://app.notion.com/p/3f404b753fe08030a598cdde79ee41b3)
+**[下載黃嘉偉KM完整外掛 v0.1.5](https://github.com/DinoHappyKM/skill-library/raw/refs/heads/main/downloads/huang-jia-wei-km-v0.1.5.zip)** · [安裝步驟](INSTALL-ZIP.md) · [Notion手機教學](https://app.notion.com/p/3f404b753fe08030a598cdde79ee41b3)
 
-內含主選單、I0001～I0006與DINO Logo。新同學：ChatGPT外掛頁→新增→上傳外掛程式封存檔→選ZIP→確認。已有外掛者先閱讀更新分流；自訂內容須備份合併。原生上傳與手機仍待學生實測。
+內含主選單、I0001～I0007與DINO Logo。新同學：ChatGPT外掛頁→新增→上傳外掛程式封存檔→選ZIP→確認。已有外掛者先閱讀更新分流；自訂內容須備份合併。原生上傳與手機仍待學生實測。
 
-
-技能庫0.3.4｜2026-10-12。請以目前檢視的 GitHub 分支與 PR 狀態判斷是否已發布到 main。
-
-老師發給學生的Plugin名稱固定「黃嘉偉KM」，自己的私人KM獨立保留。先建立主選單，再分批加入；也可直接貼任一完整提示詞，由它建立缺少的外掛與主選單。
 
 ## 學生安裝
 
-[一次安裝 I0001～I0006｜完整學生提示詞](INSTALL-I0001-I0006.txt)
+[一次安裝 I0001～I0007｜完整學生提示詞](INSTALL-I0001-I0007.txt)
 
 
 |代號|技能|原文版本|分類|安裝|

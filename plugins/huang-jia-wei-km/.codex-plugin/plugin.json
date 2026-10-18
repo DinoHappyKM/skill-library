@@ -1,14 +1,14 @@
 {
   "name": "huang-jia-wei-km",
-  "version": "0.1.4",
-  "description": "黃嘉偉KM：主選單與六支通用技能，支援貼文、直播、公仔、影音提示詞、標題花字與團購。",
+  "version": "0.1.5",
+  "description": "黃嘉偉KM：主選單與七支通用技能，支援貼文、直播、公仔、影音提示詞、標題花字與團購。",
   "author": {
     "name": "黃嘉偉"
   },
   "interface": {
     "displayName": "黃嘉偉KM",
-    "shortDescription": "貼文、直播、圖像影音與團購六支技能",
-    "longDescription": "內含0主選單與I0001日常故事貼文助手、I0002直播企劃與開播助手、I0003公仔表情設計、I0004單圖動態影片提示詞助手、I0005標題花字產生器及I0006通用團購助手。輸入0查看分類，或直接輸入I代號開始。",
+    "shortDescription": "貼文、圖像影音、團購與網站七支技能",
+    "longDescription": "內含0主選單與I0001日常故事貼文助手、I0002直播企劃與開播助手、I0003公仔表情設計、I0004單圖動態影片提示詞助手、I0005標題花字產生器、I0006通用團購助手及I0007容器HTML產生器。輸入0查看分類，或直接輸入I代號開始。",
     "developerName": "黃嘉偉",
     "category": "Productivity",
     "capabilities": [

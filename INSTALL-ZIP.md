@@ -1,17 +1,17 @@
 # 黃嘉偉KM｜完整ZIP安裝
 
-外掛封存版本：0.1.4｜2026-10-18
+外掛封存版本：0.1.5｜2026-10-19
 
-下載「黃嘉偉KM_完整外掛_v0.1.4.zip」，整包上傳，無需解壓縮，也無需先貼安裝提示詞。
+下載「黃嘉偉KM_完整外掛_v0.1.5.zip」，整包上傳，無需解壓縮，也無需先貼安裝提示詞。
 
 ## 第一次安裝
 
 1. 用手機或電腦瀏覽器登入自己的ChatGPT，開啟 https://chatgpt.com/plugins 。
 2. 下載本頁的ZIP。iPhone若下載後自動解壓，回到下載位置選原本的.zip檔。
 3. 點「新增」→「上傳外掛程式封存檔」→選擇ZIP。
-4. 檢查預覽：名稱「黃嘉偉KM」、米金底黑色DINO Logo、主選單及六支技能。依實際介面完成建立／確認。
+4. 檢查預覽：名稱「黃嘉偉KM」、米金底黑色DINO Logo、主選單及七支技能。依實際介面完成建立／確認。
 5. 等待成功後開新對話，選用「黃嘉偉KM」，輸入「0」。
-6. 核對I0001～I0006，選一支技能試用。
+6. 核對I0001～I0007，選一支技能試用。
 
 ## 已經有黃嘉偉KM
 
@@ -28,6 +28,7 @@
 - I0004｜單圖動態影片提示詞助手｜0.1.0
 - I0005｜標題花字產生器｜0.1.0
 - I0006｜通用團購助手｜0.1.1
+- I0007｜1Shop容器HTML產生器｜0.1.0
 
 Logo已同時設定為外掛列表Logo與對話輸入框圖示；實際端點顯示仍依介面。
 這包不含I0000教師工具與KMW01獨立流程。
@@ -36,15 +37,15 @@ Logo已同時設定為外掛列表Logo與對話輸入框圖示；實際端點顯
 
 - 外掛顯示名稱為「黃嘉偉KM」。
 - 已完成建立／更新，無錯誤訊息。
-- 新對話輸入0可看見六支技能。
+- 新對話輸入0可看見七支技能。
 - 至少實際呼叫一支技能；I0006 LINE文末應有接龍1.／2.／3.。
 
 若帳號沒有上傳或建立入口，向老師回報實際畫面；ZIP不會解除帳號限制。
 本包已作來源與封裝檢查；學生帳號的原生上傳、Logo顯示、新對話及手機操作仍待實測。
 
 來源：https://github.com/DinoHappyKM/skill-library
-來源快照：75de0d163c29b5f7d8293b7ca9efe5f8faccba85
+來源快照：621c705e3b764791a9a47f08324f2fd0267f7b2d
 
-[直接下載完整ZIP](https://github.com/DinoHappyKM/skill-library/raw/refs/heads/main/downloads/huang-jia-wei-km-v0.1.4.zip)
+[直接下載完整ZIP](https://github.com/DinoHappyKM/skill-library/raw/refs/heads/main/downloads/huang-jia-wei-km-v0.1.5.zip)
 
 [Notion手機下載與教學](https://app.notion.com/p/3f404b753fe08030a598cdde79ee41b3)

@@ -158,6 +158,22 @@ skills:
   - 收單
   source_version: 0.1.1
   registration: 已核對
+- id: I0007
+  name: 1Shop容器HTML產生器
+  skill_slug: one-shop-html-block
+  category_id: C07
+  subcategory_id: null
+  summary: 1Shop容器HTML／CSS與必要JS，單區塊複製
+  tags:
+  - 1Shop
+  - HTML
+  - CSS
+  - JavaScript
+  - 容器
+  - 網頁
+  - 程式區塊
+  source_version: 0.1.0
+  registration: 已核對
 ~~~
 <!-- KM-REGISTRY-END -->
 

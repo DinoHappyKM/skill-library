@@ -3,7 +3,7 @@
   "plugin_display_name": "黃嘉偉KM",
   "source_repository": "DinoHappyKM/skill-library",
   "source_ref": "main",
-  "source_commit": "75de0d163c29b5f7d8293b7ca9efe5f8faccba85",
+  "source_commit": "621c705e3b764791a9a47f08324f2fd0267f7b2d",
   "source_mode": "verified-complete-student-archive",
   "verification_scope": "packaged-files-only-not-account-installation",
   "skills": [
@@ -12,21 +12,21 @@
       "slug": "km-menu",
       "version": "0.4.0",
       "role": "menu",
-      "source_commit": "75de0d163c29b5f7d8293b7ca9efe5f8faccba85",
+      "source_commit": "621c705e3b764791a9a47f08324f2fd0267f7b2d",
       "files": [
         {
           "target_path": "skills/km-menu/SKILL.md",
-          "source_url": "https://github.com/DinoHappyKM/skill-library/blob/75de0d163c29b5f7d8293b7ca9efe5f8faccba85/0000-km-menu/skills/km-menu/SKILL.md",
+          "source_url": "https://github.com/DinoHappyKM/skill-library/blob/621c705e3b764791a9a47f08324f2fd0267f7b2d/0000-km-menu/skills/km-menu/SKILL.md",
           "source_bytes": 8083,
           "source_sha256": "17424e4ad875ff124de32373c197db7394dc2f2bf28826a7757d8f97a98c6781",
           "template_sha256": "17424e4ad875ff124de32373c197db7394dc2f2bf28826a7757d8f97a98c6781",
-          "installed_bytes": 9673,
-          "installed_sha256": "dff7cdfeefd4ee020a66973d58fc9bbc351164a2e25b20d75af9f4da73de100e",
+          "installed_bytes": 9995,
+          "installed_sha256": "aca74328f437545a48aa6a57db0fb78bdabdbec42a212c1db7eef1a98a861587",
           "verification": "package-sha256-and-bytes-matched"
         },
         {
           "target_path": "skills/km-menu/agents/openai.yaml",
-          "source_url": "https://github.com/DinoHappyKM/skill-library/blob/75de0d163c29b5f7d8293b7ca9efe5f8faccba85/0000-km-menu/skills/km-menu/agents/openai.yaml",
+          "source_url": "https://github.com/DinoHappyKM/skill-library/blob/621c705e3b764791a9a47f08324f2fd0267f7b2d/0000-km-menu/skills/km-menu/agents/openai.yaml",
           "source_bytes": 212,
           "source_sha256": "ae7f10241660711b29b57520dce360063920f0d56e641f47a9bdf447820e7083",
           "template_sha256": "ae7f10241660711b29b57520dce360063920f0d56e641f47a9bdf447820e7083",
@@ -41,11 +41,11 @@
       "slug": "daily-story-post",
       "version": "0.2.3",
       "role": "student_skill",
-      "source_commit": "75de0d163c29b5f7d8293b7ca9efe5f8faccba85",
+      "source_commit": "621c705e3b764791a9a47f08324f2fd0267f7b2d",
       "files": [
         {
           "target_path": "skills/daily-story-post/SKILL.md",
-          "source_url": "https://github.com/DinoHappyKM/skill-library/blob/75de0d163c29b5f7d8293b7ca9efe5f8faccba85/I0001-daily-story-post/skills/daily-story-post/SKILL.md",
+          "source_url": "https://github.com/DinoHappyKM/skill-library/blob/621c705e3b764791a9a47f08324f2fd0267f7b2d/I0001-daily-story-post/skills/daily-story-post/SKILL.md",
           "source_bytes": 17021,
           "source_sha256": "3f8a1235e641910411cca561cd15318566e1b321024bf6890cb0c90960cf3112",
           "template_sha256": "3f8a1235e641910411cca561cd15318566e1b321024bf6890cb0c90960cf3112",
@@ -55,7 +55,7 @@
         },
         {
           "target_path": "skills/daily-story-post/agents/openai.yaml",
-          "source_url": "https://github.com/DinoHappyKM/skill-library/blob/75de0d163c29b5f7d8293b7ca9efe5f8faccba85/I0001-daily-story-post/skills/daily-story-post/agents/openai.yaml",
+          "source_url": "https://github.com/DinoHappyKM/skill-library/blob/621c705e3b764791a9a47f08324f2fd0267f7b2d/I0001-daily-story-post/skills/daily-story-post/agents/openai.yaml",
           "source_bytes": 380,
           "source_sha256": "f9833323363bc24099151da17578d52b071b84000196d1cd7d058ca779afbc08",
           "template_sha256": "f9833323363bc24099151da17578d52b071b84000196d1cd7d058ca779afbc08",
@@ -70,11 +70,11 @@
       "slug": "live-stream-planning",
       "version": "0.1.1",
       "role": "student_skill",
-      "source_commit": "75de0d163c29b5f7d8293b7ca9efe5f8faccba85",
+      "source_commit": "621c705e3b764791a9a47f08324f2fd0267f7b2d",
       "files": [
         {
           "target_path": "skills/live-stream-planning/SKILL.md",
-          "source_url": "https://github.com/DinoHappyKM/skill-library/blob/75de0d163c29b5f7d8293b7ca9efe5f8faccba85/I0002-live-stream-planning/skills/live-stream-planning/SKILL.md",
+          "source_url": "https://github.com/DinoHappyKM/skill-library/blob/621c705e3b764791a9a47f08324f2fd0267f7b2d/I0002-live-stream-planning/skills/live-stream-planning/SKILL.md",
           "source_bytes": 25580,
           "source_sha256": "496ef341b16c4efe5a7e33ba2bb8bb0bf201b6ec6550d67b4252506b08b2efb0",
           "template_sha256": "496ef341b16c4efe5a7e33ba2bb8bb0bf201b6ec6550d67b4252506b08b2efb0",
@@ -84,7 +84,7 @@
         },
         {
           "target_path": "skills/live-stream-planning/agents/openai.yaml",
-          "source_url": "https://github.com/DinoHappyKM/skill-library/blob/75de0d163c29b5f7d8293b7ca9efe5f8faccba85/I0002-live-stream-planning/skills/live-stream-planning/agents/openai.yaml",
+          "source_url": "https://github.com/DinoHappyKM/skill-library/blob/621c705e3b764791a9a47f08324f2fd0267f7b2d/I0002-live-stream-planning/skills/live-stream-planning/agents/openai.yaml",
           "source_bytes": 285,
           "source_sha256": "7a1d477f16a327ff4cbc83304c225389cb556789a354068ddda84692bdeb95e0",
           "template_sha256": "7a1d477f16a327ff4cbc83304c225389cb556789a354068ddda84692bdeb95e0",
@@ -99,11 +99,11 @@
       "slug": "figurine-expression-design",
       "version": "0.1.0",
       "role": "student_skill",
-      "source_commit": "75de0d163c29b5f7d8293b7ca9efe5f8faccba85",
+      "source_commit": "621c705e3b764791a9a47f08324f2fd0267f7b2d",
       "files": [
         {
           "target_path": "skills/figurine-expression-design/SKILL.md",
-          "source_url": "https://github.com/DinoHappyKM/skill-library/blob/75de0d163c29b5f7d8293b7ca9efe5f8faccba85/I0003-figurine-expression-design/skills/figurine-expression-design/SKILL.md",
+          "source_url": "https://github.com/DinoHappyKM/skill-library/blob/621c705e3b764791a9a47f08324f2fd0267f7b2d/I0003-figurine-expression-design/skills/figurine-expression-design/SKILL.md",
           "source_bytes": 8887,
           "source_sha256": "9c2af9f8902a2535b6b97e677d0614096b518fd4e740ab6bc6552f1c2b7b3f85",
           "template_sha256": "9c2af9f8902a2535b6b97e677d0614096b518fd4e740ab6bc6552f1c2b7b3f85",
@@ -113,7 +113,7 @@
         },
         {
           "target_path": "skills/figurine-expression-design/agents/openai.yaml",
-          "source_url": "https://github.com/DinoHappyKM/skill-library/blob/75de0d163c29b5f7d8293b7ca9efe5f8faccba85/I0003-figurine-expression-design/skills/figurine-expression-design/agents/openai.yaml",
+          "source_url": "https://github.com/DinoHappyKM/skill-library/blob/621c705e3b764791a9a47f08324f2fd0267f7b2d/I0003-figurine-expression-design/skills/figurine-expression-design/agents/openai.yaml",
           "source_bytes": 292,
           "source_sha256": "ad67836f81f95e8a834466923c94993ab86ab6fba458d08c851aed3d985c7090",
           "template_sha256": "ad67836f81f95e8a834466923c94993ab86ab6fba458d08c851aed3d985c7090",
@@ -128,11 +128,11 @@
       "slug": "image-to-video-prompt",
       "version": "0.1.0",
       "role": "student_skill",
-      "source_commit": "75de0d163c29b5f7d8293b7ca9efe5f8faccba85",
+      "source_commit": "621c705e3b764791a9a47f08324f2fd0267f7b2d",
       "files": [
         {
           "target_path": "skills/image-to-video-prompt/SKILL.md",
-          "source_url": "https://github.com/DinoHappyKM/skill-library/blob/75de0d163c29b5f7d8293b7ca9efe5f8faccba85/I0004-image-to-video-prompt/skills/image-to-video-prompt/SKILL.md",
+          "source_url": "https://github.com/DinoHappyKM/skill-library/blob/621c705e3b764791a9a47f08324f2fd0267f7b2d/I0004-image-to-video-prompt/skills/image-to-video-prompt/SKILL.md",
           "source_bytes": 3380,
           "source_sha256": "b370a0a0556f3ad9bcb67c70706ed399b14a8b8ded21414e39c775d7a26ef787",
           "template_sha256": "b370a0a0556f3ad9bcb67c70706ed399b14a8b8ded21414e39c775d7a26ef787",
@@ -142,7 +142,7 @@
         },
         {
           "target_path": "skills/image-to-video-prompt/agents/openai.yaml",
-          "source_url": "https://github.com/DinoHappyKM/skill-library/blob/75de0d163c29b5f7d8293b7ca9efe5f8faccba85/I0004-image-to-video-prompt/skills/image-to-video-prompt/agents/openai.yaml",
+          "source_url": "https://github.com/DinoHappyKM/skill-library/blob/621c705e3b764791a9a47f08324f2fd0267f7b2d/I0004-image-to-video-prompt/skills/image-to-video-prompt/agents/openai.yaml",
           "source_bytes": 316,
           "source_sha256": "26d57fcddef641c44ada2fa0a6c4006e42ef88905cd769b6a63e4806d2679e81",
           "template_sha256": "26d57fcddef641c44ada2fa0a6c4006e42ef88905cd769b6a63e4806d2679e81",
@@ -157,11 +157,11 @@
       "slug": "title-lettering-generator",
       "version": "0.1.0",
       "role": "student_skill",
-      "source_commit": "75de0d163c29b5f7d8293b7ca9efe5f8faccba85",
+      "source_commit": "621c705e3b764791a9a47f08324f2fd0267f7b2d",
       "files": [
         {
           "target_path": "skills/title-lettering-generator/SKILL.md",
-          "source_url": "https://github.com/DinoHappyKM/skill-library/blob/75de0d163c29b5f7d8293b7ca9efe5f8faccba85/I0005-title-lettering-generator/skills/title-lettering-generator/SKILL.md",
+          "source_url": "https://github.com/DinoHappyKM/skill-library/blob/621c705e3b764791a9a47f08324f2fd0267f7b2d/I0005-title-lettering-generator/skills/title-lettering-generator/SKILL.md",
           "source_bytes": 6960,
           "source_sha256": "4c4138f5466ed3140a6c4f3f4d0228f597ba73e4ddfc7ec376e81cd14388ac99",
           "template_sha256": "4c4138f5466ed3140a6c4f3f4d0228f597ba73e4ddfc7ec376e81cd14388ac99",
@@ -171,7 +171,7 @@
         },
         {
           "target_path": "skills/title-lettering-generator/agents/openai.yaml",
-          "source_url": "https://github.com/DinoHappyKM/skill-library/blob/75de0d163c29b5f7d8293b7ca9efe5f8faccba85/I0005-title-lettering-generator/skills/title-lettering-generator/agents/openai.yaml",
+          "source_url": "https://github.com/DinoHappyKM/skill-library/blob/621c705e3b764791a9a47f08324f2fd0267f7b2d/I0005-title-lettering-generator/skills/title-lettering-generator/agents/openai.yaml",
           "source_bytes": 374,
           "source_sha256": "b85242d80392b3f47e918e7191a393edf6ad515cf122775096794e7e6e594621",
           "template_sha256": "b85242d80392b3f47e918e7191a393edf6ad515cf122775096794e7e6e594621",
@@ -186,11 +186,11 @@
       "slug": "group-buying-assistant",
       "version": "0.1.1",
       "role": "student_skill",
-      "source_commit": "75de0d163c29b5f7d8293b7ca9efe5f8faccba85",
+      "source_commit": "621c705e3b764791a9a47f08324f2fd0267f7b2d",
       "files": [
         {
           "target_path": "skills/group-buying-assistant/SKILL.md",
-          "source_url": "https://github.com/DinoHappyKM/skill-library/blob/75de0d163c29b5f7d8293b7ca9efe5f8faccba85/I0006-group-buying-assistant/skills/group-buying-assistant/SKILL.md",
+          "source_url": "https://github.com/DinoHappyKM/skill-library/blob/621c705e3b764791a9a47f08324f2fd0267f7b2d/I0006-group-buying-assistant/skills/group-buying-assistant/SKILL.md",
           "source_bytes": 12676,
           "source_sha256": "7a05c90adb83752dcbf923b88f1c815c8a5bf40de5752858536158e90935740b",
           "template_sha256": "7a05c90adb83752dcbf923b88f1c815c8a5bf40de5752858536158e90935740b",
@@ -200,12 +200,41 @@
         },
         {
           "target_path": "skills/group-buying-assistant/agents/openai.yaml",
-          "source_url": "https://github.com/DinoHappyKM/skill-library/blob/75de0d163c29b5f7d8293b7ca9efe5f8faccba85/I0006-group-buying-assistant/skills/group-buying-assistant/agents/openai.yaml",
+          "source_url": "https://github.com/DinoHappyKM/skill-library/blob/621c705e3b764791a9a47f08324f2fd0267f7b2d/I0006-group-buying-assistant/skills/group-buying-assistant/agents/openai.yaml",
           "source_bytes": 313,
           "source_sha256": "6a24d389639435397fa25ee918c5ae95a830ec71449764f5a6eec5ce7ada02bf",
           "template_sha256": "6a24d389639435397fa25ee918c5ae95a830ec71449764f5a6eec5ce7ada02bf",
           "installed_bytes": 313,
           "installed_sha256": "6a24d389639435397fa25ee918c5ae95a830ec71449764f5a6eec5ce7ada02bf",
+          "verification": "package-sha256-and-bytes-matched"
+        }
+      ]
+    },
+    {
+      "id": "I0007",
+      "slug": "one-shop-html-block",
+      "version": "0.1.0",
+      "role": "student_skill",
+      "source_commit": "621c705e3b764791a9a47f08324f2fd0267f7b2d",
+      "files": [
+        {
+          "target_path": "skills/one-shop-html-block/SKILL.md",
+          "source_url": "https://github.com/DinoHappyKM/skill-library/blob/621c705e3b764791a9a47f08324f2fd0267f7b2d/I0007-one-shop-html-block/skills/one-shop-html-block/SKILL.md",
+          "source_bytes": 8823,
+          "source_sha256": "0411260fd88796a4a54ea4216eda3f371f07c446c0c2e23cd05755c642a1b9c5",
+          "template_sha256": "0411260fd88796a4a54ea4216eda3f371f07c446c0c2e23cd05755c642a1b9c5",
+          "installed_bytes": 8823,
+          "installed_sha256": "0411260fd88796a4a54ea4216eda3f371f07c446c0c2e23cd05755c642a1b9c5",
+          "verification": "package-sha256-and-bytes-matched"
+        },
+        {
+          "target_path": "skills/one-shop-html-block/agents/openai.yaml",
+          "source_url": "https://github.com/DinoHappyKM/skill-library/blob/621c705e3b764791a9a47f08324f2fd0267f7b2d/I0007-one-shop-html-block/skills/one-shop-html-block/agents/openai.yaml",
+          "source_bytes": 321,
+          "source_sha256": "290a6d3edaf3239eb15e41a53ccf00799969df7e3ba0dce34d1acf69ee39f5bf",
+          "template_sha256": "290a6d3edaf3239eb15e41a53ccf00799969df7e3ba0dce34d1acf69ee39f5bf",
+          "installed_bytes": 321,
+          "installed_sha256": "290a6d3edaf3239eb15e41a53ccf00799969df7e3ba0dce34d1acf69ee39f5bf",
           "verification": "package-sha256-and-bytes-matched"
         }
       ]
