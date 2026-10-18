@@ -1,0 +1,4 @@
+interface:
+  display_name: "I0002｜直播企劃與開播助手"
+  short_description: "簡易或完整規劃直播，製作標題、描述、封面與開播導流"
+  default_prompt: "使用 $live-stream-planning，請協助我規劃這場直播；我可以選簡易或完整做法。"

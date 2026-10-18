@@ -1,0 +1,27 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "huang-jia-wei-km",
+  "version": "0.1.4",
+  "description": "黃嘉偉KM：主選單與六支通用技能，支援貼文、直播、公仔、影音提示詞、標題花字與團購。",
+  "author": {
+    "name": "黃嘉偉"
+  },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "黃嘉偉KM",
+        "shortDescription": "貼文、直播、圖像影音與團購六支技能",
+        "longDescription": "內含0主選單與I0001日常故事貼文助手、I0002直播企劃與開播助手、I0003公仔表情設計、I0004單圖動態影片提示詞助手、I0005標題花字產生器及I0006通用團購助手。輸入0查看分類，或直接輸入I代號開始。",
+        "developerName": "黃嘉偉",
+        "category": "Productivity",
+        "capabilities": [
+          "Interactive"
+        ],
+        "defaultPrompt": "使用 $km-menu，顯示黃嘉偉KM已核對的技能與分類。",
+        "logo": "./assets/logo.png",
+        "composerIcon": "./assets/logo.png"
+      },
+      "onboardingSkill": "./skills/km-menu/SKILL.md"
+    }
+  }
+}

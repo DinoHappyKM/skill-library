@@ -1,0 +1,4 @@
+interface:
+  display_name: "0｜主選單"
+  short_description: "依代號、分類或需求找到黃嘉偉KM已收錄技能"
+  default_prompt: "使用 $km-menu，顯示黃嘉偉KM已核對的技能與分類。"
