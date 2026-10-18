@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "library_version": "0.3.4",
+  "library_version": "0.3.7",
   "plugin_display_name": "黃嘉偉KM",
   "source_ref": "main",
   "release_status": "published-source-awaiting-user-test",
@@ -422,6 +422,55 @@
           }
         }
       ]
+    },
+    {
+      "id": "I0007",
+      "name": "1Shop容器HTML產生器",
+      "slug": "one-shop-html-block",
+      "role": "student_skill",
+      "version": "0.1.0",
+      "version_status": "declared",
+      "version_source": {
+        "path": "I0007-one-shop-html-block/skills/one-shop-html-block/SKILL.md",
+        "method": "SKILL.md metadata.version"
+      },
+      "skill_path": "I0007-one-shop-html-block/skills/one-shop-html-block/SKILL.md",
+      "agent_path": "I0007-one-shop-html-block/skills/one-shop-html-block/agents/openai.yaml",
+      "category": {
+        "id": "C07",
+        "name": "網站",
+        "subcategory": null
+      },
+      "summary": "1Shop容器HTML／CSS與必要JS，單區塊複製",
+      "tags": [
+        "1Shop",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "容器",
+        "網頁",
+        "程式區塊"
+      ],
+      "required_files": [
+        {
+          "path": "I0007-one-shop-html-block/skills/one-shop-html-block/SKILL.md",
+          "target_path": "skills/one-shop-html-block/SKILL.md",
+          "sha256": "0411260fd88796a4a54ea4216eda3f371f07c446c0c2e23cd05755c642a1b9c5",
+          "normalized_text_sha256": "7471ce99fa52d7fb8fd67f25d3fcd7e4ac9cff83e9bd3aa9a7a5c7be51338a06",
+          "bytes": 8823
+        },
+        {
+          "path": "I0007-one-shop-html-block/skills/one-shop-html-block/agents/openai.yaml",
+          "target_path": "skills/one-shop-html-block/agents/openai.yaml",
+          "sha256": "290a6d3edaf3239eb15e41a53ccf00799969df7e3ba0dce34d1acf69ee39f5bf",
+          "normalized_text_sha256": "c6b92429558f1116125f53e653bd27afce7d2737b2472e8d3f7c18a41b2b24a3",
+          "bytes": 321
+        }
+      ],
+      "hashes": {
+        "skills/one-shop-html-block/SKILL.md": "0411260fd88796a4a54ea4216eda3f371f07c446c0c2e23cd05755c642a1b9c5",
+        "skills/one-shop-html-block/agents/openai.yaml": "290a6d3edaf3239eb15e41a53ccf00799969df7e3ba0dce34d1acf69ee39f5bf"
+      }
     }
   ]
 }
