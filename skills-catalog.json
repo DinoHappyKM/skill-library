@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "library_version": "0.3.7",
+  "library_version": "0.3.8",
   "plugin_display_name": "黃嘉偉KM",
   "source_ref": "main",
   "release_status": "published-source-awaiting-user-test",
@@ -125,7 +125,7 @@
       "name": "日常故事貼文助手",
       "slug": "daily-story-post",
       "role": "student_skill",
-      "version": "0.2.3",
+      "version": "0.2.4",
       "version_status": "declared",
       "version_source": {
         "path": "I0001-daily-story-post/skills/daily-story-post/SKILL.md",
@@ -134,7 +134,7 @@
       "skill_path": "I0001-daily-story-post/skills/daily-story-post/SKILL.md",
       "agent_path": "I0001-daily-story-post/skills/daily-story-post/agents/openai.yaml",
       "hashes": {
-        "skills/daily-story-post/SKILL.md": "3f8a1235e641910411cca561cd15318566e1b321024bf6890cb0c90960cf3112",
+        "skills/daily-story-post/SKILL.md": "98d36841858f2fa1c768f7ae1d7a89100332bbedd7073597078a751b793668bd",
         "skills/daily-story-post/agents/openai.yaml": "f9833323363bc24099151da17578d52b071b84000196d1cd7d058ca779afbc08"
       },
       "category": {
@@ -152,9 +152,9 @@
         {
           "path": "I0001-daily-story-post/skills/daily-story-post/SKILL.md",
           "target_path": "skills/daily-story-post/SKILL.md",
-          "sha256": "3f8a1235e641910411cca561cd15318566e1b321024bf6890cb0c90960cf3112",
-          "normalized_text_sha256": "3f8a1235e641910411cca561cd15318566e1b321024bf6890cb0c90960cf3112",
-          "bytes": 17021
+          "sha256": "98d36841858f2fa1c768f7ae1d7a89100332bbedd7073597078a751b793668bd",
+          "normalized_text_sha256": "98d36841858f2fa1c768f7ae1d7a89100332bbedd7073597078a751b793668bd",
+          "bytes": 21809
         },
         {
           "path": "I0001-daily-story-post/skills/daily-story-post/agents/openai.yaml",
@@ -162,6 +162,16 @@
           "sha256": "f9833323363bc24099151da17578d52b071b84000196d1cd7d058ca779afbc08",
           "normalized_text_sha256": "5b13d2f0f3490fd24e7e1cb3267bdd5f0129a3dd3c1b535cebe15742dbb48802",
           "bytes": 380
+        }
+      ],
+      "official_predecessors": [
+        {
+          "version": "0.2.3",
+          "source_commit": "0d614a073a7dfe2275ab70d2a60aad77662316ad",
+          "hashes": {
+            "skills/daily-story-post/SKILL.md": "3f8a1235e641910411cca561cd15318566e1b321024bf6890cb0c90960cf3112",
+            "skills/daily-story-post/agents/openai.yaml": "f9833323363bc24099151da17578d52b071b84000196d1cd7d058ca779afbc08"
+          }
         }
       ]
     },

@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "daily-story-post",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "依真實日常素材撰寫 A／B／C 三種 FB／IG 貼文，確認後以原始照片製作 9:16 繁體中文標題封面。",
   "author": {
     "name": "黃嘉偉美學工作室"
