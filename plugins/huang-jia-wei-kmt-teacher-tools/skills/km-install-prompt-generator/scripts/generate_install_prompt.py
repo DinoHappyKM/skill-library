@@ -55,7 +55,10 @@ def files_for(entry,reader,commit,ref,embedded):
         file={"source_url":"https://github.com/"+REPO+"/blob/"+(commit if commit!="local-unpublished" else ref)+"/"+path,
               "target_path":item["target_path"],"sha256":item["sha256"],"bytes":item["bytes"],
               "normalized_text_sha256":item["normalized_text_sha256"]}
-        if embedded: file["content"]=data.decode("utf-8")
+        if path.lower().endswith(".png"):
+            file["encoding"]="base64"
+            if embedded: file["content"]=base64.b64encode(data).decode("ascii")
+        elif embedded: file["content"]=data.decode("utf-8")
         files.append(file)
     return {"id":entry["id"],"name":entry["name"],"slug":entry["slug"],"role":entry["role"],
             "version":entry["version"],"official_predecessors":entry.get("official_predecessors",[]),"category":entry["category"],"summary":entry.get("summary",entry["name"]),"tags":entry.get("tags",[]),"files":files}
@@ -94,6 +97,8 @@ GitHub 檔案頁全文讀得到即可；Raw 失敗可用已授權 GitHub 工具�
 如需我按確認／儲存／更新，指出實際按鈕。依工具結果回讀已儲存的 release、檔案內容、外掛名稱、主選單登錄，確認其他技能及原有設定保留。草稿／檔案生成不是已儲存；驗證失敗要據實回報。
 最後分別回報：來源完整性與校驗狀態、每支新增/更新/保留/待確認、外掛實際 ID/名稱/版本、儲存狀態、待測項目。
 提供新對話測試：選用黃嘉偉KM後分次輸入0、分類、分類代號及本次 I 代號，確認接續正式技能流程；未在本帳號實測就標「待測」。不承諾 GitHub 更新自動同步或手機安裝成功。
+
+PNG圖示若標encoding:base64，請依原位元組還原到target_path；不要把base64字串當文字圖檔，也不要重畫Logo。
 
 【老師核對的本次來源快照】
 """

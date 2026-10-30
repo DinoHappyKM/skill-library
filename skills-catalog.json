@@ -73,8 +73,8 @@
         "skills/km-install-prompt-generator/SKILL.md": "56fcb8e122b128d722530d70d6efae8b929264e4baf783e6b6d0bfc1d2d9d642",
         "skills/km-install-prompt-generator/agents/openai.yaml": "33bdbac592b9ca99deb045cdfc9c7c8b6977908ab3a50014fc394873b66b3abc",
         "skills/km-install-prompt-generator/assets/source-config.json": "3d868fbb9f7a45742adf8778e98565a41b7517eec23f2a9ac298a8c933950b39",
-        "skills/km-install-prompt-generator/assets/student-install-prompt.txt": "b097d20460b901cb0b99773db501489c8b2457c88a87fdd0815374ecd11c1f71",
-        "skills/km-install-prompt-generator/scripts/generate_install_prompt.py": "5eda81cd77afeb577a3297d67168b30bbdbfec9819e9e2a72dedca181b07fc29",
+        "skills/km-install-prompt-generator/assets/student-install-prompt.txt": "4ee25d8f12a07f16afd3331d7fd7eb3b4c1fc12e05ef7dcc82171e1169bd3ed5",
+        "skills/km-install-prompt-generator/scripts/generate_install_prompt.py": "8730168051c57e564b24a485e37dff0d0a5d347b4a074b4424f9480c37a6201e",
         "skills/km-install-prompt-generator/scripts/install_logic.py": "8a6210b0250aecc7ee5856def2a9ff58406713cb2ba25d52d1fb53cec3c90d9b",
         "skills/km-install-prompt-generator/assets/dinoh-logo.png": "794ec09c4c718ec1bbb946057b4471a9503507d339368cf227d0b784d50e8cf1"
       },
@@ -110,16 +110,16 @@
         {
           "path": "I0000-install-prompt-generator/skills/km-install-prompt-generator/assets/student-install-prompt.txt",
           "target_path": "skills/km-install-prompt-generator/assets/student-install-prompt.txt",
-          "sha256": "b097d20460b901cb0b99773db501489c8b2457c88a87fdd0815374ecd11c1f71",
-          "normalized_text_sha256": "b097d20460b901cb0b99773db501489c8b2457c88a87fdd0815374ecd11c1f71",
-          "bytes": 6320
+          "sha256": "4ee25d8f12a07f16afd3331d7fd7eb3b4c1fc12e05ef7dcc82171e1169bd3ed5",
+          "normalized_text_sha256": "4ee25d8f12a07f16afd3331d7fd7eb3b4c1fc12e05ef7dcc82171e1169bd3ed5",
+          "bytes": 6457
         },
         {
           "path": "I0000-install-prompt-generator/skills/km-install-prompt-generator/scripts/generate_install_prompt.py",
           "target_path": "skills/km-install-prompt-generator/scripts/generate_install_prompt.py",
-          "sha256": "5eda81cd77afeb577a3297d67168b30bbdbfec9819e9e2a72dedca181b07fc29",
-          "normalized_text_sha256": "5eda81cd77afeb577a3297d67168b30bbdbfec9819e9e2a72dedca181b07fc29",
-          "bytes": 11290
+          "sha256": "8730168051c57e564b24a485e37dff0d0a5d347b4a074b4424f9480c37a6201e",
+          "normalized_text_sha256": "8730168051c57e564b24a485e37dff0d0a5d347b4a074b4424f9480c37a6201e",
+          "bytes": 11589
         },
         {
           "path": "I0000-install-prompt-generator/skills/km-install-prompt-generator/scripts/install_logic.py",

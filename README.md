@@ -53,7 +53,7 @@ I0006 0.1.1 修正：LINE團購主文預設附「接龍／1.／2.／3.」，主�
 
 | I0007 | 1Shop容器HTML產生器 | 0.1.0 | 網站 | [提示詞](I0007-one-shop-html-block/INSTALL-PROMPT.md) |
 
-[下載KMT教師工具完整包0.1.1](downloads/huang-jia-wei-kmt-teacher-tools-v0.1.1.zip?raw=true)，老師專用；學生KM包獨立保留。
+[下載KMT教師工具完整包0.1.2](downloads/huang-jia-wei-kmt-teacher-tools-v0.1.2.zip?raw=true)，老師專用；學生KM包獨立保留。
 
 ## 發布前Logo檢查
 
