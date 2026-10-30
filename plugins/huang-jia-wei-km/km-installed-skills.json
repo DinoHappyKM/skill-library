@@ -20,8 +20,8 @@
           "source_bytes": 8083,
           "source_sha256": "17424e4ad875ff124de32373c197db7394dc2f2bf28826a7757d8f97a98c6781",
           "template_sha256": "17424e4ad875ff124de32373c197db7394dc2f2bf28826a7757d8f97a98c6781",
-          "installed_bytes": 9995,
-          "installed_sha256": "aca74328f437545a48aa6a57db0fb78bdabdbec42a212c1db7eef1a98a861587",
+          "installed_bytes": 10179,
+          "installed_sha256": "531ccc6a4a75166a7a2a4f273db4b7d4a738a0f033daa432bca3bd219a0370cb",
           "verification": "package-sha256-and-bytes-matched"
         },
         {
@@ -30,11 +30,15 @@
           "source_bytes": 212,
           "source_sha256": "ae7f10241660711b29b57520dce360063920f0d56e641f47a9bdf447820e7083",
           "template_sha256": "ae7f10241660711b29b57520dce360063920f0d56e641f47a9bdf447820e7083",
-          "installed_bytes": 212,
-          "installed_sha256": "ae7f10241660711b29b57520dce360063920f0d56e641f47a9bdf447820e7083",
+          "installed_bytes": 292,
+          "installed_sha256": "5ba314fb127e0d28c8a807ef4b54a7d3067f35359cca92d7291d77bcf116fafa",
           "verification": "package-sha256-and-bytes-matched"
         }
-      ]
+      ],
+      "branding_asset": {
+        "target_path": "skills/km-menu/assets/dinoh-logo.png",
+        "sha256": "794ec09c4c718ec1bbb946057b4471a9503507d339368cf227d0b784d50e8cf1"
+      }
     },
     {
       "id": "I0001",
@@ -49,8 +53,8 @@
           "source_bytes": 17021,
           "source_sha256": "3f8a1235e641910411cca561cd15318566e1b321024bf6890cb0c90960cf3112",
           "template_sha256": "3f8a1235e641910411cca561cd15318566e1b321024bf6890cb0c90960cf3112",
-          "installed_bytes": 17021,
-          "installed_sha256": "3f8a1235e641910411cca561cd15318566e1b321024bf6890cb0c90960cf3112",
+          "installed_bytes": 17564,
+          "installed_sha256": "fb5c6922ba238dfb71d98195446440a3fdcbb4fa72aadf186bb0c82be3fa779b",
           "verification": "package-sha256-and-bytes-matched"
         },
         {
@@ -59,11 +63,15 @@
           "source_bytes": 380,
           "source_sha256": "f9833323363bc24099151da17578d52b071b84000196d1cd7d058ca779afbc08",
           "template_sha256": "f9833323363bc24099151da17578d52b071b84000196d1cd7d058ca779afbc08",
-          "installed_bytes": 380,
-          "installed_sha256": "f9833323363bc24099151da17578d52b071b84000196d1cd7d058ca779afbc08",
+          "installed_bytes": 459,
+          "installed_sha256": "45adb6a9d3ce1e245d057a568445a1e044ef0ade61d4648bb7bac2a8c61a6b82",
           "verification": "package-sha256-and-bytes-matched"
         }
-      ]
+      ],
+      "branding_asset": {
+        "target_path": "skills/daily-story-post/assets/dinoh-logo.png",
+        "sha256": "794ec09c4c718ec1bbb946057b4471a9503507d339368cf227d0b784d50e8cf1"
+      }
     },
     {
       "id": "I0002",
@@ -78,8 +86,8 @@
           "source_bytes": 25580,
           "source_sha256": "496ef341b16c4efe5a7e33ba2bb8bb0bf201b6ec6550d67b4252506b08b2efb0",
           "template_sha256": "496ef341b16c4efe5a7e33ba2bb8bb0bf201b6ec6550d67b4252506b08b2efb0",
-          "installed_bytes": 25580,
-          "installed_sha256": "496ef341b16c4efe5a7e33ba2bb8bb0bf201b6ec6550d67b4252506b08b2efb0",
+          "installed_bytes": 26233,
+          "installed_sha256": "7088911d1b4e76b6d4231dad9d3bb4768328d2a5178a55ca047d4d971a48775d",
           "verification": "package-sha256-and-bytes-matched"
         },
         {
@@ -88,11 +96,15 @@
           "source_bytes": 285,
           "source_sha256": "7a1d477f16a327ff4cbc83304c225389cb556789a354068ddda84692bdeb95e0",
           "template_sha256": "7a1d477f16a327ff4cbc83304c225389cb556789a354068ddda84692bdeb95e0",
-          "installed_bytes": 285,
-          "installed_sha256": "7a1d477f16a327ff4cbc83304c225389cb556789a354068ddda84692bdeb95e0",
+          "installed_bytes": 365,
+          "installed_sha256": "0c650d3c3fc0834ed65b0b0a5fc94908aa56820ee876f5a63488e70e58f775e1",
           "verification": "package-sha256-and-bytes-matched"
         }
-      ]
+      ],
+      "branding_asset": {
+        "target_path": "skills/live-stream-planning/assets/dinoh-logo.png",
+        "sha256": "794ec09c4c718ec1bbb946057b4471a9503507d339368cf227d0b784d50e8cf1"
+      }
     },
     {
       "id": "I0003",
@@ -107,8 +119,8 @@
           "source_bytes": 8887,
           "source_sha256": "9c2af9f8902a2535b6b97e677d0614096b518fd4e740ab6bc6552f1c2b7b3f85",
           "template_sha256": "9c2af9f8902a2535b6b97e677d0614096b518fd4e740ab6bc6552f1c2b7b3f85",
-          "installed_bytes": 8887,
-          "installed_sha256": "9c2af9f8902a2535b6b97e677d0614096b518fd4e740ab6bc6552f1c2b7b3f85",
+          "installed_bytes": 9020,
+          "installed_sha256": "1ac7458a941e6a89e2a19219b77a4c1a05ca421b8871eb8e9266fa8a2cfcc194",
           "verification": "package-sha256-and-bytes-matched"
         },
         {
@@ -117,11 +129,15 @@
           "source_bytes": 292,
           "source_sha256": "ad67836f81f95e8a834466923c94993ab86ab6fba458d08c851aed3d985c7090",
           "template_sha256": "ad67836f81f95e8a834466923c94993ab86ab6fba458d08c851aed3d985c7090",
-          "installed_bytes": 292,
-          "installed_sha256": "ad67836f81f95e8a834466923c94993ab86ab6fba458d08c851aed3d985c7090",
+          "installed_bytes": 372,
+          "installed_sha256": "0cefe7699a6bf22c9db079262a81e2eedb524c7b1be4b325ba73bc1725bf07aa",
           "verification": "package-sha256-and-bytes-matched"
         }
-      ]
+      ],
+      "branding_asset": {
+        "target_path": "skills/figurine-expression-design/assets/dinoh-logo.png",
+        "sha256": "794ec09c4c718ec1bbb946057b4471a9503507d339368cf227d0b784d50e8cf1"
+      }
     },
     {
       "id": "I0004",
@@ -136,8 +152,8 @@
           "source_bytes": 3380,
           "source_sha256": "b370a0a0556f3ad9bcb67c70706ed399b14a8b8ded21414e39c775d7a26ef787",
           "template_sha256": "b370a0a0556f3ad9bcb67c70706ed399b14a8b8ded21414e39c775d7a26ef787",
-          "installed_bytes": 3380,
-          "installed_sha256": "b370a0a0556f3ad9bcb67c70706ed399b14a8b8ded21414e39c775d7a26ef787",
+          "installed_bytes": 3420,
+          "installed_sha256": "c599f160b13d0142068c4a9f8c732bfcaf5117fce02245415521a9c71e71b48d",
           "verification": "package-sha256-and-bytes-matched"
         },
         {
@@ -146,11 +162,15 @@
           "source_bytes": 316,
           "source_sha256": "26d57fcddef641c44ada2fa0a6c4006e42ef88905cd769b6a63e4806d2679e81",
           "template_sha256": "26d57fcddef641c44ada2fa0a6c4006e42ef88905cd769b6a63e4806d2679e81",
-          "installed_bytes": 316,
-          "installed_sha256": "26d57fcddef641c44ada2fa0a6c4006e42ef88905cd769b6a63e4806d2679e81",
+          "installed_bytes": 394,
+          "installed_sha256": "bae2d003861118e37e63749526f8d623f0e634e6fe70600203a4b3c4eab4107c",
           "verification": "package-sha256-and-bytes-matched"
         }
-      ]
+      ],
+      "branding_asset": {
+        "target_path": "skills/image-to-video-prompt/assets/dinoh-logo.png",
+        "sha256": "794ec09c4c718ec1bbb946057b4471a9503507d339368cf227d0b784d50e8cf1"
+      }
     },
     {
       "id": "I0005",
@@ -165,8 +185,8 @@
           "source_bytes": 6960,
           "source_sha256": "4c4138f5466ed3140a6c4f3f4d0228f597ba73e4ddfc7ec376e81cd14388ac99",
           "template_sha256": "4c4138f5466ed3140a6c4f3f4d0228f597ba73e4ddfc7ec376e81cd14388ac99",
-          "installed_bytes": 6960,
-          "installed_sha256": "4c4138f5466ed3140a6c4f3f4d0228f597ba73e4ddfc7ec376e81cd14388ac99",
+          "installed_bytes": 7027,
+          "installed_sha256": "0869aa27a5befefeae43e2c1aca56ea2f19cb287aa7c67389d108e7eda2aed5a",
           "verification": "package-sha256-and-bytes-matched"
         },
         {
@@ -175,11 +195,15 @@
           "source_bytes": 374,
           "source_sha256": "b85242d80392b3f47e918e7191a393edf6ad515cf122775096794e7e6e594621",
           "template_sha256": "b85242d80392b3f47e918e7191a393edf6ad515cf122775096794e7e6e594621",
-          "installed_bytes": 374,
-          "installed_sha256": "b85242d80392b3f47e918e7191a393edf6ad515cf122775096794e7e6e594621",
+          "installed_bytes": 454,
+          "installed_sha256": "46a841aa7405c4b1868523836061e12e00876611d296843077d0e30e6d0e0686",
           "verification": "package-sha256-and-bytes-matched"
         }
-      ]
+      ],
+      "branding_asset": {
+        "target_path": "skills/title-lettering-generator/assets/dinoh-logo.png",
+        "sha256": "794ec09c4c718ec1bbb946057b4471a9503507d339368cf227d0b784d50e8cf1"
+      }
     },
     {
       "id": "I0006",
@@ -194,8 +218,8 @@
           "source_bytes": 12676,
           "source_sha256": "7a05c90adb83752dcbf923b88f1c815c8a5bf40de5752858536158e90935740b",
           "template_sha256": "7a05c90adb83752dcbf923b88f1c815c8a5bf40de5752858536158e90935740b",
-          "installed_bytes": 12676,
-          "installed_sha256": "7a05c90adb83752dcbf923b88f1c815c8a5bf40de5752858536158e90935740b",
+          "installed_bytes": 12775,
+          "installed_sha256": "d67ad12e11dbcb1a733c245740d959ae73eae75f02896a51dbb5f2e56399c68b",
           "verification": "package-sha256-and-bytes-matched"
         },
         {
@@ -204,11 +228,15 @@
           "source_bytes": 313,
           "source_sha256": "6a24d389639435397fa25ee918c5ae95a830ec71449764f5a6eec5ce7ada02bf",
           "template_sha256": "6a24d389639435397fa25ee918c5ae95a830ec71449764f5a6eec5ce7ada02bf",
-          "installed_bytes": 313,
-          "installed_sha256": "6a24d389639435397fa25ee918c5ae95a830ec71449764f5a6eec5ce7ada02bf",
+          "installed_bytes": 393,
+          "installed_sha256": "918c7465f6ef761c8c398cbb483da83ae10816fae5e0d363e83d12e3efaa7b4d",
           "verification": "package-sha256-and-bytes-matched"
         }
-      ]
+      ],
+      "branding_asset": {
+        "target_path": "skills/group-buying-assistant/assets/dinoh-logo.png",
+        "sha256": "794ec09c4c718ec1bbb946057b4471a9503507d339368cf227d0b784d50e8cf1"
+      }
     },
     {
       "id": "I0007",
@@ -233,11 +261,17 @@
           "source_bytes": 321,
           "source_sha256": "290a6d3edaf3239eb15e41a53ccf00799969df7e3ba0dce34d1acf69ee39f5bf",
           "template_sha256": "290a6d3edaf3239eb15e41a53ccf00799969df7e3ba0dce34d1acf69ee39f5bf",
-          "installed_bytes": 321,
-          "installed_sha256": "290a6d3edaf3239eb15e41a53ccf00799969df7e3ba0dce34d1acf69ee39f5bf",
+          "installed_bytes": 397,
+          "installed_sha256": "de3dfbd6fb24ca06c7a18578d278e1002716f1e8c85d790a47d5902d1d1c711a",
           "verification": "package-sha256-and-bytes-matched"
         }
-      ]
+      ],
+      "branding_asset": {
+        "target_path": "skills/one-shop-html-block/assets/dinoh-logo.png",
+        "sha256": "794ec09c4c718ec1bbb946057b4471a9503507d339368cf227d0b784d50e8cf1"
+      }
     }
-  ]
+  ],
+  "branding_revision": "2026-10-30",
+  "branding_sha256": "794ec09c4c718ec1bbb946057b4471a9503507d339368cf227d0b784d50e8cf1"
 }

@@ -1,0 +1,26 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "DinoH 黃嘉偉"
+  },
+  "description": "黃嘉偉的教師專用工具，提供 I0000 安裝提示詞產生器。",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "Interactive"
+        ],
+        "category": "Productivity",
+        "defaultPrompt": "使用 I0000，產生 I0001、I0003、I0005 的黃嘉偉KM學生安裝提示詞。",
+        "developerName": "12 dinohappy",
+        "displayName": "黃嘉偉KMT教師工具",
+        "longDescription": "老師專用 I0000 安裝提示詞產生器。依技能代號或中文名稱，核對正式來源並產生黃嘉偉KM學生安裝提示詞。",
+        "shortDescription": "老師專用的學生安裝提示詞產生器",
+        "logo": "./assets/dinoh-logo.png",
+        "composerIcon": "./assets/dinoh-logo.png"
+      }
+    }
+  },
+  "name": "huang-jia-wei-kmt-teacher-tools",
+  "version": "0.1.1"
+}

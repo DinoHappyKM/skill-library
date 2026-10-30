@@ -1,4 +1,6 @@
 interface:
+  icon_large: "./assets/dinoh-logo.png"
+  icon_small: "./assets/dinoh-logo.png"
   display_name: "I0006｜通用團購助手"
   short_description: "商品、農產、服務與課程開團，完成可複製文案、原圖主視覺和收單交付流程"
   default_prompt: "使用 $group-buying-assistant，協助我規劃這次團購，先從賣什麼、賣給誰及怎麼買開始。"

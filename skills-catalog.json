@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "library_version": "0.3.8",
+  "library_version": "0.3.9",
   "plugin_display_name": "黃嘉偉KM",
   "source_ref": "main",
   "release_status": "published-source-awaiting-user-test",
@@ -21,7 +21,8 @@
       "agent_path": "0000-km-menu/skills/km-menu/agents/openai.yaml",
       "hashes": {
         "skills/km-menu/SKILL.md": "17424e4ad875ff124de32373c197db7394dc2f2bf28826a7757d8f97a98c6781",
-        "skills/km-menu/agents/openai.yaml": "ae7f10241660711b29b57520dce360063920f0d56e641f47a9bdf447820e7083"
+        "skills/km-menu/agents/openai.yaml": "5ba314fb127e0d28c8a807ef4b54a7d3067f35359cca92d7291d77bcf116fafa",
+        "skills/km-menu/assets/dinoh-logo.png": "794ec09c4c718ec1bbb946057b4471a9503507d339368cf227d0b784d50e8cf1"
       },
       "category": {
         "id": null,
@@ -41,9 +42,17 @@
         {
           "path": "0000-km-menu/skills/km-menu/agents/openai.yaml",
           "target_path": "skills/km-menu/agents/openai.yaml",
-          "sha256": "ae7f10241660711b29b57520dce360063920f0d56e641f47a9bdf447820e7083",
-          "normalized_text_sha256": "ae7f10241660711b29b57520dce360063920f0d56e641f47a9bdf447820e7083",
-          "bytes": 212
+          "sha256": "5ba314fb127e0d28c8a807ef4b54a7d3067f35359cca92d7291d77bcf116fafa",
+          "normalized_text_sha256": "5ba314fb127e0d28c8a807ef4b54a7d3067f35359cca92d7291d77bcf116fafa",
+          "bytes": 292
+        },
+        {
+          "path": "0000-km-menu/skills/km-menu/assets/dinoh-logo.png",
+          "target_path": "skills/km-menu/assets/dinoh-logo.png",
+          "sha256": "794ec09c4c718ec1bbb946057b4471a9503507d339368cf227d0b784d50e8cf1",
+          "normalized_text_sha256": "794ec09c4c718ec1bbb946057b4471a9503507d339368cf227d0b784d50e8cf1",
+          "bytes": 13797,
+          "content_type": "image/png"
         }
       ]
     },
@@ -62,11 +71,12 @@
       "agent_path": "I0000-install-prompt-generator/skills/km-install-prompt-generator/agents/openai.yaml",
       "hashes": {
         "skills/km-install-prompt-generator/SKILL.md": "56fcb8e122b128d722530d70d6efae8b929264e4baf783e6b6d0bfc1d2d9d642",
-        "skills/km-install-prompt-generator/agents/openai.yaml": "47dbe79c195dbfb59f273de668900d4907235d5378643ed6b1e9bf38a44302d4",
+        "skills/km-install-prompt-generator/agents/openai.yaml": "33bdbac592b9ca99deb045cdfc9c7c8b6977908ab3a50014fc394873b66b3abc",
         "skills/km-install-prompt-generator/assets/source-config.json": "3d868fbb9f7a45742adf8778e98565a41b7517eec23f2a9ac298a8c933950b39",
         "skills/km-install-prompt-generator/assets/student-install-prompt.txt": "b097d20460b901cb0b99773db501489c8b2457c88a87fdd0815374ecd11c1f71",
         "skills/km-install-prompt-generator/scripts/generate_install_prompt.py": "5eda81cd77afeb577a3297d67168b30bbdbfec9819e9e2a72dedca181b07fc29",
-        "skills/km-install-prompt-generator/scripts/install_logic.py": "8a6210b0250aecc7ee5856def2a9ff58406713cb2ba25d52d1fb53cec3c90d9b"
+        "skills/km-install-prompt-generator/scripts/install_logic.py": "8a6210b0250aecc7ee5856def2a9ff58406713cb2ba25d52d1fb53cec3c90d9b",
+        "skills/km-install-prompt-generator/assets/dinoh-logo.png": "794ec09c4c718ec1bbb946057b4471a9503507d339368cf227d0b784d50e8cf1"
       },
       "category": {
         "id": "C08",
@@ -86,9 +96,9 @@
         {
           "path": "I0000-install-prompt-generator/skills/km-install-prompt-generator/agents/openai.yaml",
           "target_path": "skills/km-install-prompt-generator/agents/openai.yaml",
-          "sha256": "47dbe79c195dbfb59f273de668900d4907235d5378643ed6b1e9bf38a44302d4",
-          "normalized_text_sha256": "47dbe79c195dbfb59f273de668900d4907235d5378643ed6b1e9bf38a44302d4",
-          "bytes": 295
+          "sha256": "33bdbac592b9ca99deb045cdfc9c7c8b6977908ab3a50014fc394873b66b3abc",
+          "normalized_text_sha256": "33bdbac592b9ca99deb045cdfc9c7c8b6977908ab3a50014fc394873b66b3abc",
+          "bytes": 375
         },
         {
           "path": "I0000-install-prompt-generator/skills/km-install-prompt-generator/assets/source-config.json",
@@ -117,6 +127,14 @@
           "sha256": "8a6210b0250aecc7ee5856def2a9ff58406713cb2ba25d52d1fb53cec3c90d9b",
           "normalized_text_sha256": "8a6210b0250aecc7ee5856def2a9ff58406713cb2ba25d52d1fb53cec3c90d9b",
           "bytes": 7225
+        },
+        {
+          "path": "I0000-install-prompt-generator/skills/km-install-prompt-generator/assets/dinoh-logo.png",
+          "target_path": "skills/km-install-prompt-generator/assets/dinoh-logo.png",
+          "sha256": "794ec09c4c718ec1bbb946057b4471a9503507d339368cf227d0b784d50e8cf1",
+          "normalized_text_sha256": "794ec09c4c718ec1bbb946057b4471a9503507d339368cf227d0b784d50e8cf1",
+          "bytes": 13797,
+          "content_type": "image/png"
         }
       ]
     },
@@ -135,7 +153,8 @@
       "agent_path": "I0001-daily-story-post/skills/daily-story-post/agents/openai.yaml",
       "hashes": {
         "skills/daily-story-post/SKILL.md": "98d36841858f2fa1c768f7ae1d7a89100332bbedd7073597078a751b793668bd",
-        "skills/daily-story-post/agents/openai.yaml": "f9833323363bc24099151da17578d52b071b84000196d1cd7d058ca779afbc08"
+        "skills/daily-story-post/agents/openai.yaml": "570a76679873a750c439a0d2b9698aec08bb4be6b9f0d416c6446eecc80c0bdc",
+        "skills/daily-story-post/assets/dinoh-logo.png": "794ec09c4c718ec1bbb946057b4471a9503507d339368cf227d0b784d50e8cf1"
       },
       "category": {
         "id": "C02",
@@ -159,9 +178,17 @@
         {
           "path": "I0001-daily-story-post/skills/daily-story-post/agents/openai.yaml",
           "target_path": "skills/daily-story-post/agents/openai.yaml",
-          "sha256": "f9833323363bc24099151da17578d52b071b84000196d1cd7d058ca779afbc08",
-          "normalized_text_sha256": "5b13d2f0f3490fd24e7e1cb3267bdd5f0129a3dd3c1b535cebe15742dbb48802",
-          "bytes": 380
+          "sha256": "570a76679873a750c439a0d2b9698aec08bb4be6b9f0d416c6446eecc80c0bdc",
+          "normalized_text_sha256": "570a76679873a750c439a0d2b9698aec08bb4be6b9f0d416c6446eecc80c0bdc",
+          "bytes": 407
+        },
+        {
+          "path": "I0001-daily-story-post/skills/daily-story-post/assets/dinoh-logo.png",
+          "target_path": "skills/daily-story-post/assets/dinoh-logo.png",
+          "sha256": "794ec09c4c718ec1bbb946057b4471a9503507d339368cf227d0b784d50e8cf1",
+          "normalized_text_sha256": "794ec09c4c718ec1bbb946057b4471a9503507d339368cf227d0b784d50e8cf1",
+          "bytes": 13797,
+          "content_type": "image/png"
         }
       ],
       "official_predecessors": [
@@ -190,7 +217,8 @@
       "agent_path": "I0002-live-stream-planning/skills/live-stream-planning/agents/openai.yaml",
       "hashes": {
         "skills/live-stream-planning/SKILL.md": "496ef341b16c4efe5a7e33ba2bb8bb0bf201b6ec6550d67b4252506b08b2efb0",
-        "skills/live-stream-planning/agents/openai.yaml": "7a1d477f16a327ff4cbc83304c225389cb556789a354068ddda84692bdeb95e0"
+        "skills/live-stream-planning/agents/openai.yaml": "0c650d3c3fc0834ed65b0b0a5fc94908aa56820ee876f5a63488e70e58f775e1",
+        "skills/live-stream-planning/assets/dinoh-logo.png": "794ec09c4c718ec1bbb946057b4471a9503507d339368cf227d0b784d50e8cf1"
       },
       "category": {
         "id": "C05",
@@ -214,9 +242,17 @@
         {
           "path": "I0002-live-stream-planning/skills/live-stream-planning/agents/openai.yaml",
           "target_path": "skills/live-stream-planning/agents/openai.yaml",
-          "sha256": "7a1d477f16a327ff4cbc83304c225389cb556789a354068ddda84692bdeb95e0",
-          "normalized_text_sha256": "7a1d477f16a327ff4cbc83304c225389cb556789a354068ddda84692bdeb95e0",
-          "bytes": 285
+          "sha256": "0c650d3c3fc0834ed65b0b0a5fc94908aa56820ee876f5a63488e70e58f775e1",
+          "normalized_text_sha256": "0c650d3c3fc0834ed65b0b0a5fc94908aa56820ee876f5a63488e70e58f775e1",
+          "bytes": 365
+        },
+        {
+          "path": "I0002-live-stream-planning/skills/live-stream-planning/assets/dinoh-logo.png",
+          "target_path": "skills/live-stream-planning/assets/dinoh-logo.png",
+          "sha256": "794ec09c4c718ec1bbb946057b4471a9503507d339368cf227d0b784d50e8cf1",
+          "normalized_text_sha256": "794ec09c4c718ec1bbb946057b4471a9503507d339368cf227d0b784d50e8cf1",
+          "bytes": 13797,
+          "content_type": "image/png"
         }
       ]
     },
@@ -235,7 +271,8 @@
       "agent_path": "I0003-figurine-expression-design/skills/figurine-expression-design/agents/openai.yaml",
       "hashes": {
         "skills/figurine-expression-design/SKILL.md": "9c2af9f8902a2535b6b97e677d0614096b518fd4e740ab6bc6552f1c2b7b3f85",
-        "skills/figurine-expression-design/agents/openai.yaml": "ad67836f81f95e8a834466923c94993ab86ab6fba458d08c851aed3d985c7090"
+        "skills/figurine-expression-design/agents/openai.yaml": "0cefe7699a6bf22c9db079262a81e2eedb524c7b1be4b325ba73bc1725bf07aa",
+        "skills/figurine-expression-design/assets/dinoh-logo.png": "794ec09c4c718ec1bbb946057b4471a9503507d339368cf227d0b784d50e8cf1"
       },
       "category": {
         "id": "C04",
@@ -259,9 +296,17 @@
         {
           "path": "I0003-figurine-expression-design/skills/figurine-expression-design/agents/openai.yaml",
           "target_path": "skills/figurine-expression-design/agents/openai.yaml",
-          "sha256": "ad67836f81f95e8a834466923c94993ab86ab6fba458d08c851aed3d985c7090",
-          "normalized_text_sha256": "ad67836f81f95e8a834466923c94993ab86ab6fba458d08c851aed3d985c7090",
-          "bytes": 292
+          "sha256": "0cefe7699a6bf22c9db079262a81e2eedb524c7b1be4b325ba73bc1725bf07aa",
+          "normalized_text_sha256": "0cefe7699a6bf22c9db079262a81e2eedb524c7b1be4b325ba73bc1725bf07aa",
+          "bytes": 372
+        },
+        {
+          "path": "I0003-figurine-expression-design/skills/figurine-expression-design/assets/dinoh-logo.png",
+          "target_path": "skills/figurine-expression-design/assets/dinoh-logo.png",
+          "sha256": "794ec09c4c718ec1bbb946057b4471a9503507d339368cf227d0b784d50e8cf1",
+          "normalized_text_sha256": "794ec09c4c718ec1bbb946057b4471a9503507d339368cf227d0b784d50e8cf1",
+          "bytes": 13797,
+          "content_type": "image/png"
         }
       ],
       "official_predecessors": [
@@ -290,7 +335,8 @@
       "agent_path": "I0004-image-to-video-prompt/skills/image-to-video-prompt/agents/openai.yaml",
       "hashes": {
         "skills/image-to-video-prompt/SKILL.md": "b370a0a0556f3ad9bcb67c70706ed399b14a8b8ded21414e39c775d7a26ef787",
-        "skills/image-to-video-prompt/agents/openai.yaml": "26d57fcddef641c44ada2fa0a6c4006e42ef88905cd769b6a63e4806d2679e81"
+        "skills/image-to-video-prompt/agents/openai.yaml": "a030f60ca8ce4e820fd390a39bce39b54d1fc4ee04788f0b3d6db7d212972dc1",
+        "skills/image-to-video-prompt/assets/dinoh-logo.png": "794ec09c4c718ec1bbb946057b4471a9503507d339368cf227d0b784d50e8cf1"
       },
       "category": {
         "id": "C05",
@@ -314,9 +360,17 @@
         {
           "path": "I0004-image-to-video-prompt/skills/image-to-video-prompt/agents/openai.yaml",
           "target_path": "skills/image-to-video-prompt/agents/openai.yaml",
-          "sha256": "26d57fcddef641c44ada2fa0a6c4006e42ef88905cd769b6a63e4806d2679e81",
-          "normalized_text_sha256": "bf887bc39ff9bed841677260c8c0c9fbeb58206415f47a65af6aff2157413d85",
-          "bytes": 316
+          "sha256": "a030f60ca8ce4e820fd390a39bce39b54d1fc4ee04788f0b3d6db7d212972dc1",
+          "normalized_text_sha256": "a030f60ca8ce4e820fd390a39bce39b54d1fc4ee04788f0b3d6db7d212972dc1",
+          "bytes": 393
+        },
+        {
+          "path": "I0004-image-to-video-prompt/skills/image-to-video-prompt/assets/dinoh-logo.png",
+          "target_path": "skills/image-to-video-prompt/assets/dinoh-logo.png",
+          "sha256": "794ec09c4c718ec1bbb946057b4471a9503507d339368cf227d0b784d50e8cf1",
+          "normalized_text_sha256": "794ec09c4c718ec1bbb946057b4471a9503507d339368cf227d0b784d50e8cf1",
+          "bytes": 13797,
+          "content_type": "image/png"
         }
       ],
       "official_predecessors": [
@@ -345,7 +399,8 @@
       "agent_path": "I0005-title-lettering-generator/skills/title-lettering-generator/agents/openai.yaml",
       "hashes": {
         "skills/title-lettering-generator/SKILL.md": "4c4138f5466ed3140a6c4f3f4d0228f597ba73e4ddfc7ec376e81cd14388ac99",
-        "skills/title-lettering-generator/agents/openai.yaml": "b85242d80392b3f47e918e7191a393edf6ad515cf122775096794e7e6e594621"
+        "skills/title-lettering-generator/agents/openai.yaml": "46a841aa7405c4b1868523836061e12e00876611d296843077d0e30e6d0e0686",
+        "skills/title-lettering-generator/assets/dinoh-logo.png": "794ec09c4c718ec1bbb946057b4471a9503507d339368cf227d0b784d50e8cf1"
       },
       "category": {
         "id": "C04",
@@ -369,9 +424,17 @@
         {
           "path": "I0005-title-lettering-generator/skills/title-lettering-generator/agents/openai.yaml",
           "target_path": "skills/title-lettering-generator/agents/openai.yaml",
-          "sha256": "b85242d80392b3f47e918e7191a393edf6ad515cf122775096794e7e6e594621",
-          "normalized_text_sha256": "b85242d80392b3f47e918e7191a393edf6ad515cf122775096794e7e6e594621",
-          "bytes": 374
+          "sha256": "46a841aa7405c4b1868523836061e12e00876611d296843077d0e30e6d0e0686",
+          "normalized_text_sha256": "46a841aa7405c4b1868523836061e12e00876611d296843077d0e30e6d0e0686",
+          "bytes": 454
+        },
+        {
+          "path": "I0005-title-lettering-generator/skills/title-lettering-generator/assets/dinoh-logo.png",
+          "target_path": "skills/title-lettering-generator/assets/dinoh-logo.png",
+          "sha256": "794ec09c4c718ec1bbb946057b4471a9503507d339368cf227d0b784d50e8cf1",
+          "normalized_text_sha256": "794ec09c4c718ec1bbb946057b4471a9503507d339368cf227d0b784d50e8cf1",
+          "bytes": 13797,
+          "content_type": "image/png"
         }
       ]
     },
@@ -390,7 +453,8 @@
       "agent_path": "I0006-group-buying-assistant/skills/group-buying-assistant/agents/openai.yaml",
       "hashes": {
         "skills/group-buying-assistant/SKILL.md": "7a05c90adb83752dcbf923b88f1c815c8a5bf40de5752858536158e90935740b",
-        "skills/group-buying-assistant/agents/openai.yaml": "6a24d389639435397fa25ee918c5ae95a830ec71449764f5a6eec5ce7ada02bf"
+        "skills/group-buying-assistant/agents/openai.yaml": "918c7465f6ef761c8c398cbb483da83ae10816fae5e0d363e83d12e3efaa7b4d",
+        "skills/group-buying-assistant/assets/dinoh-logo.png": "794ec09c4c718ec1bbb946057b4471a9503507d339368cf227d0b784d50e8cf1"
       },
       "category": {
         "id": "C02",
@@ -417,9 +481,17 @@
         {
           "path": "I0006-group-buying-assistant/skills/group-buying-assistant/agents/openai.yaml",
           "target_path": "skills/group-buying-assistant/agents/openai.yaml",
-          "sha256": "6a24d389639435397fa25ee918c5ae95a830ec71449764f5a6eec5ce7ada02bf",
-          "normalized_text_sha256": "6a24d389639435397fa25ee918c5ae95a830ec71449764f5a6eec5ce7ada02bf",
-          "bytes": 313
+          "sha256": "918c7465f6ef761c8c398cbb483da83ae10816fae5e0d363e83d12e3efaa7b4d",
+          "normalized_text_sha256": "918c7465f6ef761c8c398cbb483da83ae10816fae5e0d363e83d12e3efaa7b4d",
+          "bytes": 393
+        },
+        {
+          "path": "I0006-group-buying-assistant/skills/group-buying-assistant/assets/dinoh-logo.png",
+          "target_path": "skills/group-buying-assistant/assets/dinoh-logo.png",
+          "sha256": "794ec09c4c718ec1bbb946057b4471a9503507d339368cf227d0b784d50e8cf1",
+          "normalized_text_sha256": "794ec09c4c718ec1bbb946057b4471a9503507d339368cf227d0b784d50e8cf1",
+          "bytes": 13797,
+          "content_type": "image/png"
         }
       ],
       "official_predecessors": [
@@ -472,14 +544,23 @@
         {
           "path": "I0007-one-shop-html-block/skills/one-shop-html-block/agents/openai.yaml",
           "target_path": "skills/one-shop-html-block/agents/openai.yaml",
-          "sha256": "290a6d3edaf3239eb15e41a53ccf00799969df7e3ba0dce34d1acf69ee39f5bf",
-          "normalized_text_sha256": "c6b92429558f1116125f53e653bd27afce7d2737b2472e8d3f7c18a41b2b24a3",
-          "bytes": 321
+          "sha256": "de3dfbd6fb24ca06c7a18578d278e1002716f1e8c85d790a47d5902d1d1c711a",
+          "normalized_text_sha256": "de3dfbd6fb24ca06c7a18578d278e1002716f1e8c85d790a47d5902d1d1c711a",
+          "bytes": 397
+        },
+        {
+          "path": "I0007-one-shop-html-block/skills/one-shop-html-block/assets/dinoh-logo.png",
+          "target_path": "skills/one-shop-html-block/assets/dinoh-logo.png",
+          "sha256": "794ec09c4c718ec1bbb946057b4471a9503507d339368cf227d0b784d50e8cf1",
+          "normalized_text_sha256": "794ec09c4c718ec1bbb946057b4471a9503507d339368cf227d0b784d50e8cf1",
+          "bytes": 13797,
+          "content_type": "image/png"
         }
       ],
       "hashes": {
         "skills/one-shop-html-block/SKILL.md": "0411260fd88796a4a54ea4216eda3f371f07c446c0c2e23cd05755c642a1b9c5",
-        "skills/one-shop-html-block/agents/openai.yaml": "290a6d3edaf3239eb15e41a53ccf00799969df7e3ba0dce34d1acf69ee39f5bf"
+        "skills/one-shop-html-block/agents/openai.yaml": "de3dfbd6fb24ca06c7a18578d278e1002716f1e8c85d790a47d5902d1d1c711a",
+        "skills/one-shop-html-block/assets/dinoh-logo.png": "794ec09c4c718ec1bbb946057b4471a9503507d339368cf227d0b784d50e8cf1"
       }
     }
   ]

@@ -2,7 +2,7 @@
 
 ## 完整ZIP安裝｜手機優先
 
-**[下載黃嘉偉KM完整外掛 v0.1.5](https://github.com/DinoHappyKM/skill-library/raw/refs/heads/main/downloads/huang-jia-wei-km-v0.1.5.zip)** · [安裝步驟](INSTALL-ZIP.md) · [Notion手機教學](https://app.notion.com/p/3f404b753fe08030a598cdde79ee41b3)
+**[下載黃嘉偉KM完整外掛 v0.1.7](https://github.com/DinoHappyKM/skill-library/raw/refs/heads/main/downloads/huang-jia-wei-km-v0.1.7.zip)** · [安裝步驟](INSTALL-ZIP.md) · [Notion手機教學](https://app.notion.com/p/3f404b753fe08030a598cdde79ee41b3)
 
 內含主選單、I0001～I0007與DINO Logo。新同學：ChatGPT外掛頁→新增→上傳外掛程式封存檔→選ZIP→確認。已有外掛者先閱讀更新分流；自訂內容須備份合併。原生上傳與手機仍待學生實測。
 
@@ -52,3 +52,9 @@ I0006 0.1.1 修正：LINE團購主文預設附「接龍／1.／2.／3.」，主�
 ## 新增技能
 
 | I0007 | 1Shop容器HTML產生器 | 0.1.0 | 網站 | [提示詞](I0007-one-shop-html-block/INSTALL-PROMPT.md) |
+
+[下載KMT教師工具完整包0.1.1](downloads/huang-jia-wei-kmt-teacher-tools-v0.1.1.zip?raw=true)，老師專用；學生KM包獨立保留。
+
+## 發布前Logo檢查
+
+本人KM／KMT／KMW固定使用DinoH原PNG。使用Python與PyYAML執行 tools/verify_dinoh_brand.py，參數為解壓後外掛資料夾；根manifest及每支技能圖示全部通過才可發布。宿主顯示需另驗收。

@@ -20,7 +20,9 @@
         "defaultPrompt": [
           "幫我用簡易做法規劃一場直播。",
           "幫我用完整做法，從選題到直播後復盤逐步規劃。"
-        ]
+        ],
+        "logo": "./assets/dinoh-logo.png",
+        "composerIcon": "./assets/dinoh-logo.png"
       }
     }
   }

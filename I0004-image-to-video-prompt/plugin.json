@@ -20,7 +20,9 @@
         "defaultPrompt": [
           "我上傳一張圖片，想讓它自然地動起來。請給我可複製的英文提示詞和中文說明。",
           "請依我上傳的圖片，寫一版溫柔電影感的動態影片英文提示詞。"
-        ]
+        ],
+        "logo": "./assets/dinoh-logo.png",
+        "composerIcon": "./assets/dinoh-logo.png"
       }
     }
   }

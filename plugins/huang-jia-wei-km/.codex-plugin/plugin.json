@@ -1,6 +1,6 @@
 {
   "name": "huang-jia-wei-km",
-  "version": "0.1.5",
+  "version": "0.1.7",
   "description": "黃嘉偉KM：主選單與七支通用技能，支援貼文、直播、公仔、影音提示詞、標題花字與團購。",
   "author": {
     "name": "黃嘉偉"
@@ -15,8 +15,8 @@
       "Interactive"
     ],
     "defaultPrompt": "使用 $km-menu，顯示黃嘉偉KM已核對的技能與分類。",
-    "logo": "./assets/logo.png",
-    "composerIcon": "./assets/logo.png"
+    "logo": "./assets/dinoh-logo.png",
+    "composerIcon": "./assets/dinoh-logo.png"
   },
   "skills": "./skills"
 }

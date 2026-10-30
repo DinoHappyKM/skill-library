@@ -1,8 +1,8 @@
 # 黃嘉偉KM｜完整ZIP安裝
 
-外掛封存版本：0.1.5｜2026-10-19
+外掛封存版本：0.1.7｜2026-10-19
 
-下載「黃嘉偉KM_完整外掛_v0.1.5.zip」，整包上傳，無需解壓縮，也無需先貼安裝提示詞。
+下載「黃嘉偉KM_完整外掛_v0.1.7.zip」，整包上傳，無需解壓縮，也無需先貼安裝提示詞。
 
 ## 第一次安裝
 
@@ -46,6 +46,6 @@ Logo已同時設定為外掛列表Logo與對話輸入框圖示；實際端點顯
 來源：https://github.com/DinoHappyKM/skill-library
 來源快照：621c705e3b764791a9a47f08324f2fd0267f7b2d
 
-[直接下載完整ZIP](https://github.com/DinoHappyKM/skill-library/raw/refs/heads/main/downloads/huang-jia-wei-km-v0.1.5.zip)
+[直接下載完整ZIP](https://github.com/DinoHappyKM/skill-library/raw/refs/heads/main/downloads/huang-jia-wei-km-v0.1.7.zip)
 
 [Notion手機下載與教學](https://app.notion.com/p/3f404b753fe08030a598cdde79ee41b3)

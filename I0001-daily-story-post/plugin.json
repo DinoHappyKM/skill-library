@@ -20,7 +20,9 @@
         "defaultPrompt": [
           "說說今天或最近的一件小事，幫我寫成 A／B／C 三種 FB／IG 貼文。",
           "貼文已確認，請用我上傳的原始照片設計 9:16 繁體中文標題封面。"
-        ]
+        ],
+        "logo": "./assets/dinoh-logo.png",
+        "composerIcon": "./assets/dinoh-logo.png"
       }
     }
   }
