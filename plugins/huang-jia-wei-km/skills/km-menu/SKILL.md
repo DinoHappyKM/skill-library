@@ -93,7 +93,7 @@ skills:
   - 日常
   - 故事
   - 貼文
-  source_version: 0.2.3
+  source_version: 0.2.4
   registration: 已核對
 - id: I0002
   name: 直播企劃與開播助手
@@ -172,6 +172,21 @@ skills:
   - 容器
   - 網頁
   - 程式區塊
+  source_version: 0.1.0
+  registration: 已核對
+- id: I0008
+  name: 參考圖海報設計
+  skill_slug: reference-poster-design
+  category_id: C04
+  subcategory_id: null
+  summary: 參考圖海報、留白、花字層級與情緒配色
+  tags:
+  - 海報
+  - DM
+  - Banner
+  - 留白
+  - 花字
+  - 情緒配色
   source_version: 0.1.0
   registration: 已核對
 ~~~

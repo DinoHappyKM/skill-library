@@ -1,35 +1,41 @@
 {
-  "package_version": "0.1.5",
-  "source_commit": "621c705e3b764791a9a47f08324f2fd0267f7b2d",
-  "zip_sha256": "20d8b0a6cd97c63c895c4569d9eeae928b61f03117acceb056b98df8e631bbba",
-  "zip_bytes": 63093,
-  "file_count": 20,
-  "skill_count": 8,
-  "student_skill_count": 7,
-  "source_files_hash_checked": 16,
-  "skill_originals_preserved": true,
-  "menu_registry_count": 7,
-  "logo_size": [
-    512,
-    512
-  ],
+  "package_version": "0.1.8",
+  "source_commit": "3c7d3285e9d966ea099f31425932d12cf76c6c7a",
+  "zip_sha256": "543f11c9b06f07aaf632eb51694d4294c68d7f483ae98cec767a917e1e890785",
+  "zip_bytes": 197525,
+  "file_count": 32,
+  "skill_count": 9,
+  "student_skill_count": 8,
+  "menu_registry_count": 8,
   "logo_sha256": "794ec09c4c718ec1bbb946057b4471a9503507d339368cf227d0b784d50e8cf1",
-  "validation": {
-    "json_yaml_parsed": true,
-    "relative_links": true,
-    "cross_platform_verify_zip": true,
-    "crc": true,
-    "extracted_hashes_match": true,
-    "live_student_upload": "pending"
-  },
   "versions": {
     "0000": "0.4.0",
-    "I0001": "0.2.3",
+    "I0001": "0.2.4",
     "I0002": "0.1.1",
     "I0003": "0.1.0",
     "I0004": "0.1.0",
     "I0005": "0.1.0",
     "I0006": "0.1.1",
-    "I0007": "0.1.0"
+    "I0007": "0.1.0",
+    "I0008": "0.1.0"
+  },
+  "validation_status": "local-integrity-passed",
+  "live_student_upload": "pending",
+  "visual_quality": "human_review_required",
+  "validation": {
+    "checks": 133,
+    "brand": {
+      "package": "huang-jia-wei-km",
+      "skill_count": 9,
+      "references_checked": 22,
+      "errors": [],
+      "passed": true
+    },
+    "zip_crc": true,
+    "cross_platform_paths": true,
+    "extracted_hashes_match": true,
+    "original_seven_skills_preserved": true,
+    "visual_quality": "human_review_required",
+    "live_student_upload": "pending"
   }
 }

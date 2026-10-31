@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "huang-jia-wei-km",
-  "version": "0.1.7",
-  "description": "黃嘉偉KM：主選單與七支通用技能，支援貼文、直播、公仔、影音提示詞、標題花字與團購。",
+  "version": "0.1.8",
+  "description": "黃嘉偉KM：主選單與八支通用技能，含貼文、圖像影音、團購、網站與海報設計。",
   "author": {
     "name": "黃嘉偉"
   },
@@ -10,8 +10,8 @@
     "com.openai": {
       "interface": {
         "displayName": "黃嘉偉KM",
-        "shortDescription": "貼文、圖像影音、團購與網站七支技能",
-        "longDescription": "內含0主選單與I0001日常故事貼文助手、I0002直播企劃與開播助手、I0003公仔表情設計、I0004單圖動態影片提示詞助手、I0005標題花字產生器、I0006通用團購助手及I0007容器HTML產生器。輸入0查看分類，或直接輸入I代號開始。",
+        "shortDescription": "貼文、圖像影音、團購、網站與海報設計",
+        "longDescription": "主選單與I0001～I0008。新增參考圖海報設計：留白、情緒配色、主標花字及文字階層。輸入0看分類，輸入I0008開始海報。",
         "developerName": "黃嘉偉",
         "category": "Productivity",
         "capabilities": [
