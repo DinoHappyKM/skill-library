@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "library_version": "0.3.9",
+  "library_version": "0.4.0",
   "plugin_display_name": "黃嘉偉KM",
   "source_ref": "main",
   "release_status": "published-source-awaiting-user-test",
@@ -561,6 +561,63 @@
         "skills/one-shop-html-block/SKILL.md": "0411260fd88796a4a54ea4216eda3f371f07c446c0c2e23cd05755c642a1b9c5",
         "skills/one-shop-html-block/agents/openai.yaml": "de3dfbd6fb24ca06c7a18578d278e1002716f1e8c85d790a47d5902d1d1c711a",
         "skills/one-shop-html-block/assets/dinoh-logo.png": "794ec09c4c718ec1bbb946057b4471a9503507d339368cf227d0b784d50e8cf1"
+      }
+    },
+    {
+      "id": "I0008",
+      "name": "參考圖海報設計",
+      "slug": "reference-poster-design",
+      "role": "student_skill",
+      "version": "0.1.0",
+      "version_status": "declared",
+      "version_source": {
+        "path": "I0008-reference-poster-design/skills/reference-poster-design/SKILL.md",
+        "method": "SKILL.md metadata.version"
+      },
+      "skill_path": "I0008-reference-poster-design/skills/reference-poster-design/SKILL.md",
+      "agent_path": "I0008-reference-poster-design/skills/reference-poster-design/agents/openai.yaml",
+      "category": {
+        "id": "C04",
+        "name": "圖像",
+        "subcategory": null
+      },
+      "summary": "參考圖海報、留白、花字層級與情緒配色",
+      "tags": [
+        "海報",
+        "DM",
+        "Banner",
+        "留白",
+        "花字",
+        "情緒配色"
+      ],
+      "required_files": [
+        {
+          "path": "I0008-reference-poster-design/skills/reference-poster-design/agents/openai.yaml",
+          "target_path": "skills/reference-poster-design/agents/openai.yaml",
+          "sha256": "7660fbec1596c3bb4f6223c59c70823b818cb861b5999659797e56a72d097eaa",
+          "normalized_text_sha256": "7660fbec1596c3bb4f6223c59c70823b818cb861b5999659797e56a72d097eaa",
+          "bytes": 426
+        },
+        {
+          "path": "I0008-reference-poster-design/skills/reference-poster-design/assets/dinoh-logo.png",
+          "target_path": "skills/reference-poster-design/assets/dinoh-logo.png",
+          "sha256": "794ec09c4c718ec1bbb946057b4471a9503507d339368cf227d0b784d50e8cf1",
+          "normalized_text_sha256": "794ec09c4c718ec1bbb946057b4471a9503507d339368cf227d0b784d50e8cf1",
+          "bytes": 13797,
+          "content_type": "image/png"
+        },
+        {
+          "path": "I0008-reference-poster-design/skills/reference-poster-design/SKILL.md",
+          "target_path": "skills/reference-poster-design/SKILL.md",
+          "sha256": "b2aef1f669343d89b7fbacd7ba821666602e40d5afc5174f8ee1c31c96d5232f",
+          "normalized_text_sha256": "b2aef1f669343d89b7fbacd7ba821666602e40d5afc5174f8ee1c31c96d5232f",
+          "bytes": 11508
+        }
+      ],
+      "hashes": {
+        "skills/reference-poster-design/agents/openai.yaml": "7660fbec1596c3bb4f6223c59c70823b818cb861b5999659797e56a72d097eaa",
+        "skills/reference-poster-design/assets/dinoh-logo.png": "794ec09c4c718ec1bbb946057b4471a9503507d339368cf227d0b784d50e8cf1",
+        "skills/reference-poster-design/SKILL.md": "b2aef1f669343d89b7fbacd7ba821666602e40d5afc5174f8ee1c31c96d5232f"
       }
     }
   ]

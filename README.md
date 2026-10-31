@@ -2,59 +2,36 @@
 
 ## 完整ZIP安裝｜手機優先
 
-**[下載黃嘉偉KM完整外掛 v0.1.7](https://github.com/DinoHappyKM/skill-library/raw/refs/heads/main/downloads/huang-jia-wei-km-v0.1.7.zip)** · [安裝步驟](INSTALL-ZIP.md) · [Notion手機教學](https://app.notion.com/p/3f404b753fe08030a598cdde79ee41b3)
+**[下載黃嘉偉KM完整外掛 v0.1.8](https://github.com/DinoHappyKM/skill-library/raw/refs/heads/main/downloads/huang-jia-wei-km-v0.1.8.zip)** · [安裝步驟](INSTALL-ZIP.md) · [Notion手機教學](https://app.notion.com/p/3f404b753fe08030a598cdde79ee41b3)
 
-內含主選單、I0001～I0007與DINO Logo。新同學：ChatGPT外掛頁→新增→上傳外掛程式封存檔→選ZIP→確認。已有外掛者先閱讀更新分流；自訂內容須備份合併。原生上傳與手機仍待學生實測。
+學生只使用完整ZIP，一次安裝0主選單與I0001～I0008。已含原DinoH Logo及九個技能圖示；KMT教師工具與KMW流程獨立。
+新同學依實際介面「新增→上傳外掛程式封存檔」；已有黃嘉偉KM使用原更新入口，不重建。自訂內容先備份合併，不能假設整包會保留個人修改。自己的私人KM不更動。
 
+## 包內技能與使用說明
 
-## 學生安裝
-
-[一次安裝 I0001～I0007｜完整學生提示詞](INSTALL-I0001-I0007.txt)
-
-
-|代號|技能|原文版本|分類|安裝|
+|代號|技能|技能版本|分類|說明|
 |---|---|---|---|---|
-|I0001|日常故事貼文助手|0.2.3|文案|[提示詞](I0001-daily-story-post/INSTALL-PROMPT.md)|
-|I0002|直播企劃與開播助手|0.1.1|影音|[提示詞](I0002-live-stream-planning/INSTALL-PROMPT.md)|
-|I0003|公仔表情設計|0.1.0|圖像|[提示詞](I0003-figurine-expression-design/INSTALL-PROMPT.md)|
-|I0004|單圖動態影片提示詞助手|0.1.0|影音|[提示詞](I0004-image-to-video-prompt/INSTALL-PROMPT.md)|
-|I0005|標題花字產生器|0.1.0|圖像|[提示詞](I0005-title-lettering-generator/INSTALL-PROMPT.md)|
-|I0006|通用團購助手|0.1.1|文案|[提示詞](I0006-group-buying-assistant/INSTALL-PROMPT.md)|
+|I0001|日常故事貼文助手|0.2.4|文案|[使用說明](I0001-daily-story-post/README.md)|
+|I0002|直播企劃與開播助手|0.1.1|影音|[使用說明](I0002-live-stream-planning/README.md)|
+|I0003|公仔表情設計|0.1.0|圖像|[使用說明](I0003-figurine-expression-design/README.md)|
+|I0004|單圖動態影片提示詞助手|0.1.0|影音|[使用說明](I0004-image-to-video-prompt/README.md)|
+|I0005|標題花字產生器|0.1.0|圖像|[使用說明](I0005-title-lettering-generator/README.md)|
+|I0006|通用團購助手|0.1.1|文案|[使用說明](I0006-group-buying-assistant/README.md)|
+|I0007|1Shop容器HTML產生器|0.1.0|網站|[使用說明](I0007-one-shop-html-block/README.md)|
+|I0008|參考圖海報設計|0.1.0|圖像|[使用說明](I0008-reference-poster-design/README.md)|
 
-[00建立](0000-km-menu/00_建立黃嘉偉KM外掛.txt)｜[00更新主選單](0000-km-menu/00_更新既有黃嘉偉KM主選單.txt)｜[KMT教師工具教學](I0000-install-prompt-generator/README.md)｜[I0000老師完整安裝提示詞](I0000-install-prompt-generator/INSTALL-PROMPT.txt)｜[版本目錄](skills-catalog.json)｜[測試說明](tests/README.md)
+## I0008新增｜2026-10-31
 
-## 教師工具
+先看參考圖，再做海報：留白、表象與內涵、情緒配色、主標花字／次標／內文字形層級。三組簡短輸入，一張設計確認卡，再出一張樣稿。CTA與無字版選用，不擅加文字或換掉真實素材。
 
-教師 Plugin 名稱為「黃嘉偉KMT教師工具」（KMT），內部安裝技能代號 I0000；學生主平台固定為「黃嘉偉KM」。先複製上方老師完整安裝提示詞，安裝並儲存教師工具，再以 I0000 產生課堂需要的學生提示詞。已有教師工具沿用原 Plugin ID，舊名稱更名先核對及確認，不建立重複外掛。
+[使用方法](I0008-reference-poster-design/README.md) · [主選單來源](0000-km-menu/skills/km-menu/SKILL.md) · [版本目錄](skills-catalog.json)
 
-## 版本、完整性與權限
+## 版本與維護
 
-缺少新增；相同保留；可核對未客製舊版才更新；較新版、同版異文、未知基準或個人修改先確認。保留其他技能、設定、檔案與ID，不用老師manifest覆蓋現有外掛。
+技能庫0.4.0；完整外掛0.1.8；I0008技能0.1.0。技能各自保留原版號，舊七支原文保留。GitHub更新不會自動更新學生已裝外掛，帳號權限也不由ZIP解除。
 
-I0003、I0004首次於SKILL.md宣告技能版0.1.0；舊無版本官方兩檔校驗值列於目錄供保守升級。其餘正式工作檔不變；歷史references、IMPORT仍保留，學生每支工作技能只要兩檔。不是宣稱工具只能讀二個檔案。
+正式Skill在各P專案維護，GitHub為發布副本。先驗證來源／目錄／Logo／ZIP，再同步Notion與學生Drive。封裝可重建；實際帳號、手機、中文字形與美感須另驗收。
 
-帳號須實際有Plugin Creator權限；貼提示詞不能增加權限。學生讀GitHub失敗，可由老師I0000產生完整原文模式，不要ZIP；原文不足則停止，不猜免費額度原因。
+## 教師與歷史資料
 
-GitHub/G槽路徑是資料位置，不是Plugin安裝網址；更新不自動同步已安裝外掛。主選單是聊天文字導航，不承諾原生按鈕或自訂字型。
-
-## 維護與驗證
-
-[版本目錄規格](docs/技能版本目錄.md)。先改原專案主檔，再重建部署；不能反向改正式技能。
-
-`python -m unittest discover -s tests -v`執行離線檢查。ChatGPT儲存、免費帳號、iPhone／安卓及電腦實測待驗證；本機結果不能稱安裝成功。
-
-## I0006 通用團購助手
-
-main 已發布 I0006 0.1.1：商品、農產、服務與課程開團，三組啟動問題，依實際下單管道交付文案、原圖與收單流程。[直接複製正式安裝提示詞](I0006-group-buying-assistant/INSTALL-PROMPT.md)到Plugin Creator，實際使用結果待老師驗收。原已安裝教師工具的查目錄程式可依新目錄選取 I0006，實際帳號呼叫仍待測。
-
-I0006 0.1.1 修正：LINE團購主文預設附「接龍／1.／2.／3.」，主文與接龍同一複製區塊；明確不要接龍或只用表單／私訊時省略。
-
-## 新增技能
-
-| I0007 | 1Shop容器HTML產生器 | 0.1.0 | 網站 | [提示詞](I0007-one-shop-html-block/INSTALL-PROMPT.md) |
-
-[下載KMT教師工具完整包0.1.2](downloads/huang-jia-wei-kmt-teacher-tools-v0.1.2.zip?raw=true)，老師專用；學生KM包獨立保留。
-
-## 發布前Logo檢查
-
-本人KM／KMT／KMW固定使用DinoH原PNG。使用Python與PyYAML執行 tools/verify_dinoh_brand.py，參數為解壓後外掛資料夾；根manifest及每支技能圖示全部通過才可發布。宿主顯示需另驗收。
+[KMT教師工具](I0000-install-prompt-generator/README.md)與[I0000來源](I0000-install-prompt-generator/skills/km-install-prompt-generator/SKILL.md)供老師維護。既有單支／分批安裝檔、原始references及Git歷史保留追溯，不作目前學生安裝入口。

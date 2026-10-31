@@ -1,0 +1,7 @@
+interface:
+  display_name: "I0008｜參考圖海報設計"
+  short_description: "從喜好圖拆解留白、花字與情緒配色，確認後製作海報及橫幅樣稿"
+  icon_small: "./assets/dinoh-logo.png"
+  icon_large: "./assets/dinoh-logo.png"
+  brand_color: "#8A6B35"
+  default_prompt: "使用 $reference-poster-design，依我的喜好圖與素材，用簡短選項確認用途、文字與比例，再設計海報。"
