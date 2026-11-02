@@ -1,12 +1,12 @@
 {
-  "package_version": "0.1.8",
-  "source_commit": "3c7d3285e9d966ea099f31425932d12cf76c6c7a",
-  "zip_sha256": "543f11c9b06f07aaf632eb51694d4294c68d7f483ae98cec767a917e1e890785",
-  "zip_bytes": 197525,
-  "file_count": 32,
-  "skill_count": 9,
-  "student_skill_count": 8,
-  "menu_registry_count": 8,
+  "package_version": "0.1.9",
+  "source_commit": "aa8275ec83d98b2525852b068bf7cda5400058e5",
+  "zip_sha256": "59119d631785680f4038a958a4d0833c11c6c86a9677f21787e315d18c8bbc8e",
+  "zip_bytes": 287850,
+  "file_count": 46,
+  "skill_count": 10,
+  "student_skill_count": 9,
+  "menu_registry_count": 9,
   "logo_sha256": "794ec09c4c718ec1bbb946057b4471a9503507d339368cf227d0b784d50e8cf1",
   "versions": {
     "0000": "0.4.0",
@@ -17,25 +17,33 @@
     "I0005": "0.1.0",
     "I0006": "0.1.1",
     "I0007": "0.1.0",
-    "I0008": "0.1.0"
+    "I0008": "0.1.0",
+    "I0009": "0.1.0"
   },
   "validation_status": "local-integrity-passed",
-  "live_student_upload": "pending",
-  "visual_quality": "human_review_required",
+  "live_account_upload": "pending",
   "validation": {
-    "checks": 133,
+    "checks": 410,
+    "source_nonempty_cells": 1317,
+    "knowledge_counts": {
+      "modules": 40,
+      "cases": 98,
+      "case_links": 111,
+      "strategy_templates": 30,
+      "day90_template": 6
+    },
     "brand": {
       "package": "huang-jia-wei-km",
-      "skill_count": 9,
-      "references_checked": 22,
+      "skill_count": 10,
+      "references_checked": 24,
       "errors": [],
       "passed": true
     },
-    "zip_crc": true,
-    "cross_platform_paths": true,
-    "extracted_hashes_match": true,
-    "original_seven_skills_preserved": true,
-    "visual_quality": "human_review_required",
-    "live_student_upload": "pending"
+    "crc": true,
+    "relocated_knowledge_lookup": true,
+    "original_eight_sources_preserved": true,
+    "same_ai_scenarios": 8,
+    "live_account_and_phone": "pending",
+    "semantic_strategy_quality": "human_review_required"
   }
 }

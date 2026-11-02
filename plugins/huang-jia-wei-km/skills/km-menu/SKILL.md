@@ -189,6 +189,22 @@ skills:
   - 情緒配色
   source_version: 0.1.0
   registration: 已核對
+- id: I0009
+  name: 行銷決策顧問
+  skill_slug: marketing-decision-advisor
+  category_id: C01
+  subcategory_id: null
+  summary: 成交模式、MK模組案例與行銷決策／90天行動
+  tags:
+  - 行銷
+  - 策略
+  - 品牌
+  - 商品333
+  - 成交
+  - MK模組
+  - V5
+  source_version: 0.1.0
+  registration: 已核對
 ~~~
 <!-- KM-REGISTRY-END -->
 
