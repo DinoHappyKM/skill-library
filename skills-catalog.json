@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "library_version": "0.4.0",
+  "library_version": "0.4.1",
   "plugin_display_name": "黃嘉偉KM",
   "source_ref": "main",
   "release_status": "published-source-awaiting-user-test",
@@ -618,6 +618,152 @@
         "skills/reference-poster-design/agents/openai.yaml": "7660fbec1596c3bb4f6223c59c70823b818cb861b5999659797e56a72d097eaa",
         "skills/reference-poster-design/assets/dinoh-logo.png": "794ec09c4c718ec1bbb946057b4471a9503507d339368cf227d0b784d50e8cf1",
         "skills/reference-poster-design/SKILL.md": "b2aef1f669343d89b7fbacd7ba821666602e40d5afc5174f8ee1c31c96d5232f"
+      }
+    },
+    {
+      "id": "I0009",
+      "name": "行銷決策顧問",
+      "slug": "marketing-decision-advisor",
+      "role": "student_skill",
+      "version": "0.1.0",
+      "version_status": "declared",
+      "version_source": {
+        "path": "I0009-marketing-decision-advisor/skills/marketing-decision-advisor/SKILL.md",
+        "method": "SKILL.md metadata.version"
+      },
+      "skill_path": "I0009-marketing-decision-advisor/skills/marketing-decision-advisor/SKILL.md",
+      "agent_path": "I0009-marketing-decision-advisor/skills/marketing-decision-advisor/agents/openai.yaml",
+      "category": {
+        "id": "C01",
+        "name": "策略",
+        "subcategory": null
+      },
+      "summary": "成交模式、MK模組案例與行銷決策／90天行動",
+      "tags": [
+        "行銷",
+        "策略",
+        "品牌",
+        "商品333",
+        "成交",
+        "MK模組",
+        "V5"
+      ],
+      "required_files": [
+        {
+          "path": "I0009-marketing-decision-advisor/skills/marketing-decision-advisor/agents/openai.yaml",
+          "target_path": "skills/marketing-decision-advisor/agents/openai.yaml",
+          "sha256": "bb4ddc2dbbc5ee008c1779d2593eb9911a0b8db1d64da54e99b6831842fd68a6",
+          "normalized_text_sha256": "bb4ddc2dbbc5ee008c1779d2593eb9911a0b8db1d64da54e99b6831842fd68a6",
+          "bytes": 420
+        },
+        {
+          "path": "I0009-marketing-decision-advisor/skills/marketing-decision-advisor/assets/dinoh-logo.png",
+          "target_path": "skills/marketing-decision-advisor/assets/dinoh-logo.png",
+          "sha256": "794ec09c4c718ec1bbb946057b4471a9503507d339368cf227d0b784d50e8cf1",
+          "normalized_text_sha256": "794ec09c4c718ec1bbb946057b4471a9503507d339368cf227d0b784d50e8cf1",
+          "bytes": 13797,
+          "content_type": "image/png"
+        },
+        {
+          "path": "I0009-marketing-decision-advisor/skills/marketing-decision-advisor/references/cases.md",
+          "target_path": "skills/marketing-decision-advisor/references/cases.md",
+          "sha256": "9a04e0eb43337849e776dc75d2b91a54aed842e7983ac22ddc6bae636fbd87ae",
+          "normalized_text_sha256": "9a04e0eb43337849e776dc75d2b91a54aed842e7983ac22ddc6bae636fbd87ae",
+          "bytes": 23356
+        },
+        {
+          "path": "I0009-marketing-decision-advisor/skills/marketing-decision-advisor/references/code-map.json",
+          "target_path": "skills/marketing-decision-advisor/references/code-map.json",
+          "sha256": "7da093bb3b5daa937f44c342f9bf8927ce376b36f8668778652a22228503c102",
+          "normalized_text_sha256": "7da093bb3b5daa937f44c342f9bf8927ce376b36f8668778652a22228503c102",
+          "bytes": 683
+        },
+        {
+          "path": "I0009-marketing-decision-advisor/skills/marketing-decision-advisor/references/decision-engine.md",
+          "target_path": "skills/marketing-decision-advisor/references/decision-engine.md",
+          "sha256": "858fc7a07b774ab936aee8768a6861671a16b17585d12db2c1daf902352b07db",
+          "normalized_text_sha256": "858fc7a07b774ab936aee8768a6861671a16b17585d12db2c1daf902352b07db",
+          "bytes": 11651
+        },
+        {
+          "path": "I0009-marketing-decision-advisor/skills/marketing-decision-advisor/references/decision-library.json",
+          "target_path": "skills/marketing-decision-advisor/references/decision-library.json",
+          "sha256": "4de3548a9d3a99e6942a0752fa9635c09751f2d00fb3784f2d625768085cc2dd",
+          "normalized_text_sha256": "4de3548a9d3a99e6942a0752fa9635c09751f2d00fb3784f2d625768085cc2dd",
+          "bytes": 245870
+        },
+        {
+          "path": "I0009-marketing-decision-advisor/skills/marketing-decision-advisor/references/extended-workflows.md",
+          "target_path": "skills/marketing-decision-advisor/references/extended-workflows.md",
+          "sha256": "1d63302debda773e38a9879137f9ea9a032db37977a1475469eced1b3400601d",
+          "normalized_text_sha256": "1d63302debda773e38a9879137f9ea9a032db37977a1475469eced1b3400601d",
+          "bytes": 6583
+        },
+        {
+          "path": "I0009-marketing-decision-advisor/skills/marketing-decision-advisor/references/legacy-main-flow.md",
+          "target_path": "skills/marketing-decision-advisor/references/legacy-main-flow.md",
+          "sha256": "67201668811f6336301eceafd3abfcdec8f940046df942c91fbb135da9844144",
+          "normalized_text_sha256": "67201668811f6336301eceafd3abfcdec8f940046df942c91fbb135da9844144",
+          "bytes": 30688
+        },
+        {
+          "path": "I0009-marketing-decision-advisor/skills/marketing-decision-advisor/references/legacy-router.md",
+          "target_path": "skills/marketing-decision-advisor/references/legacy-router.md",
+          "sha256": "c90ac6d6e03630841a3f67121389bf49fa2e2805b09156dfc3a7ec764ca5ace9",
+          "normalized_text_sha256": "c90ac6d6e03630841a3f67121389bf49fa2e2805b09156dfc3a7ec764ca5ace9",
+          "bytes": 13809
+        },
+        {
+          "path": "I0009-marketing-decision-advisor/skills/marketing-decision-advisor/references/modules.md",
+          "target_path": "skills/marketing-decision-advisor/references/modules.md",
+          "sha256": "6ad29e25932737ec9ea1966d2a79c926a3c5257fc69fc6d2353afbcdb4b13f33",
+          "normalized_text_sha256": "6ad29e25932737ec9ea1966d2a79c926a3c5257fc69fc6d2353afbcdb4b13f33",
+          "bytes": 16441
+        },
+        {
+          "path": "I0009-marketing-decision-advisor/skills/marketing-decision-advisor/references/strategy-templates.md",
+          "target_path": "skills/marketing-decision-advisor/references/strategy-templates.md",
+          "sha256": "abba111d6dd63e2be49889f078d9aa359fa5217c8556976582a663d2305d08cc",
+          "normalized_text_sha256": "abba111d6dd63e2be49889f078d9aa359fa5217c8556976582a663d2305d08cc",
+          "bytes": 7681
+        },
+        {
+          "path": "I0009-marketing-decision-advisor/skills/marketing-decision-advisor/references/workflow-router.md",
+          "target_path": "skills/marketing-decision-advisor/references/workflow-router.md",
+          "sha256": "c0534aa9e456b4c62cbe709d64832f64d184b3a32a2f71e0f5c8e204e7b3cca6",
+          "normalized_text_sha256": "c0534aa9e456b4c62cbe709d64832f64d184b3a32a2f71e0f5c8e204e7b3cca6",
+          "bytes": 1760
+        },
+        {
+          "path": "I0009-marketing-decision-advisor/skills/marketing-decision-advisor/scripts/lookup_decision.py",
+          "target_path": "skills/marketing-decision-advisor/scripts/lookup_decision.py",
+          "sha256": "f1577eaf5901e47fffa859b06a10f610e44f2b37b595f81a844f4046a58cf1fe",
+          "normalized_text_sha256": "f1577eaf5901e47fffa859b06a10f610e44f2b37b595f81a844f4046a58cf1fe",
+          "bytes": 3104
+        },
+        {
+          "path": "I0009-marketing-decision-advisor/skills/marketing-decision-advisor/SKILL.md",
+          "target_path": "skills/marketing-decision-advisor/SKILL.md",
+          "sha256": "05807d0a15fa9f61945004a6303f45355617eb6e17e0866c7aa80fe502465da7",
+          "normalized_text_sha256": "05807d0a15fa9f61945004a6303f45355617eb6e17e0866c7aa80fe502465da7",
+          "bytes": 9045
+        }
+      ],
+      "hashes": {
+        "skills/marketing-decision-advisor/agents/openai.yaml": "bb4ddc2dbbc5ee008c1779d2593eb9911a0b8db1d64da54e99b6831842fd68a6",
+        "skills/marketing-decision-advisor/assets/dinoh-logo.png": "794ec09c4c718ec1bbb946057b4471a9503507d339368cf227d0b784d50e8cf1",
+        "skills/marketing-decision-advisor/references/cases.md": "9a04e0eb43337849e776dc75d2b91a54aed842e7983ac22ddc6bae636fbd87ae",
+        "skills/marketing-decision-advisor/references/code-map.json": "7da093bb3b5daa937f44c342f9bf8927ce376b36f8668778652a22228503c102",
+        "skills/marketing-decision-advisor/references/decision-engine.md": "858fc7a07b774ab936aee8768a6861671a16b17585d12db2c1daf902352b07db",
+        "skills/marketing-decision-advisor/references/decision-library.json": "4de3548a9d3a99e6942a0752fa9635c09751f2d00fb3784f2d625768085cc2dd",
+        "skills/marketing-decision-advisor/references/extended-workflows.md": "1d63302debda773e38a9879137f9ea9a032db37977a1475469eced1b3400601d",
+        "skills/marketing-decision-advisor/references/legacy-main-flow.md": "67201668811f6336301eceafd3abfcdec8f940046df942c91fbb135da9844144",
+        "skills/marketing-decision-advisor/references/legacy-router.md": "c90ac6d6e03630841a3f67121389bf49fa2e2805b09156dfc3a7ec764ca5ace9",
+        "skills/marketing-decision-advisor/references/modules.md": "6ad29e25932737ec9ea1966d2a79c926a3c5257fc69fc6d2353afbcdb4b13f33",
+        "skills/marketing-decision-advisor/references/strategy-templates.md": "abba111d6dd63e2be49889f078d9aa359fa5217c8556976582a663d2305d08cc",
+        "skills/marketing-decision-advisor/references/workflow-router.md": "c0534aa9e456b4c62cbe709d64832f64d184b3a32a2f71e0f5c8e204e7b3cca6",
+        "skills/marketing-decision-advisor/scripts/lookup_decision.py": "f1577eaf5901e47fffa859b06a10f610e44f2b37b595f81a844f4046a58cf1fe",
+        "skills/marketing-decision-advisor/SKILL.md": "05807d0a15fa9f61945004a6303f45355617eb6e17e0866c7aa80fe502465da7"
       }
     }
   ]
