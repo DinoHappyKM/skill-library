@@ -1,0 +1,7 @@
+interface:
+  display_name: "I0010｜口播與訪談讀稿"
+  short_description: "已有內容斷詞留白與分行，依序產出完整口播稿和訪談提問稿，各自複製"
+  icon_small: "./assets/dinoh-logo.png"
+  icon_large: "./assets/dinoh-logo.png"
+  brand_color: "#8A6B35"
+  default_prompt: "使用 $spoken-interview-reading，將這份已確認內容先排成手機口播稿，再轉含暖身、正題、Hook提問和三款片頭的完整訪談；兩份各一個複製框，題號標示獨立一行。"
