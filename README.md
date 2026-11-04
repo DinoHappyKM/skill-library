@@ -20,7 +20,6 @@
 |I0007|1Shop容器HTML產生器|0.1.0|網站|[使用說明](I0007-one-shop-html-block/README.md)|
 |I0008|參考圖海報設計|0.1.0|圖像|[使用說明](I0008-reference-poster-design/README.md)|
 |I0009|行銷決策顧問|0.1.0|策略|[使用說明](I0009-marketing-decision-advisor/README.md)|
-
 |I0010|口播與訪談讀稿|0.1.3|影音|[使用說明](I0010-spoken-interview-reading/README.md)|
 
 ## I0010新增｜2026-11-05

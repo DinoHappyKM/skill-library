@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "huang-jia-wei-km",
-  "version": "0.1.9",
-  "description": "黃嘉偉KM：主選單與九支通用技能，新增行銷決策、模組案例與年度90天策略。",
+  "version": "0.1.10",
+  "description": "黃嘉偉KM：主選單與十支通用技能，新增口播與訪談讀稿。",
   "author": {
     "name": "黃嘉偉"
   },
@@ -10,8 +10,8 @@
     "com.openai": {
       "interface": {
         "displayName": "黃嘉偉KM",
-        "shortDescription": "行銷決策、貼文、圖像影音、團購與網站",
-        "longDescription": "主選單與I0001～I0009。新增行銷決策顧問：先判成交模式與卡點，以MK模組和案例規劃策略。輸入0看分類或I0009開始。",
+        "shortDescription": "行銷、文案圖像、影音訪談、團購與網站",
+        "longDescription": "0主選單與I0001～I0010。新增完整口播與訪談：暖身、正題、Hook提問、三款片頭，同框複製，標示獨立一行。輸入I0010貼成稿開始。",
         "developerName": "黃嘉偉",
         "category": "Productivity",
         "capabilities": [

@@ -205,6 +205,21 @@ skills:
   - V5
   source_version: 0.1.0
   registration: 已核對
+- id: I0010
+  name: 口播與訪談讀稿
+  skill_slug: spoken-interview-reading
+  category_id: C05
+  subcategory_id: null
+  summary: 已有成稿轉手機口播與完整訪談，含暖身、Hook提問與三款片頭
+  tags:
+  - 口播
+  - 訪談
+  - 逐字稿
+  - 讀稿
+  - 斷句
+  - Hook
+  source_version: 0.1.3
+  registration: 已核對
 ~~~
 <!-- KM-REGISTRY-END -->
 
