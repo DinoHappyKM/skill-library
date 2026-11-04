@@ -797,30 +797,30 @@
         {
           "path": "I0010-spoken-interview-reading/skills/spoken-interview-reading/agents/openai.yaml",
           "target_path": "skills/spoken-interview-reading/agents/openai.yaml",
-          "sha256": "e15e6e220b80fdde9bccc7d0618461b2e65554c198cf2dfbc004bf33213aefd2",
+          "sha256": "ba15bbdb6af1bf307e7463e9f6580a90b64ada163701be9b7f9c7ac953bf80e8",
           "normalized_text_sha256": "ba15bbdb6af1bf307e7463e9f6580a90b64ada163701be9b7f9c7ac953bf80e8",
-          "bytes": 522
+          "bytes": 515
         },
         {
           "path": "I0010-spoken-interview-reading/skills/spoken-interview-reading/assets/dinoh-logo.png",
           "target_path": "skills/spoken-interview-reading/assets/dinoh-logo.png",
           "sha256": "794ec09c4c718ec1bbb946057b4471a9503507d339368cf227d0b784d50e8cf1",
-          "normalized_text_sha256": "b988a486760418b123fe6615b98db95fdaf1cc3c051e8609c3715f53ca729442",
+          "normalized_text_sha256": "794ec09c4c718ec1bbb946057b4471a9503507d339368cf227d0b784d50e8cf1",
           "bytes": 13797,
           "content_type": "image/png"
         },
         {
           "path": "I0010-spoken-interview-reading/skills/spoken-interview-reading/SKILL.md",
           "target_path": "skills/spoken-interview-reading/SKILL.md",
-          "sha256": "83d960e671b140da8f43456195d040a4fd8acd656a2d406b606aa670aa2a94bd",
+          "sha256": "ba95609b9e9bb9e1d22f6f652441d52f909fd026b47edf12ed6c7fb5e778d06a",
           "normalized_text_sha256": "ba95609b9e9bb9e1d22f6f652441d52f909fd026b47edf12ed6c7fb5e778d06a",
-          "bytes": 11562
+          "bytes": 11444
         }
       ],
       "hashes": {
-        "skills/spoken-interview-reading/agents/openai.yaml": "e15e6e220b80fdde9bccc7d0618461b2e65554c198cf2dfbc004bf33213aefd2",
+        "skills/spoken-interview-reading/agents/openai.yaml": "ba15bbdb6af1bf307e7463e9f6580a90b64ada163701be9b7f9c7ac953bf80e8",
         "skills/spoken-interview-reading/assets/dinoh-logo.png": "794ec09c4c718ec1bbb946057b4471a9503507d339368cf227d0b784d50e8cf1",
-        "skills/spoken-interview-reading/SKILL.md": "83d960e671b140da8f43456195d040a4fd8acd656a2d406b606aa670aa2a94bd"
+        "skills/spoken-interview-reading/SKILL.md": "ba95609b9e9bb9e1d22f6f652441d52f909fd026b47edf12ed6c7fb5e778d06a"
       }
     }
   ]
