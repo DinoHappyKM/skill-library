@@ -194,16 +194,17 @@ skills:
   skill_slug: marketing-decision-advisor
   category_id: C01
   subcategory_id: null
-  summary: 成交模式、MK模組案例與行銷決策／90天行動
+  summary: 七項策略入口：賣點、引流、首購回購、社群推薦、合作、檔期與26種盈利模式
   tags:
-  - 行銷
   - 策略
-  - 品牌
-  - 商品333
-  - 成交
-  - MK模組
-  - V5
-  source_version: 0.1.0
+  - 行銷
+  - 賣點
+  - 引流
+  - 回購
+  - 社群
+  - 合作
+  - 盈利模式
+  source_version: 0.2.0
   registration: 已核對
 - id: I0010
   name: 口播與訪談讀稿

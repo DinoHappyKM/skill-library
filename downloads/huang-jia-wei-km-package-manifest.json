@@ -1,9 +1,9 @@
 {
-  "package_version": "0.1.10",
-  "source_commit": "6f0207c33ea39dd165d29a1674af38937ed8b24c",
-  "zip_sha256": "84e4e8caa6f0c32708c101ae81a8ccb36b65ac760f8b167d0a5cf8f3679a9962",
-  "zip_bytes": 307255,
-  "file_count": 49,
+  "package_version": "0.1.11",
+  "source_commit": "fde7c8a74065c97e6104f3259679dd46b462669d",
+  "zip_sha256": "556fcc9dbe9f362212eb4e2ea8385d137045bd0b5d20a6c2380719980196f2c0",
+  "zip_bytes": 401365,
+  "file_count": 56,
   "skill_count": 11,
   "student_skill_count": 10,
   "menu_registry_count": 10,
@@ -18,10 +18,10 @@
     "I0006": "0.1.1",
     "I0007": "0.1.0",
     "I0008": "0.1.0",
-    "I0009": "0.1.0",
+    "I0009": "0.2.0",
     "I0010": "0.1.3"
   },
   "validation_status": "passed-local-format-source-brand-zip",
   "live_account_upload": "pending",
-  "local_checks": 250
+  "local_checks": 277
 }
