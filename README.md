@@ -2,7 +2,7 @@
 
 ## 完整ZIP安裝｜手機優先
 
-**[下載黃嘉偉KM完整外掛 v0.1.10](https://github.com/DinoHappyKM/skill-library/raw/refs/heads/main/downloads/huang-jia-wei-km-v0.1.10.zip)** · [安裝步驟](INSTALL-ZIP.md) · [Notion手機教學](https://app.notion.com/p/3f404b753fe08030a598cdde79ee41b3)
+**[下載黃嘉偉KM完整外掛 v0.1.11](https://github.com/DinoHappyKM/skill-library/raw/refs/heads/main/downloads/huang-jia-wei-km-v0.1.11.zip)** · [安裝步驟](INSTALL-ZIP.md) · [Notion手機教學](https://app.notion.com/p/3f404b753fe08030a598cdde79ee41b3)
 
 學生只使用完整ZIP，一次安裝0主選單與I0001～I0010。已含原DinoH Logo及十一個技能圖示；KMT教師工具與KMW流程獨立。
 新同學依實際介面「新增→上傳外掛程式封存檔」；已有黃嘉偉KM使用原更新入口，不重建。自訂內容先備份合併，不能假設整包會保留個人修改。自己的私人KM不更動。
@@ -19,8 +19,12 @@
 |I0006|通用團購助手|0.1.1|文案|[使用說明](I0006-group-buying-assistant/README.md)|
 |I0007|1Shop容器HTML產生器|0.1.0|網站|[使用說明](I0007-one-shop-html-block/README.md)|
 |I0008|參考圖海報設計|0.1.0|圖像|[使用說明](I0008-reference-poster-design/README.md)|
-|I0009|行銷決策顧問|0.1.0|策略|[使用說明](I0009-marketing-decision-advisor/README.md)|
+|I0009|行銷決策顧問|0.2.0|策略|[使用說明](I0009-marketing-decision-advisor/README.md)|
 |I0010|口播與訪談讀稿|0.1.3|影音|[使用說明](I0010-spoken-interview-reading/README.md)|
+
+## I0009策略整合｜2026-11-06
+
+七項簡短入口，12份策略完整整合；91筆來源觀點、八角遊戲化與26種盈利模式。原V5知識保留。[使用說明](I0009-marketing-decision-advisor/README.md)。
 
 ## I0010新增｜2026-11-05
 
@@ -38,7 +42,7 @@
 
 ## 版本與維護
 
-技能庫0.4.2；完整外掛0.1.10；I0009技能0.1.0。技能各自保留原版號，原八支原文保留。GitHub更新不會自動更新學生已裝外掛，帳號權限也不由ZIP解除。
+技能庫0.4.3；完整外掛0.1.11；I0009技能0.2.0。技能各自保留原版號，其他九支工作技能原文保留。GitHub更新不會自動更新學生已裝外掛，帳號權限也不由ZIP解除。
 
 正式Skill在各P專案維護，GitHub為發布副本。先驗證來源／目錄／Logo／ZIP，再同步Notion與學生Drive。封裝可重建；實際帳號、手機、中文字形與美感須另驗收。
 

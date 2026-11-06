@@ -1,0 +1,292 @@
+{
+  "version": "0.2.0",
+  "integrated_sources": [
+    {
+      "source_code": "01A",
+      "source_zip": "策略-01A贈品引流活動設計.zip",
+      "zip_sha256": "d20df03abcf88de1d034ad957bcf9ae26ffa70b413b2726b53141d4b02186aa8",
+      "instruction_sha256": "cf208436ce8ac502e2bf64676c743ce47cd8029c54d1bc35804c7a410914c0e7",
+      "tasks": [
+        2,
+        5
+      ],
+      "required_capabilities": [
+        "自製",
+        "採購",
+        "雙向互贈",
+        "活動卡",
+        "成本"
+      ],
+      "current_method": "strategy-tasks.md",
+      "adaptation": "零成本改完整投入，RL改一次實際檢查",
+      "attachments": []
+    },
+    {
+      "source_code": "01B",
+      "source_zip": "策略-01B低成本高單價獎品.zip",
+      "zip_sha256": "3dfa28767a05628cec3febb45e7029787b331f024219225e2213157cc11c5727",
+      "instruction_sha256": "8e5682ac7ecca3aa70e5678235b6af12f95a6494f96ab3c404dc5c3912d70b2f",
+      "tasks": [
+        2
+      ],
+      "required_capabilities": [
+        "有形",
+        "無形",
+        "實用",
+        "感官",
+        "社會認同",
+        "驚喜",
+        "品牌故事"
+      ],
+      "current_method": "strategy-tasks.md",
+      "adaptation": "原價不虛構；依需求保留2～3獎品比較",
+      "attachments": []
+    },
+    {
+      "source_code": "01C",
+      "source_zip": "策略-01C引流（引流-變現-裂變-外部借力)-.zip",
+      "zip_sha256": "525e2e8fac202e058cf75c98af4c679f4c1c25e3f7658266f489ef1b2b174589",
+      "instruction_sha256": "70ff3ae376beed646d384739108c6db78703905219a11b13574bafe9e43d7eff",
+      "tasks": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "required_capabilities": [
+        "11",
+        "12",
+        "13",
+        "31",
+        "32",
+        "41",
+        "42",
+        "A/B測試"
+      ],
+      "current_method": "strategy-tasks.md",
+      "adaptation": "改整合路徑；廣告自動化需實際工具，不假稀缺",
+      "attachments": [
+        {
+          "path": "skills/instructions/references/案例分析v1.xlsx",
+          "bytes": 25418,
+          "sha256": "0bf439f7538a81dfcf4f7e467bb0c448d4f598fd72186d5f440471a5e96cca94"
+        }
+      ]
+    },
+    {
+      "source_code": "02",
+      "source_zip": "策略-02變現.zip",
+      "zip_sha256": "6718ee803abcfb8bdf417ad63ed6bffb4effbfdd63789987221346a0c09e8187",
+      "instruction_sha256": "0c411437a98848b8785be8ded5d9a649dad4687ebc214b3b1c69b47dda12e0a9",
+      "tasks": [
+        3
+      ],
+      "required_capabilities": [
+        "紅花",
+        "綠葉",
+        "文案",
+        "案例",
+        "回購"
+      ],
+      "current_method": "strategy-tasks.md",
+      "adaptation": "同01C案例去重；新增買與未買回訪，與原方法分開標",
+      "attachments": [
+        {
+          "path": "skills/instructions/references/美業分析v1.xlsx",
+          "bytes": 25418,
+          "sha256": "0bf439f7538a81dfcf4f7e467bb0c448d4f598fd72186d5f440471a5e96cca94"
+        }
+      ]
+    },
+    {
+      "source_code": "03A",
+      "source_zip": "策略-03A受眾池內部裂變借力.zip",
+      "zip_sha256": "3957b2bd1655d34a19e42d179b9d5aab9994593e57fce089d1541487bc8483e0",
+      "instruction_sha256": "279910084ad79b99db86eec1e23677c743473a0205dd72c8f20d606ac65b206d",
+      "tasks": [
+        4
+      ],
+      "required_capabilities": [
+        "推薦",
+        "UGC",
+        "認定",
+        "核銷"
+      ],
+      "current_method": "strategy-tasks.md",
+      "adaptation": "用自願登記取代第三人名單交換",
+      "attachments": [
+        {
+          "path": "skills/instructions/references/KM-3借力-內部-裂變.xlsx",
+          "bytes": 10547,
+          "sha256": "6b01efcf051c47e0d92b9bc0c11fdaea7fcbe745e1205534537da42f33b56de2"
+        }
+      ]
+    },
+    {
+      "source_code": "03B",
+      "source_zip": "策略-03B受眾池流量池遊戲化設計.zip",
+      "zip_sha256": "eb6803d6da03b8b631f098d651d7042349c0c09a40917947d0c7e08480e5e0a2",
+      "instruction_sha256": "14ef72affd9b26923913bfe0a105652e4cb010a3e2eeb472a475931c5d9ddd51",
+      "tasks": [
+        4
+      ],
+      "required_capabilities": [
+        "通路",
+        "關卡",
+        "八角",
+        "兌換"
+      ],
+      "current_method": "strategy-tasks.md",
+      "adaptation": "完整動機詞庫保留，過時活動及平台畫面只保存在來源",
+      "attachments": [
+        {
+          "path": "skills/instructions/references/KM-2遊戲化規劃V3.docx",
+          "bytes": 915922,
+          "sha256": "7a8df626f101583cd6ec03824d5d5e1d4d077b8465cebcf78cba726ea8fed078"
+        }
+      ]
+    },
+    {
+      "source_code": "04A",
+      "source_zip": "策略-04A外部借力規劃.zip",
+      "zip_sha256": "01626d6dc90289dbeb65765c214e8d141d1a8cfb26b7e8dcf7e2f6f849e24cfa",
+      "instruction_sha256": "441be8eda62025a75ece881ad27bf639675907b008ec7796d163c92ae2ffd826",
+      "tasks": [
+        5
+      ],
+      "required_capabilities": [
+        "資源",
+        "分工",
+        "風險",
+        "案例"
+      ],
+      "current_method": "strategy-tasks.md",
+      "adaptation": "相同PDF號只關聯不刪觀點；合作不預設網紅",
+      "attachments": [
+        {
+          "path": "skills/instructions/references/快速檢索-槓桿借力案例_V1.xlsx",
+          "bytes": 17387,
+          "sha256": "78105e2c85b798460fa225020fcce3c739d480905e21871a8937f9fdebd85361"
+        }
+      ]
+    },
+    {
+      "source_code": "04B",
+      "source_zip": "策略-04B外部借力與產品開發四週期.zip",
+      "zip_sha256": "80b1e0606b3079fd9a20ae13e1c55bccb167c3740087cee90a9f0ba6fc86a4fb",
+      "instruction_sha256": "30515cb2ec12fea5d6fc72c6d758a0e0f097f996755a4bd3694b4900bec3a444",
+      "tasks": [
+        5
+      ],
+      "required_capabilities": [
+        "設計",
+        "檢查",
+        "早鳥",
+        "延續",
+        "創新",
+        "穩健"
+      ],
+      "current_method": "strategy-tasks.md",
+      "adaptation": "四個開發階段為可選視角，上癮改持續價值",
+      "attachments": []
+    },
+    {
+      "source_code": "A3",
+      "source_zip": "策略-A3分析主打商品的賣點.zip",
+      "zip_sha256": "f04fb93f50bc29ee115f3bceefb5be7f39373cf4da2d0645896fa942924202c0",
+      "instruction_sha256": "84c565a9e48deba58ec998a5b049b7c6d176f8dd0bd0fd9b801e19aaedeb6445",
+      "tasks": [
+        1
+      ],
+      "required_capabilities": [
+        "隱性需求",
+        "創新",
+        "競品",
+        "差異"
+      ],
+      "current_method": "strategy-tasks.md",
+      "adaptation": "不保證全網唯一，不作真RL或無限深挖",
+      "attachments": []
+    },
+    {
+      "source_code": "A4",
+      "source_zip": "策略-A4想不出賣點或亮點.zip",
+      "zip_sha256": "d258d8e9b1a3c2bdeeb183a096e29bf3a77c95919e921397dd8a90a89815b847",
+      "instruction_sha256": "eb34d94ce3202a089ad033f5972467a39d13422a06f82c0f899b8b2c052c914c",
+      "tasks": [
+        1,
+        5
+      ],
+      "required_capabilities": [
+        "借議題",
+        "合作背書",
+        "試用發現",
+        "重新包裝"
+      ],
+      "current_method": "strategy-tasks.md",
+      "adaptation": "保留四條路，不縮成換形容詞",
+      "attachments": []
+    },
+    {
+      "source_code": "A5",
+      "source_zip": "策略-A5主打商品檔期行銷流程企劃.zip",
+      "zip_sha256": "604e6834690b6cf50acf8710b4f56294c0ef55f640e3ff14d279cfb2df1834c7",
+      "instruction_sha256": "ce1f3eef53b29499652fded70690389e43e1e85bbed0c33c678ab2a7211f422e",
+      "tasks": [
+        6
+      ],
+      "required_capabilities": [
+        "預熱",
+        "倒數",
+        "跟進",
+        "KPI",
+        "報表"
+      ],
+      "current_method": "strategy-tasks.md",
+      "adaptation": "重複三步只做一次，自動報表須實際工具",
+      "attachments": []
+    },
+    {
+      "source_code": "A6",
+      "source_zip": "策略-A6你的本業適合27種盈利模式哪幾種.zip",
+      "zip_sha256": "ba114d5a494b644f651c60da879e4b7e05581a44a369b30c0f98e2ff94afda5a",
+      "instruction_sha256": "0b9d93031b534c59c928bfc408b68a071a6ae1ba863fff663d3a844fdda5b142",
+      "tasks": [
+        7
+      ],
+      "required_capabilities": [
+        "快速啟發",
+        "詳細分析",
+        "創意混搭",
+        "三個月"
+      ],
+      "current_method": "strategy-tasks.md",
+      "adaptation": "本人確認26項；5個深度比較候選後收斂最多3案",
+      "attachments": [
+        {
+          "path": "skills/instructions/references/27種盈利模式.docx",
+          "bytes": 11699,
+          "sha256": "57a35f5f8f02e11fba271400bf504e5c6427a3eacef0afe1d7f511b26b9ec92f"
+        }
+      ]
+    }
+  ],
+  "excluded_sources": [
+    {
+      "code": "A1",
+      "reason": "選賽道與個人適配另案保存，未加入本版；原ZIP未改"
+    }
+  ],
+  "deployment_resources": {
+    "case_tables": [
+      "strategy-cases.json",
+      "strategy-cases.md"
+    ],
+    "gamification": "gamification.md",
+    "profit_models": [
+      "profit-models-26.md",
+      "profit-models-26.json"
+    ]
+  },
+  "source_note": "12份指令的方法已整合；13份原ZIP與抽取全文保存在專案來源。不把教學歷史地址、個人連結與舊平台截圖當學生預設。"
+}
