@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "huang-jia-wei-km",
-  "version": "0.1.11",
-  "description": "黃嘉偉KM：主選單與十支通用技能，整合七項行銷策略與完整知識。",
+  "version": "0.1.12",
+  "description": "黃嘉偉KM：主選單與十支通用技能，完成Agentic體檢瘦身與路由防撞升級。",
   "author": {
     "name": "黃嘉偉"
   },
@@ -11,7 +11,7 @@
       "interface": {
         "displayName": "黃嘉偉KM",
         "shortDescription": "行銷、文案圖像、影音訪談、團購與網站",
-        "longDescription": "0主選單與I0001～I0010。I0009整合商品賣點、引流、首購回購、社群推薦、合作、檔期與26種盈利模式。原V5及其他九支技能保留。",
+        "longDescription": "0主選單與I0001～I0010。I0001日常故事貼文與I0002直播企劃完成Agentic高密度瘦身，全包補齊AEO防撞邊界，原V5及各技能規則完整保留。",
         "developerName": "黃嘉偉",
         "category": "Productivity",
         "capabilities": [
