@@ -1,14 +1,14 @@
 {
   "name": "huang-jia-wei-km",
-  "version": "0.1.12",
-  "description": "黃嘉偉KM：主選單與十支通用技能，完成Agentic體檢瘦身與路由防撞升級。",
+  "version": "0.1.13",
+  "description": "黃嘉偉KM：0主選單與十二支工作技能，新增社群內容創作與標題片尾。",
   "author": {
     "name": "黃嘉偉"
   },
   "interface": {
     "displayName": "黃嘉偉KM",
     "shortDescription": "行銷、文案圖像、影音訪談、團購與網站",
-    "longDescription": "0主選單與I0001～I0010。I0001日常故事貼文與I0002直播企劃完成Agentic高密度瘦身，全包補齊AEO防撞邊界，原V5及各技能規則完整保留。",
+    "longDescription": "黃嘉偉KM 0.1.13：0主選單與I0001～I0012，新增社群內容創作及標題片尾；頭尾各自獨立複製，保留原DinoH Logo。",
     "developerName": "黃嘉偉",
     "category": "Productivity",
     "capabilities": [

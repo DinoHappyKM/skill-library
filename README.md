@@ -2,10 +2,14 @@
 
 ## 完整ZIP安裝｜手機優先
 
-**[下載黃嘉偉KM完整外掛 v0.1.12](https://github.com/DinoHappyKM/skill-library/raw/refs/heads/main/downloads/huang-jia-wei-km-v0.1.12.zip)** · [安裝步驟](INSTALL-ZIP.md) · [Notion手機教學](https://app.notion.com/p/3f404b753fe08030a598cdde79ee41b3)
+**[下載黃嘉偉KM完整外掛 v0.1.13](https://github.com/DinoHappyKM/skill-library/raw/refs/heads/main/downloads/huang-jia-wei-km-v0.1.13.zip)** · [安裝步驟](INSTALL-ZIP.md) · [Notion手機教學](https://app.notion.com/p/3f404b753fe08030a598cdde79ee41b3)
 
-學生只使用完整ZIP，一次安裝0主選單與I0001～I0010。已含原DinoH Logo及十一個技能圖示；KMT教師工具與KMW流程獨立。
+學生只使用完整ZIP，一次安裝0主選單與I0001～I0012。已含原DinoH Logo及十三個技能圖示；KMT教師工具與KMW流程獨立。
 新同學依實際介面「新增→上傳外掛程式封存檔」；已有黃嘉偉KM使用原更新入口，不重建。自訂內容先備份合併，不能假設整包會保留個人修改。自己的私人KM不更動。
+
+## 本次更新｜2026-11-09
+
+新增I0011社群內容創作0.1.0、I0012標題與片尾設計0.1.1，頭尾各自獨立複製。原十支與Logo保留。KMW02不在此次發布。
 
 ## 包內技能與使用說明
 
@@ -21,6 +25,9 @@
 |I0008|參考圖海報設計|0.1.0|圖像|[使用說明](I0008-reference-poster-design/README.md)|
 |I0009|行銷決策顧問|0.2.0|策略|[使用說明](I0009-marketing-decision-advisor/README.md)|
 |I0010|口播與訪談讀稿|0.1.3|影音|[使用說明](I0010-spoken-interview-reading/README.md)|
+
+|I0011|社群內容創作|0.1.0|文案|[說明](I0011-social-content-writer/README.md)|
+|I0012|標題與片尾設計|0.1.1|文案|[說明](I0012-headline-ending-designer/README.md)|
 
 ## Agentic瘦身與路由防撞升級｜2026-11-09
 

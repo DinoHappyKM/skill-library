@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "library_version": "0.4.4",
+  "library_version": "0.4.5",
   "plugin_display_name": "黃嘉偉KM",
   "source_ref": "main",
-  "release_status": "published-source-user-tested",
+  "release_status": "user-approved-copy-format-fixed",
   "hash_algorithm": "SHA256",
   "skills": [
     {
@@ -11,7 +11,7 @@
       "name": "主選單",
       "slug": "km-menu",
       "role": "menu",
-      "version": "0.4.1",
+      "version": "0.4.2",
       "version_status": "declared",
       "version_source": {
         "path": "0000-km-menu/skills/km-menu/SKILL.md",
@@ -20,9 +20,9 @@
       "skill_path": "0000-km-menu/skills/km-menu/SKILL.md",
       "agent_path": "0000-km-menu/skills/km-menu/agents/openai.yaml",
       "hashes": {
-        "skills/km-menu/SKILL.md": "f0c16993ff87391b8eb09963003775c37e911bad7f715ff0420dc16bc1b9575e",
         "skills/km-menu/agents/openai.yaml": "5ba314fb127e0d28c8a807ef4b54a7d3067f35359cca92d7291d77bcf116fafa",
-        "skills/km-menu/assets/dinoh-logo.png": "794ec09c4c718ec1bbb946057b4471a9503507d339368cf227d0b784d50e8cf1"
+        "skills/km-menu/assets/dinoh-logo.png": "794ec09c4c718ec1bbb946057b4471a9503507d339368cf227d0b784d50e8cf1",
+        "skills/km-menu/SKILL.md": "86b90743e3984c5d902b1312d96d5d69f9f8e8c863cd1847ff542f6bc52823df"
       },
       "category": {
         "id": null,
@@ -32,13 +32,6 @@
       "summary": "依代號與分類找到已收錄技能",
       "tags": [],
       "required_files": [
-        {
-          "path": "0000-km-menu/skills/km-menu/SKILL.md",
-          "target_path": "skills/km-menu/SKILL.md",
-          "sha256": "f0c16993ff87391b8eb09963003775c37e911bad7f715ff0420dc16bc1b9575e",
-          "normalized_text_sha256": "f0c16993ff87391b8eb09963003775c37e911bad7f715ff0420dc16bc1b9575e",
-          "bytes": 9003
-        },
         {
           "path": "0000-km-menu/skills/km-menu/agents/openai.yaml",
           "target_path": "skills/km-menu/agents/openai.yaml",
@@ -51,8 +44,14 @@
           "target_path": "skills/km-menu/assets/dinoh-logo.png",
           "sha256": "794ec09c4c718ec1bbb946057b4471a9503507d339368cf227d0b784d50e8cf1",
           "normalized_text_sha256": "794ec09c4c718ec1bbb946057b4471a9503507d339368cf227d0b784d50e8cf1",
-          "bytes": 13797,
-          "content_type": "image/png"
+          "bytes": 13797
+        },
+        {
+          "path": "0000-km-menu/skills/km-menu/SKILL.md",
+          "target_path": "skills/km-menu/SKILL.md",
+          "sha256": "86b90743e3984c5d902b1312d96d5d69f9f8e8c863cd1847ff542f6bc52823df",
+          "normalized_text_sha256": "86b90743e3984c5d902b1312d96d5d69f9f8e8c863cd1847ff542f6bc52823df",
+          "bytes": 12520
         }
       ]
     },
@@ -922,6 +921,110 @@
         "skills/spoken-interview-reading/agents/openai.yaml": "ba15bbdb6af1bf307e7463e9f6580a90b64ada163701be9b7f9c7ac953bf80e8",
         "skills/spoken-interview-reading/assets/dinoh-logo.png": "794ec09c4c718ec1bbb946057b4471a9503507d339368cf227d0b784d50e8cf1",
         "skills/spoken-interview-reading/SKILL.md": "ba95609b9e9bb9e1d22f6f652441d52f909fd026b47edf12ed6c7fb5e778d06a"
+      }
+    },
+    {
+      "id": "I0011",
+      "name": "社群內容創作",
+      "slug": "social-content-writer",
+      "role": "student_skill",
+      "version": "0.1.0",
+      "version_status": "declared",
+      "version_source": {
+        "path": "I0011-social-content-writer/skills/social-content-writer/SKILL.md",
+        "method": "SKILL.md metadata.version"
+      },
+      "skill_path": "I0011-social-content-writer/skills/social-content-writer/SKILL.md",
+      "agent_path": "I0011-social-content-writer/skills/social-content-writer/agents/openai.yaml",
+      "category": {
+        "id": "C02",
+        "name": "文案",
+        "subcategory": null
+      },
+      "summary": "社群內容創作",
+      "tags": [
+        "文案",
+        "社群內容創作"
+      ],
+      "required_files": [
+        {
+          "path": "I0011-social-content-writer/skills/social-content-writer/agents/openai.yaml",
+          "target_path": "skills/social-content-writer/agents/openai.yaml",
+          "sha256": "5c0fd86585cb7bbea01d7b68a8d6e00ffc8677c94e9c0703f90b486cb5edb192",
+          "normalized_text_sha256": "5c0fd86585cb7bbea01d7b68a8d6e00ffc8677c94e9c0703f90b486cb5edb192",
+          "bytes": 409
+        },
+        {
+          "path": "I0011-social-content-writer/skills/social-content-writer/assets/dinoh-logo.png",
+          "target_path": "skills/social-content-writer/assets/dinoh-logo.png",
+          "sha256": "794ec09c4c718ec1bbb946057b4471a9503507d339368cf227d0b784d50e8cf1",
+          "normalized_text_sha256": "794ec09c4c718ec1bbb946057b4471a9503507d339368cf227d0b784d50e8cf1",
+          "bytes": 13797
+        },
+        {
+          "path": "I0011-social-content-writer/skills/social-content-writer/SKILL.md",
+          "target_path": "skills/social-content-writer/SKILL.md",
+          "sha256": "096ad696ef8a7534835d17089c7bd4438d3151018eb98e90bd8b4e832dafde5a",
+          "normalized_text_sha256": "096ad696ef8a7534835d17089c7bd4438d3151018eb98e90bd8b4e832dafde5a",
+          "bytes": 6028
+        }
+      ],
+      "hashes": {
+        "skills/social-content-writer/agents/openai.yaml": "5c0fd86585cb7bbea01d7b68a8d6e00ffc8677c94e9c0703f90b486cb5edb192",
+        "skills/social-content-writer/assets/dinoh-logo.png": "794ec09c4c718ec1bbb946057b4471a9503507d339368cf227d0b784d50e8cf1",
+        "skills/social-content-writer/SKILL.md": "096ad696ef8a7534835d17089c7bd4438d3151018eb98e90bd8b4e832dafde5a"
+      }
+    },
+    {
+      "id": "I0012",
+      "name": "標題與片尾設計",
+      "slug": "headline-ending-designer",
+      "role": "student_skill",
+      "version": "0.1.1",
+      "version_status": "declared",
+      "version_source": {
+        "path": "I0012-headline-ending-designer/skills/headline-ending-designer/SKILL.md",
+        "method": "SKILL.md metadata.version"
+      },
+      "skill_path": "I0012-headline-ending-designer/skills/headline-ending-designer/SKILL.md",
+      "agent_path": "I0012-headline-ending-designer/skills/headline-ending-designer/agents/openai.yaml",
+      "category": {
+        "id": "C02",
+        "name": "文案",
+        "subcategory": null
+      },
+      "summary": "標題與片尾設計",
+      "tags": [
+        "文案",
+        "標題與片尾設計"
+      ],
+      "required_files": [
+        {
+          "path": "I0012-headline-ending-designer/skills/headline-ending-designer/agents/openai.yaml",
+          "target_path": "skills/headline-ending-designer/agents/openai.yaml",
+          "sha256": "6a6406d485e24db7c27d3f37a3db78787900e451c0f69b10583c2c881b325a5a",
+          "normalized_text_sha256": "6a6406d485e24db7c27d3f37a3db78787900e451c0f69b10583c2c881b325a5a",
+          "bytes": 409
+        },
+        {
+          "path": "I0012-headline-ending-designer/skills/headline-ending-designer/assets/dinoh-logo.png",
+          "target_path": "skills/headline-ending-designer/assets/dinoh-logo.png",
+          "sha256": "794ec09c4c718ec1bbb946057b4471a9503507d339368cf227d0b784d50e8cf1",
+          "normalized_text_sha256": "794ec09c4c718ec1bbb946057b4471a9503507d339368cf227d0b784d50e8cf1",
+          "bytes": 13797
+        },
+        {
+          "path": "I0012-headline-ending-designer/skills/headline-ending-designer/SKILL.md",
+          "target_path": "skills/headline-ending-designer/SKILL.md",
+          "sha256": "f7bd24c64c3a9784e9cfc9275726de7c2093249545c422976cbbb74ef7c9174c",
+          "normalized_text_sha256": "f7bd24c64c3a9784e9cfc9275726de7c2093249545c422976cbbb74ef7c9174c",
+          "bytes": 5857
+        }
+      ],
+      "hashes": {
+        "skills/headline-ending-designer/agents/openai.yaml": "6a6406d485e24db7c27d3f37a3db78787900e451c0f69b10583c2c881b325a5a",
+        "skills/headline-ending-designer/assets/dinoh-logo.png": "794ec09c4c718ec1bbb946057b4471a9503507d339368cf227d0b784d50e8cf1",
+        "skills/headline-ending-designer/SKILL.md": "f7bd24c64c3a9784e9cfc9275726de7c2093249545c422976cbbb74ef7c9174c"
       }
     }
   ]

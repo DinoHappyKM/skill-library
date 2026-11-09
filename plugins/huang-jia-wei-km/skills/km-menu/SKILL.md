@@ -2,12 +2,12 @@
 name: km-menu
 description: "黃嘉偉KM的0主選單。在已選用此外掛時，使用者輸入0、主選單、目錄、分類或C代號、詢問有哪些技能，或用I料號選技能及不確定該用哪支技能時使用；不直接在主選單內代寫貼文、企劃、海報或程式碼，選定後轉交對應工作技能執行，已在工作技能內回答選項則沿用該流程。"
 metadata:
-  version: "0.4.1"
+  version: "0.4.2"
 ---
 
 # 0｜主選單
 
-選單內容版本：0.4.1。協助已選用此外掛的使用者，以代號、分類或一句需求找到同外掛的工作技能。採繁體中文、手機單欄、短段落與簡潔目錄；實際工作沿用對應技能的完整指令。
+選單內容版本：0.4.2。協助已選用此外掛的使用者，以代號、分類或一句需求找到同外掛的工作技能。採繁體中文、手機單欄、短段落與簡潔目錄；實際工作沿用對應技能的完整指令。
 
 ## 收錄資料與可信範圍
 
@@ -85,7 +85,7 @@ Plugin Creator 在加入／更新工作技能後，讀取同一外掛檔案，�
 
 <!-- KM-REGISTRY-BEGIN -->
 ~~~yaml
-menu_version: 0.4.1
+menu_version: 0.4.2
 plugin_display_name: 黃嘉偉KM
 skills:
 - id: I0001
@@ -226,6 +226,28 @@ skills:
   - Hook
   source_version: 0.1.3
   registration: 已核對
+- id: I0011
+  name: 社群內容創作
+  skill_slug: social-content-writer
+  category_id: C02
+  subcategory_id: null
+  summary: 知識品牌互動文案、短中長與原創月內容規劃
+  tags:
+  - 文案
+  - 社群內容創作
+  source_version: 0.1.0
+  registration: 已核對
+- id: I0012
+  name: 標題與片尾設計
+  skill_slug: headline-ending-designer
+  category_id: C02
+  subcategory_id: null
+  summary: 只改標題與收尾，減法共鳴或行動CTA
+  tags:
+  - 文案
+  - 標題與片尾設計
+  source_version: 0.1.1
+  registration: 已核對
 ~~~
 <!-- KM-REGISTRY-END -->
 
@@ -233,4 +255,4 @@ skills:
 
 裸0、00、0000是本主選單。I0000是老師專用安裝產生器，不列入學生工作技能。編輯時核對安裝版本與校驗值，本選單不在使用時連GitHub更新；個人修改及版本衝突先確認。
 
-技能本文結束｜km-menu｜0.4.1
+技能本文結束｜km-menu｜0.4.2
