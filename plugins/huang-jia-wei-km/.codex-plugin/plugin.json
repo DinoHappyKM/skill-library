@@ -1,6 +1,6 @@
 {
   "name": "huang-jia-wei-km",
-  "version": "0.1.14",
+  "version": "0.1.15",
   "description": "黃嘉偉KM：0主選單與十二支工作技能，新增社群內容創作與標題片尾。",
   "author": {
     "name": "黃嘉偉"
@@ -8,7 +8,7 @@
   "interface": {
     "displayName": "黃嘉偉KM",
     "shortDescription": "行銷、文案圖像、影音訪談、團購與網站",
-    "longDescription": "黃嘉偉KM 0.1.14：0主選單與I0001～I0012，新增社群內容創作及標題片尾；頭尾各自獨立複製，保留原DinoH Logo。",
+    "longDescription": "黃嘉偉KM 0.1.15：0主選單與I0001～I0012，新增社群內容創作及標題片尾；頭尾各自獨立複製，保留原DinoH Logo。",
     "developerName": "黃嘉偉",
     "category": "Productivity",
     "capabilities": [
