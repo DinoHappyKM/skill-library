@@ -278,7 +278,7 @@
       "name": "公仔表情設計",
       "slug": "figurine-expression-design",
       "role": "student_skill",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "version_status": "declared",
       "version_source": {
         "path": "I0003-figurine-expression-design/skills/figurine-expression-design/SKILL.md",
@@ -287,9 +287,10 @@
       "skill_path": "I0003-figurine-expression-design/skills/figurine-expression-design/SKILL.md",
       "agent_path": "I0003-figurine-expression-design/skills/figurine-expression-design/agents/openai.yaml",
       "hashes": {
-        "skills/figurine-expression-design/SKILL.md": "aabf09f66313b72d49597fbb4132d34fee94e91688c420aa5a8c5318493fe07f",
+        "skills/figurine-expression-design/SKILL.md": "0dcfd839868c98f3f97e2f2ee586d3030a308017f062ec7cf2686f438d1c8e9d",
         "skills/figurine-expression-design/agents/openai.yaml": "0cefe7699a6bf22c9db079262a81e2eedb524c7b1be4b325ba73bc1725bf07aa",
-        "skills/figurine-expression-design/assets/dinoh-logo.png": "794ec09c4c718ec1bbb946057b4471a9503507d339368cf227d0b784d50e8cf1"
+        "skills/figurine-expression-design/assets/dinoh-logo.png": "794ec09c4c718ec1bbb946057b4471a9503507d339368cf227d0b784d50e8cf1",
+        "skills/figurine-expression-design/scripts/batch.py": "44ec07f87ef85ea3220b8f1f2d05754f8bb1c6ce0a937ef89914a80596c4ed25"
       },
       "category": {
         "id": "C04",
@@ -306,9 +307,9 @@
         {
           "path": "I0003-figurine-expression-design/skills/figurine-expression-design/SKILL.md",
           "target_path": "skills/figurine-expression-design/SKILL.md",
-          "sha256": "aabf09f66313b72d49597fbb4132d34fee94e91688c420aa5a8c5318493fe07f",
-          "normalized_text_sha256": "aabf09f66313b72d49597fbb4132d34fee94e91688c420aa5a8c5318493fe07f",
-          "bytes": 12378
+          "sha256": "0dcfd839868c98f3f97e2f2ee586d3030a308017f062ec7cf2686f438d1c8e9d",
+          "normalized_text_sha256": "0dcfd839868c98f3f97e2f2ee586d3030a308017f062ec7cf2686f438d1c8e9d",
+          "bytes": 14006
         },
         {
           "path": "I0003-figurine-expression-design/skills/figurine-expression-design/agents/openai.yaml",
@@ -324,6 +325,13 @@
           "normalized_text_sha256": "794ec09c4c718ec1bbb946057b4471a9503507d339368cf227d0b784d50e8cf1",
           "bytes": 13797,
           "content_type": "image/png"
+        },
+        {
+          "path": "I0003-figurine-expression-design/skills/figurine-expression-design/scripts/batch.py",
+          "target_path": "skills/figurine-expression-design/scripts/batch.py",
+          "sha256": "44ec07f87ef85ea3220b8f1f2d05754f8bb1c6ce0a937ef89914a80596c4ed25",
+          "normalized_text_sha256": "44ec07f87ef85ea3220b8f1f2d05754f8bb1c6ce0a937ef89914a80596c4ed25",
+          "bytes": 1521
         }
       ],
       "official_predecessors": [
