@@ -2,7 +2,7 @@
 
 ## 完整ZIP安裝｜手機優先
 
-**[下載黃嘉偉KM完整外掛 v0.1.13](https://github.com/DinoHappyKM/skill-library/raw/refs/heads/main/downloads/huang-jia-wei-km-v0.1.13.zip)** · [安裝步驟](INSTALL-ZIP.md) · [Notion手機教學](https://app.notion.com/p/3f404b753fe08030a598cdde79ee41b3)
+**[下載黃嘉偉KM完整外掛 v0.1.14](https://github.com/DinoHappyKM/skill-library/raw/refs/heads/main/downloads/huang-jia-wei-km-v0.1.14.zip)** · [安裝步驟](INSTALL-ZIP.md) · [Notion手機教學](https://app.notion.com/p/3f404b753fe08030a598cdde79ee41b3)
 
 學生只使用完整ZIP，一次安裝0主選單與I0001～I0012。已含原DinoH Logo及十三個技能圖示；KMT教師工具與KMW流程獨立。
 新同學依實際介面「新增→上傳外掛程式封存檔」；已有黃嘉偉KM使用原更新入口，不重建。自訂內容先備份合併，不能假設整包會保留個人修改。自己的私人KM不更動。
@@ -53,7 +53,7 @@
 
 ## 版本與維護
 
-技能庫0.4.5；完整外掛0.1.13；I0011 0.1.0、I0012 0.1.1；原十支工作技能與原版號保留。GitHub更新不會自動更新學生已裝外掛，帳號權限也不由ZIP解除。
+技能庫0.4.5；完整外掛0.1.14；I0011 0.1.0、I0012 0.1.1；I0003 0.2.0 支援學生自選原型與參考圖批次製作。GitHub更新不會自動更新學生已裝外掛，帳號權限也不由ZIP解除。
 
 正式Skill在各P專案維護，GitHub為發布副本。先驗證來源／目錄／Logo／ZIP，再同步Notion與學生Drive。封裝可重建；實際帳號、手機、中文字形與美感須另驗收。
 

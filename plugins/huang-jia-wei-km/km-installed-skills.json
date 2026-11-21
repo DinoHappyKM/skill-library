@@ -136,24 +136,24 @@
     {
       "id": "I0003",
       "slug": "figurine-expression-design",
-      "version": "0.1.1",
+      "version": "0.2.0",
       "role": "student_skill",
-      "source_commit": "f933a9cd687a23e14a1e9b35a8baeb56bd3adb66",
+      "source_commit": "e38cdd41b6e705e053c4ff17e3b892e674bc2caa",
       "files": [
         {
           "target_path": "skills/figurine-expression-design/SKILL.md",
-          "source_url": "https://github.com/DinoHappyKM/skill-library/blob/f933a9cd687a23e14a1e9b35a8baeb56bd3adb66/I0003-figurine-expression-design/skills/figurine-expression-design/SKILL.md",
-          "source_bytes": 9013,
-          "source_sha256": "39f359f2eae3ad502d21526945defc8a3e52a0a19396aa835c6f3221c9e3e3cb",
-          "template_sha256": "39f359f2eae3ad502d21526945defc8a3e52a0a19396aa835c6f3221c9e3e3cb",
-          "installed_bytes": 9013,
-          "installed_sha256": "39f359f2eae3ad502d21526945defc8a3e52a0a19396aa835c6f3221c9e3e3cb",
+          "source_url": "https://github.com/DinoHappyKM/skill-library/blob/e38cdd41b6e705e053c4ff17e3b892e674bc2caa/I0003-figurine-expression-design/skills/figurine-expression-design/SKILL.md",
+          "source_bytes": 12378,
+          "source_sha256": "aabf09f66313b72d49597fbb4132d34fee94e91688c420aa5a8c5318493fe07f",
+          "template_sha256": "aabf09f66313b72d49597fbb4132d34fee94e91688c420aa5a8c5318493fe07f",
+          "installed_bytes": 12378,
+          "installed_sha256": "aabf09f66313b72d49597fbb4132d34fee94e91688c420aa5a8c5318493fe07f",
           "verification": "source-bytes-matched",
           "source_path": "I0003-figurine-expression-design/skills/figurine-expression-design/SKILL.md"
         },
         {
           "target_path": "skills/figurine-expression-design/agents/openai.yaml",
-          "source_url": "https://github.com/DinoHappyKM/skill-library/blob/f933a9cd687a23e14a1e9b35a8baeb56bd3adb66/I0003-figurine-expression-design/skills/figurine-expression-design/agents/openai.yaml",
+          "source_url": "https://github.com/DinoHappyKM/skill-library/blob/e38cdd41b6e705e053c4ff17e3b892e674bc2caa/I0003-figurine-expression-design/skills/figurine-expression-design/agents/openai.yaml",
           "source_bytes": 372,
           "source_sha256": "0cefe7699a6bf22c9db079262a81e2eedb524c7b1be4b325ba73bc1725bf07aa",
           "template_sha256": "0cefe7699a6bf22c9db079262a81e2eedb524c7b1be4b325ba73bc1725bf07aa",
@@ -164,7 +164,7 @@
         },
         {
           "target_path": "skills/figurine-expression-design/assets/dinoh-logo.png",
-          "source_url": "https://github.com/DinoHappyKM/skill-library/blob/f933a9cd687a23e14a1e9b35a8baeb56bd3adb66/I0003-figurine-expression-design/skills/figurine-expression-design/assets/dinoh-logo.png",
+          "source_url": "https://github.com/DinoHappyKM/skill-library/blob/e38cdd41b6e705e053c4ff17e3b892e674bc2caa/I0003-figurine-expression-design/skills/figurine-expression-design/assets/dinoh-logo.png",
           "source_bytes": 13797,
           "source_sha256": "794ec09c4c718ec1bbb946057b4471a9503507d339368cf227d0b784d50e8cf1",
           "template_sha256": "794ec09c4c718ec1bbb946057b4471a9503507d339368cf227d0b784d50e8cf1",
