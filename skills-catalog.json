@@ -287,7 +287,7 @@
       "skill_path": "I0003-figurine-expression-design/skills/figurine-expression-design/SKILL.md",
       "agent_path": "I0003-figurine-expression-design/skills/figurine-expression-design/agents/openai.yaml",
       "hashes": {
-        "skills/figurine-expression-design/SKILL.md": "a9bb61ce2a0a674b557497b975a5bbe4cd4b39d47bed80149c0ebc5744d5b559",
+        "skills/figurine-expression-design/SKILL.md": "aabf09f66313b72d49597fbb4132d34fee94e91688c420aa5a8c5318493fe07f",
         "skills/figurine-expression-design/agents/openai.yaml": "0cefe7699a6bf22c9db079262a81e2eedb524c7b1be4b325ba73bc1725bf07aa",
         "skills/figurine-expression-design/assets/dinoh-logo.png": "794ec09c4c718ec1bbb946057b4471a9503507d339368cf227d0b784d50e8cf1"
       },
@@ -306,9 +306,9 @@
         {
           "path": "I0003-figurine-expression-design/skills/figurine-expression-design/SKILL.md",
           "target_path": "skills/figurine-expression-design/SKILL.md",
-          "sha256": "a9bb61ce2a0a674b557497b975a5bbe4cd4b39d47bed80149c0ebc5744d5b559",
-          "normalized_text_sha256": "a9bb61ce2a0a674b557497b975a5bbe4cd4b39d47bed80149c0ebc5744d5b559",
-          "bytes": 12084
+          "sha256": "aabf09f66313b72d49597fbb4132d34fee94e91688c420aa5a8c5318493fe07f",
+          "normalized_text_sha256": "aabf09f66313b72d49597fbb4132d34fee94e91688c420aa5a8c5318493fe07f",
+          "bytes": 12378
         },
         {
           "path": "I0003-figurine-expression-design/skills/figurine-expression-design/agents/openai.yaml",
